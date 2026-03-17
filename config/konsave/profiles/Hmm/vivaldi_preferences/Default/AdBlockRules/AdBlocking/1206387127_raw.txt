@@ -1,0 +1,18 @@
+! Version: 202511270958
+! Title: Vivaldi Blocklist
+! Last modified: 27 Nov 2025 09:58 UTC
+! Expires: 4 days (update frequency)
+! Homepage: https://vivaldi.com/
+! Licence: Copyright (c) 2025 Vivaldi Technologies AS. All rights reserved
+
+
+! Chrome promo pop-overs
+www.google.com##[aria-describedby="promo_desc_id"]
+chromewebstore.google.com##[aria-labelledby="promo-header"]
+
+! Switch to Chrome info banner (en, es, fr, de, ja)
+chromewebstore.google.com##[aria-label="Info"]:has(button[aria-label*="Switch to Chrome"])
+chromewebstore.google.com##[aria-label="Información"]:has(button[aria-label*="Instalar Chrome"])
+chromewebstore.google.com##[aria-label="Infos"]:has(button[aria-label*="Chrome"][aria-label~="installer"])
+chromewebstore.google.com##[aria-label="Informationen"]:has(button[aria-label~="Chrome"][aria-label~="installieren"])
+chromewebstore.google.com##[aria-label="情報"]:has(button[aria-label~="Chrome"][aria-label*="り替えてく"])

@@ -1,0 +1,76 @@
+[0ba89378-1d6d-4afe-b623-e5e8c916d053]
+Description=No Titlebar and Frame - Kitty
+noborder=true
+noborderrule=2
+title=mahesh@Mahesh-PC:~
+titlematch=1
+types=1
+wmclass=kitty
+wmclassmatch=1
+
+[2e39d33f-ea34-43ad-94c3-8cd82fd2c8bc]
+Description=Transparency - KCalc
+opacityactive=80
+opacityactiverule=2
+opacityinactive=80
+opacityinactiverule=2
+wmclass=kcalc
+wmclassmatch=2
+
+[4184d826-ec23-471f-9a81-8c157e103b71]
+Description=Transparency - Settings
+opacityactive=80
+opacityactiverule=2
+opacityinactive=80
+opacityinactiverule=2
+wmclass=systemsettings
+wmclassmatch=1
+
+[4258e21a-1d8f-4fab-8706-09dba492eb39]
+Description=Transparency - Dolphin
+opacityactive=80
+opacityactiverule=2
+opacityinactive=80
+opacityinactiverule=2
+wmclass=dolphin
+wmclassmatch=2
+
+[4f265b2b-ffac-482b-bf79-b01cbd2a7c31]
+Description=Transparency - Kitty
+opacityactive=80
+opacityactiverule=2
+opacityinactive=80
+opacityinactiverule=2
+wmclass=kitty
+wmclassmatch=1
+
+[7a8ed762-4c83-4ec1-92d1-74731cab2cfb]
+Description=Transparency - Zed
+opacityactive=80
+opacityactiverule=2
+opacityinactive=80
+opacityinactiverule=2
+wmclass=zed-editor
+wmclassmatch=1
+
+[831b7ff1-5082-4d71-85cd-aed2387af429]
+Description=Transparency - KWrite
+opacityactive=80
+opacityactiverule=2
+opacityinactive=80
+opacityinactiverule=2
+wmclass=kwrite
+wmclassmatch=2
+
+[General]
+count=8
+rules=0ba89378-1d6d-4afe-b623-e5e8c916d053,4258e21a-1d8f-4fab-8706-09dba492eb39,4184d826-ec23-471f-9a81-8c157e103b71,7a8ed762-4c83-4ec1-92d1-74731cab2cfb,831b7ff1-5082-4d71-85cd-aed2387af429,4f265b2b-ffac-482b-bf79-b01cbd2a7c31,c1ca820e-6d3f-41dd-acda-4b0ec5f022d9,2e39d33f-ea34-43ad-94c3-8cd82fd2c8bc
+
+[c1ca820e-6d3f-41dd-acda-4b0ec5f022d9]
+Description=Transparency - System Monitor
+opacityactive=80
+opacityactiverule=2
+opacityinactive=80
+opacityinactiverule=2
+wmclass=org.kde.plasma-systemmonitor
+wmclassmatch=1

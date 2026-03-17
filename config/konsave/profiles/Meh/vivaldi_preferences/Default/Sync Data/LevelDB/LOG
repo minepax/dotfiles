@@ -1,0 +1,6 @@
+2026/03/17-11:35:06.775 1372c Reusing MANIFEST /home/mahesh/.config/vivaldi/Default/Sync Data/LevelDB/MANIFEST-000001
+2026/03/17-11:35:06.779 1372c Recovering log #755
+2026/03/17-11:35:06.782 1372c Reusing old log /home/mahesh/.config/vivaldi/Default/Sync Data/LevelDB/000755.log 
+2026/03/17-11:35:21.731 13710 Level-0 table #760: started
+2026/03/17-11:35:21.817 13710 Level-0 table #760: 141332 bytes OK
+2026/03/17-11:35:21.858 13710 Delete type=0 #755

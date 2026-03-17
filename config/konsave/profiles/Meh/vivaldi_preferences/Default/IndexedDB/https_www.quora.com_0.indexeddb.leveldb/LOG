@@ -1,0 +1,7 @@
+2026/02/15-13:03:23.918 7bc Reusing MANIFEST /home/mahesh/.config/vivaldi/Default/IndexedDB/https_www.quora.com_0.indexeddb.leveldb/MANIFEST-000001
+2026/02/15-13:03:23.918 7bc Recovering log #3
+2026/02/15-13:03:23.919 7bc Reusing old log /home/mahesh/.config/vivaldi/Default/IndexedDB/https_www.quora.com_0.indexeddb.leveldb/000003.log 
+2026/02/15-13:03:55.693 7be Level-0 table #5: started
+2026/02/15-13:03:55.697 7be Level-0 table #5: 3431 bytes OK
+2026/02/15-13:03:55.704 7be Delete type=0 #3
+2026/02/15-13:03:55.704 7be Manual compaction at level-0 from (begin) .. (end); will stop at (end)

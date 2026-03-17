@@ -1,0 +1,15 @@
+2026/03/02-21:02:02.580 4551e Reusing MANIFEST /home/mahesh/.config/vivaldi/Default/IndexedDB/https_web.autocad.com_0.indexeddb.leveldb/MANIFEST-000001
+2026/03/02-21:02:02.581 4551e Recovering log #7
+2026/03/02-21:02:02.583 4551e Reusing old log /home/mahesh/.config/vivaldi/Default/IndexedDB/https_web.autocad.com_0.indexeddb.leveldb/000007.log 
+2026/03/02-21:35:44.240 45520 Level-0 table #12: started
+2026/03/02-21:35:44.247 45520 Level-0 table #12: 34231 bytes OK
+2026/03/02-21:35:44.253 45520 Delete type=0 #7
+2026/03/02-21:35:44.253 45520 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2026/03/02-21:35:44.253 45520 Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x08\x01\x03\x01\x10\x006\x00P\x00X\x002\x00E\x00J\x00E\x00K\x00Q\x00L\x008\x005\x004\x00W\x004\x007' @ 2791 : 1
+2026/03/02-21:35:44.253 45520 Compacting 1@1 + 1@2 files
+2026/03/02-21:35:44.257 45520 Generated table #13@1: 185 keys, 3812 bytes
+2026/03/02-21:35:44.257 45520 Compacted 1@1 + 1@2 files => 3812 bytes
+2026/03/02-21:35:44.263 45520 compacted to: files[ 0 0 1 0 0 0 0 ]
+2026/03/02-21:35:44.263 45520 Delete type=2 #9
+2026/03/02-21:35:44.263 45520 Delete type=2 #12
+2026/03/02-21:35:44.263 45520 Manual compaction at level-1 from '\x00\x08\x01\x03\x01\x10\x006\x00P\x00X\x002\x00E\x00J\x00E\x00K\x00Q\x00L\x008\x005\x004\x00W\x004\x007' @ 2791 : 1 .. (end); will stop at (end)

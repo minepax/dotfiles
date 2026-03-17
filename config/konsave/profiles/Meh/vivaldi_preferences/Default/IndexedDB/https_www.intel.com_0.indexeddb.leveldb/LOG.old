@@ -1,0 +1,7 @@
+2026/02/08-17:41:21.773 12d99 Reusing MANIFEST /home/mahesh/.config/vivaldi/Default/IndexedDB/https_www.intel.com_0.indexeddb.leveldb/MANIFEST-000001
+2026/02/08-17:41:21.773 12d99 Recovering log #6
+2026/02/08-17:41:21.774 12d99 Reusing old log /home/mahesh/.config/vivaldi/Default/IndexedDB/https_www.intel.com_0.indexeddb.leveldb/000006.log 
+2026/02/08-17:41:24.193 12db1 Level-0 table #11: started
+2026/02/08-17:41:24.197 12db1 Level-0 table #11: 542 bytes OK
+2026/02/08-17:41:24.203 12db1 Delete type=0 #6
+2026/02/08-17:41:24.203 12d99 Manual compaction at level-0 from '\x00\x02\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x03\x00\x00\x00' @ 0 : 0; will stop at (end)

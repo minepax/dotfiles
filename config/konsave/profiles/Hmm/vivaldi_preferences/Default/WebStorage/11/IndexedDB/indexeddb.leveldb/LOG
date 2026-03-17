@@ -1,0 +1,6 @@
+2026/01/31-11:38:50.855 651 Creating DB /home/mahesh/.config/vivaldi/Default/WebStorage/11/IndexedDB/indexeddb.leveldb since it was missing.
+2026/01/31-11:38:50.874 651 Reusing MANIFEST /home/mahesh/.config/vivaldi/Default/WebStorage/11/IndexedDB/indexeddb.leveldb/MANIFEST-000001
+2026/01/31-11:38:54.068 651 Level-0 table #5: started
+2026/01/31-11:38:54.071 651 Level-0 table #5: 1274 bytes OK
+2026/01/31-11:38:54.077 651 Delete type=0 #3
+2026/01/31-11:38:54.078 651 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

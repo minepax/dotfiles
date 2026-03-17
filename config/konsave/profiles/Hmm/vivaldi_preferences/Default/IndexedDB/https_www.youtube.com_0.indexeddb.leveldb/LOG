@@ -1,0 +1,35 @@
+2026/03/14-08:06:44.326 103f Reusing MANIFEST /home/mahesh/.config/vivaldi/Default/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/MANIFEST-000001
+2026/03/14-08:06:44.328 103f Recovering log #1067
+2026/03/14-08:06:44.330 103f Level-0 table #1069: started
+2026/03/14-08:06:44.338 103f Level-0 table #1069: 201265 bytes OK
+2026/03/14-08:06:44.339 103f Recovering log #1071
+2026/03/14-08:06:44.351 103f Reusing old log /home/mahesh/.config/vivaldi/Default/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/001071.log 
+2026/03/14-08:06:44.358 103f Delete type=2 #1070
+2026/03/14-08:06:44.358 103f Delete type=2 #1072
+2026/03/14-08:06:44.358 103f Delete type=2 #1073
+2026/03/14-08:06:44.358 103f Delete type=0 #1029
+2026/03/14-08:06:44.358 103f Delete type=2 #1031
+2026/03/14-08:06:44.358 103f Delete type=2 #1068
+2026/03/14-08:06:44.358 103f Delete type=0 #1015
+2026/03/14-08:06:44.358 103f Delete type=2 #1017
+2026/03/14-08:06:44.358 103f Delete type=0 #969
+2026/03/14-08:06:44.358 103f Delete type=2 #971
+2026/03/14-08:06:44.358 103f Delete type=0 #986
+2026/03/14-08:06:44.358 103f Delete type=2 #988
+2026/03/14-08:06:44.358 103f Delete type=2 #1007
+2026/03/14-08:06:44.358 103f Delete type=0 #1008
+2026/03/14-08:06:44.358 103f Delete type=2 #1009
+2026/03/14-08:06:44.358 103f Delete type=2 #1011
+2026/03/14-08:06:44.358 103f Delete type=2 #1061
+2026/03/14-08:06:44.358 103f Delete type=0 #1062
+2026/03/14-08:06:44.358 103f Delete type=2 #1063
+2026/03/14-08:06:44.358 103f Delete type=0 #1067
+2026/03/14-08:07:03.725 1057 Compacting 2@0 + 0@1 files
+2026/03/14-08:07:03.729 1057 Generated table #1072@0: 265 keys, 4144 bytes
+2026/03/14-08:07:03.729 1057 Compacted 2@0 + 0@1 files => 4144 bytes
+2026/03/14-08:07:03.736 1057 compacted to: files[ 0 1 1 0 0 0 0 ]
+2026/03/14-08:07:03.737 1057 Delete type=2 #1066
+2026/03/14-08:07:03.737 1057 Delete type=2 #1069
+2026/03/14-08:08:46.579 1041 Level-0 table #1074: started
+2026/03/14-08:08:46.597 1041 Level-0 table #1074: 1859479 bytes OK
+2026/03/14-08:08:46.604 1041 Delete type=0 #1071

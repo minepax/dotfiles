@@ -1,0 +1,12 @@
+2026/03/17-09:00:11.726 5 Reusing MANIFEST /home/mahesh/.config/vivaldi/Default/Local Storage/leveldb/MANIFEST-000001
+2026/03/17-09:00:11.741 5 Recovering log #1682
+2026/03/17-09:00:11.748 5 Reusing old log /home/mahesh/.config/vivaldi/Default/Local Storage/leveldb/001682.log 
+2026/03/17-09:02:13.983 7 Level-0 table #1688: started
+2026/03/17-09:02:13.988 7 Level-0 table #1688: 34037 bytes OK
+2026/03/17-09:02:13.995 7 Delete type=0 #1682
+2026/03/17-09:53:36.030 7 Level-0 table #1690: started
+2026/03/17-09:53:36.034 7 Level-0 table #1690: 41081 bytes OK
+2026/03/17-09:53:36.042 7 Delete type=0 #1687
+2026/03/17-10:59:29.030 7 Level-0 table #1692: started
+2026/03/17-10:59:29.036 7 Level-0 table #1692: 24483 bytes OK
+2026/03/17-10:59:29.043 7 Delete type=0 #1689

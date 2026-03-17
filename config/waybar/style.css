@@ -1,0 +1,44 @@
+* {
+    font-family: JetBrains Mono nerd Font;
+    font-size: 14px;
+    font-weight: 800;
+    color: #cccccc;
+}
+
+window#waybar {
+    background-color: rgba(20, 20, 20, 1);
+    border-radius: 100px;
+}
+
+window#waybar > box {
+    padding: 10px 16px;
+}
+
+.modules-center, .modules-left, .modules-right {
+    padding: 0px;
+}
+
+tooltip {
+    border: none;
+    border-radius: 6px;
+    background-color: #cccccc;
+}
+
+tooltip label {
+    padding: 5px 10px;
+    color: rgb(20, 20, 20);
+}
+
+#custom-shutdown {
+    padding-right: 4px;
+}
+
+#custom-lock {
+    padding-right: 3px;
+}
+
+#custom-workspaces {
+    color: #cccccc;
+    font-size: 14px;
+    transition: all 0.3s linear;
+}

@@ -1,0 +1,7 @@
+2026/03/12-10:45:48.072 cca0 Reusing MANIFEST /home/mahesh/.config/vivaldi/Default/IndexedDB/https_docs.google.com_0.indexeddb.leveldb/MANIFEST-000001
+2026/03/12-10:45:48.072 cca0 Recovering log #3
+2026/03/12-10:45:48.073 cca0 Reusing old log /home/mahesh/.config/vivaldi/Default/IndexedDB/https_docs.google.com_0.indexeddb.leveldb/000003.log 
+2026/03/12-11:07:58.131 cca2 Level-0 table #5: started
+2026/03/12-11:07:58.136 cca2 Level-0 table #5: 8423 bytes OK
+2026/03/12-11:07:58.144 cca2 Delete type=0 #3
+2026/03/12-11:07:58.145 cca2 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

@@ -1,0 +1,21 @@
+2026/01/31-14:10:44.594 650 Reusing MANIFEST /home/mahesh/.config/vivaldi/Default/WebStorage/13/IndexedDB/indexeddb.leveldb/MANIFEST-000001
+2026/01/31-14:10:44.594 650 Recovering log #6
+2026/01/31-14:10:44.595 650 Reusing old log /home/mahesh/.config/vivaldi/Default/WebStorage/13/IndexedDB/indexeddb.leveldb/000006.log 
+2026/01/31-14:15:34.498 651 Level-0 table #11: started
+2026/01/31-14:15:34.598 651 Level-0 table #11: 1761943 bytes OK
+2026/01/31-14:15:34.613 651 Delete type=0 #6
+2026/01/31-14:17:18.836 652 Compacting 1@1 + 1@2 files
+2026/01/31-14:17:18.864 652 Generated table #12@1: 478 keys, 40891 bytes
+2026/01/31-14:17:18.864 652 Compacted 1@1 + 1@2 files => 40891 bytes
+2026/01/31-14:17:18.872 652 compacted to: files[ 0 0 1 0 0 0 0 ]
+2026/01/31-14:27:50.182 674 Level-0 table #14: started
+2026/01/31-14:27:50.216 674 Level-0 table #14: 1798893 bytes OK
+2026/01/31-14:27:50.228 674 Delete type=2 #8
+2026/01/31-14:27:50.228 674 Delete type=0 #10
+2026/01/31-14:27:50.228 674 Delete type=2 #11
+2026/01/31-14:27:52.752 652 Compacting 1@1 + 1@2 files
+2026/01/31-14:27:52.768 652 Generated table #15@1: 628 keys, 29479 bytes
+2026/01/31-14:27:52.769 652 Compacted 1@1 + 1@2 files => 29479 bytes
+2026/01/31-14:27:52.777 652 compacted to: files[ 0 0 1 0 0 0 0 ]
+2026/01/31-14:27:52.777 652 Delete type=2 #12
+2026/01/31-14:27:52.777 652 Delete type=2 #14

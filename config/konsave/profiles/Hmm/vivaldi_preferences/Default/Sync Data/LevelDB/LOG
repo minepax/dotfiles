@@ -1,0 +1,9 @@
+2026/03/14-08:06:30.572 1059 Reusing MANIFEST /home/mahesh/.config/vivaldi/Default/Sync Data/LevelDB/MANIFEST-000001
+2026/03/14-08:06:30.573 1059 Recovering log #738
+2026/03/14-08:06:30.584 1059 Reusing old log /home/mahesh/.config/vivaldi/Default/Sync Data/LevelDB/000738.log 
+2026/03/14-08:06:30.584 1059 Delete type=2 #737
+2026/03/14-08:06:30.585 1059 Delete type=2 #725
+2026/03/14-08:06:30.585 1059 Delete type=2 #727
+2026/03/14-08:06:30.585 1059 Delete type=2 #729
+2026/03/14-08:06:30.585 1059 Delete type=0 #732
+2026/03/14-08:06:30.585 1059 Delete type=2 #733

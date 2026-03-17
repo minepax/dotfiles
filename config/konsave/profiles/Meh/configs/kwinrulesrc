@@ -1,0 +1,57 @@
+[22820b05-5226-452e-a6c1-ec32b911f66c]
+Description=Transparency - System Monitor
+opacityactive=80
+opacityactiverule=2
+opacityinactive=80
+opacityinactiverule=2
+wmclass=org.kde.plasma-systemmonitor
+wmclassmatch=1
+
+[4184d826-ec23-471f-9a81-8c157e103b71]
+Description=Transparency - Settings
+opacityactive=80
+opacityactiverule=2
+opacityinactive=80
+opacityinactiverule=2
+wmclass=systemsettings
+wmclassmatch=2
+
+[4258e21a-1d8f-4fab-8706-09dba492eb39]
+Description=Transparency - Dolphin
+opacityactive=80
+opacityactiverule=2
+opacityinactive=80
+opacityinactiverule=2
+wmclass=dolphin
+wmclassmatch=2
+
+[4f265b2b-ffac-482b-bf79-b01cbd2a7c31]
+Description=Transparency - Kitty
+opacityactive=80
+opacityactiverule=2
+opacityinactive=80
+opacityinactiverule=2
+wmclass=kitty
+wmclassmatch=1
+
+[7a8ed762-4c83-4ec1-92d1-74731cab2cfb]
+Description=Transparency - Zed
+opacityactive=80
+opacityactiverule=2
+opacityinactive=80
+opacityinactiverule=2
+wmclass=zed-editor
+wmclassmatch=1
+
+[831b7ff1-5082-4d71-85cd-aed2387af429]
+Description=Transparency - KWrite
+opacityactive=80
+opacityactiverule=2
+opacityinactive=80
+opacityinactiverule=2
+wmclass=org.kde.kwrite
+wmclassmatch=1
+
+[General]
+count=6
+rules=4258e21a-1d8f-4fab-8706-09dba492eb39,4184d826-ec23-471f-9a81-8c157e103b71,7a8ed762-4c83-4ec1-92d1-74731cab2cfb,831b7ff1-5082-4d71-85cd-aed2387af429,4f265b2b-ffac-482b-bf79-b01cbd2a7c31,22820b05-5226-452e-a6c1-ec32b911f66c

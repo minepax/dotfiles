@@ -1,0 +1,76 @@
+! Version: 202511261301
+! Title: Allow ads from our partners (support Vivaldi)
+! Last modified: 26 Nov 2025 13:01 UTC
+! Expires: 4 days (update frequency)
+! Homepage: https://vivaldi.com/
+! Licence: Copyright (c) 2020 - 2025 Vivaldi Technologies AS. All rights reserved
+
+! Generally allow our own domains
+@@||vivaldi.net^$~third-party
+@@||vivaldi.com^$document
+
+! Partners
+@@$domain=startpage.com
+@@||startpage.com^$document
+@@$domain=ecosia.org
+@@||ecosia.org^$document
+@@$domain=duckduckgo.com
+@@||duckduckgo.com^$document
+@@$domain=search.yahoo.com
+@@||search.yahoo.com^$document
+@@$domain=qwant.com
+@@||qwant.com^$document
+
+
+! The following rules have no effect in Vivaldi 7.0 and below.
+! See https://vivaldi.com/blog/the-great-tracker-blocker-conundrum-technical/
+! and https://help.vivaldi.com/desktop/privacy/how-ad-attribution-is-implemented/
+
+@@||duckduckgo.com^$attribute-ads
+@@||ecosia.org^$attribute-ads
+@@||qwant.com^$attribute-ads
+@@||search.yahoo.com^$attribute-ads
+@@||startpage.com^$attribute-ads
+
+! Ad clicks targets (begins Ad Attribution):
+! (on navigation to these URLs from the above domains list)
+||ad.doubleclick.net/searchads/link/click$ad-query-trigger=&msclkid=|&gclid=
+||bing.com/aclick$ad-query-trigger=&msclkid=|&gclid=
+||clickserve.dartsearch.net/link/click$ad-query-trigger=&msclkid=|&gclid=
+||duckduckgo.com/y.js$ad-query-trigger=&msclkid=
+||fdn.qwant.com/v3/r/$ad-query-trigger=&msclkid=|&gclid=
+||links.duckduckgo.com/m.js$ad-query-trigger=&msclkid=
+||syndicatedsearch.goog/aclk$ad-query-trigger=&gclid=
+||googleadservices.com/pagead/aclk$ad-query-trigger=&gclid=
+
+! Bing Ad attribution:
+@@||bat.bing.com/$ad-attribution-tracker=ad.doubleclick.net/&msclkid=|bing.com/&msclkid=|clickserve.dartsearch.net/&msclkid=|duckduckgo.com/&msclkid=|fdn.qwant.com/&msclkid=|links.duckduckgo.com/&msclkid=
+@@||bat.bing.net/$ad-attribution-tracker=ad.doubleclick.net/&msclkid=|bing.com/&msclkid=|clickserve.dartsearch.net/&msclkid=|duckduckgo.com/&msclkid=|fdn.qwant.com/&msclkid=|links.duckduckgo.com/&msclkid=
+@@||googletagmanager.com/gt$ad-attribution-tracker=ad.doubleclick.net/&msclkid=|bing.com/&msclkid=|clickserve.dartsearch.net/&msclkid=|duckduckgo.com/&msclkid=|fdn.qwant.com/&msclkid=|links.duckduckgo.com/&msclkid=
+
+! Google Ad attribution:
+@@||googletagmanager.com/gt$ad-attribution-tracker=ad.doubleclick.net/&gclid=
+@@||google-analytics.com/$ad-attribution-tracker=ad.doubleclick.net/&gclid=
+@@||analytics.google.com/$ad-attribution-tracker=ad.doubleclick.net/&gclid=
+@@||ad.doubleclick.net/activity;register_conversion$ad-attribution-tracker=ad.doubleclick.net/&gclid=
+@@||googleads.g.doubleclick.net/pagead/*conversion/$ad-attribution-tracker=ad.doubleclick.net/&gclid=
+@@||googletagmanager.com/gt$ad-attribution-tracker=bing.com/&gclid=
+@@||google-analytics.com/$ad-attribution-tracker=bing.com/&gclid=
+@@||analytics.google.com/$ad-attribution-tracker=bing.com/&gclid=
+@@||googletagmanager.com/gt$ad-attribution-tracker=clickserve.dartsearch.net/&gclid=
+@@||google-analytics.com/$ad-attribution-tracker=clickserve.dartsearch.net/&gclid=
+@@||analytics.google.com/$ad-attribution-tracker=clickserve.dartsearch.net/&gclid=
+@@||googletagmanager.com/gt$ad-attribution-tracker=fdn.qwant.com/&gclid=
+@@||google-analytics.com/$ad-attribution-tracker=fdn.qwant.com/&gclid=
+@@||analytics.google.com/$ad-attribution-tracker=fdn.qwant.com/&gclid=
+@@||googletagmanager.com/gt$ad-attribution-tracker=syndicatedsearch.goog/&gclid=
+@@||google-analytics.com/$ad-attribution-tracker=syndicatedsearch.goog/&gclid=
+@@||analytics.google.com/$ad-attribution-tracker=syndicatedsearch.goog/&gclid=
+@@||ad.doubleclick.net/activity;register_conversion$ad-attribution-tracker=syndicatedsearch.goog/&gclid=
+@@||googleads.g.doubleclick.net/pagead/*conversion/$ad-attribution-tracker=syndicatedsearch.goog/&gclid=
+@@||googletagmanager.com/gt$ad-attribution-tracker=googleadservices.com/&gclid=
+@@||google-analytics.com/$ad-attribution-tracker=googleadservices.com/&gclid=
+@@||analytics.google.com/$ad-attribution-tracker=googleadservices.com/&gclid=
+@@||ad.doubleclick.net/activity;register_conversion$ad-attribution-tracker=googleadservices.com/&gclid=
+@@||googleads.g.doubleclick.net/pagead/*conversion/$ad-attribution-tracker=googleadservices.com/&gclid=
+@@||googleadservices.com/pagead/*conversion/$ad-attribution-tracker=googleadservices.com/&gclid=

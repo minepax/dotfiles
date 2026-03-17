@@ -1,0 +1,15 @@
+2026/02/21-20:10:19.390 4a41 Reusing MANIFEST /home/mahesh/.config/vivaldi/Default/WebStorage/6/IndexedDB/indexeddb.leveldb/MANIFEST-000001
+2026/02/21-20:10:19.390 4a41 Recovering log #4
+2026/02/21-20:10:19.392 4a41 Reusing old log /home/mahesh/.config/vivaldi/Default/WebStorage/6/IndexedDB/indexeddb.leveldb/000004.log 
+2026/02/21-20:10:23.379 4a43 Level-0 table #8: started
+2026/02/21-20:10:23.383 4a43 Level-0 table #8: 16732 bytes OK
+2026/02/21-20:10:23.389 4a43 Delete type=0 #4
+2026/02/21-20:10:23.389 4a43 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2026/02/21-20:10:23.389 4a43 Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x02\x01\x1f\x04\x03\x01\x03\x00N\x00E\x00W\x03\x00\x00\x00\x00\x00\x00L@\x03\x000\xf3u\x0f\xc8yB\x00\x03\x00\x00\x00\x00\x00\x000@' @ 429 : 1
+2026/02/21-20:10:23.389 4a43 Compacting 1@1 + 1@2 files
+2026/02/21-20:10:23.393 4a43 Generated table #9@1: 69 keys, 25548 bytes
+2026/02/21-20:10:23.393 4a43 Compacted 1@1 + 1@2 files => 25548 bytes
+2026/02/21-20:10:23.398 4a43 compacted to: files[ 0 0 1 0 0 0 0 ]
+2026/02/21-20:10:23.398 4a43 Delete type=2 #5
+2026/02/21-20:10:23.399 4a43 Delete type=2 #8
+2026/02/21-20:10:23.399 4a43 Manual compaction at level-1 from '\x00\x02\x01\x1f\x04\x03\x01\x03\x00N\x00E\x00W\x03\x00\x00\x00\x00\x00\x00L@\x03\x000\xf3u\x0f\xc8yB\x00\x03\x00\x00\x00\x00\x00\x000@' @ 429 : 1 .. (end); will stop at (end)
