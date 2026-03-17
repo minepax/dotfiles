@@ -36,9 +36,9 @@ wmclassmatch=1
 
 [7a8ed762-4c83-4ec1-92d1-74731cab2cfb]
 Description=Transparency - Zed
-opacityactive=80
+opacityactive=90
 opacityactiverule=2
-opacityinactive=80
+opacityinactive=90
 opacityinactiverule=2
 wmclass=zed-editor
 wmclassmatch=1

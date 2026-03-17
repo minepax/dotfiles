@@ -1,3 +1,37 @@
-2026/03/17-11:35:06.790 5 Reusing MANIFEST /home/mahesh/.config/vivaldi/Default/Local Storage/leveldb/MANIFEST-000001
-2026/03/17-11:35:06.801 5 Recovering log #1691
-2026/03/17-11:35:06.802 5 Reusing old log /home/mahesh/.config/vivaldi/Default/Local Storage/leveldb/001691.log 
+2026/03/17-22:15:45.467 5 Reusing MANIFEST /home/mahesh/.config/vivaldi/Default/Local Storage/leveldb/MANIFEST-000001
+2026/03/17-22:15:45.483 5 Recovering log #1694
+2026/03/17-22:15:45.484 5 Level-0 table #1699: started
+2026/03/17-22:15:45.508 5 Level-0 table #1699: 12707 bytes OK
+2026/03/17-22:15:45.509 5 Recovering log #1719
+2026/03/17-22:15:45.510 5 Reusing old log /home/mahesh/.config/vivaldi/Default/Local Storage/leveldb/001719.log 
+2026/03/17-22:15:45.550 5 Delete type=2 #1714
+2026/03/17-22:15:45.550 5 Delete type=2 #1715
+2026/03/17-22:15:45.552 5 Delete type=2 #1718
+2026/03/17-22:15:45.558 5 Delete type=2 #1720
+2026/03/17-22:15:45.558 5 Delete type=2 #1645
+2026/03/17-22:15:45.558 5 Delete type=2 #1661
+2026/03/17-22:15:45.559 5 Delete type=0 #1642
+2026/03/17-22:15:45.559 5 Delete type=2 #1643
+2026/03/17-22:15:45.559 5 Delete type=2 #1640
+2026/03/17-22:15:45.559 5 Delete type=2 #1641
+2026/03/17-22:15:45.559 5 Delete type=0 #1653
+2026/03/17-22:15:45.559 5 Delete type=2 #1651
+2026/03/17-22:15:45.559 5 Delete type=2 #1652
+2026/03/17-22:15:45.559 5 Delete type=2 #1654
+2026/03/17-22:15:45.559 5 Delete type=2 #1657
+2026/03/17-22:15:45.559 5 Delete type=0 #1658
+2026/03/17-22:15:45.560 5 Delete type=2 #1659
+2026/03/17-22:15:45.560 5 Delete type=0 #1659
+2026/03/17-22:15:45.560 5 Delete type=2 #1662
+2026/03/17-22:15:45.560 5 Delete type=2 #1663
+2026/03/17-22:15:45.560 5 Delete type=0 #1689
+2026/03/17-22:15:45.560 5 Delete type=2 #1684
+2026/03/17-22:15:45.560 5 Delete type=2 #1685
+2026/03/17-22:15:45.560 5 Delete type=2 #1688
+2026/03/17-22:15:45.560 5 Delete type=2 #1690
+2026/03/17-22:15:45.560 5 Delete type=0 #1691
+2026/03/17-22:15:45.560 5 Delete type=2 #1692
+2026/03/17-22:15:45.560 5 Delete type=0 #1694
+2026/03/17-22:27:48.228 7 Level-0 table #1721: started
+2026/03/17-22:27:48.232 7 Level-0 table #1721: 17180 bytes OK
+2026/03/17-22:27:48.239 7 Delete type=0 #1719

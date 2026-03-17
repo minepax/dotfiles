@@ -1,18 +1,19 @@
-2026/03/17-09:00:11.704 6a3 Reusing MANIFEST /home/mahesh/.config/vivaldi/Default/Sync Data/LevelDB/MANIFEST-000001
-2026/03/17-09:00:11.722 6a3 Recovering log #750
-2026/03/17-09:00:11.747 6a3 Reusing old log /home/mahesh/.config/vivaldi/Default/Sync Data/LevelDB/000750.log 
-2026/03/17-09:02:07.804 68b Level-0 table #754: started
-2026/03/17-09:02:07.810 68b Level-0 table #754: 154639 bytes OK
-2026/03/17-09:02:07.820 68b Delete type=0 #750
-2026/03/17-10:13:57.800 6a4 Level-0 table #756: started
-2026/03/17-10:13:57.815 6a4 Level-0 table #756: 123681 bytes OK
-2026/03/17-10:13:57.822 6a4 Delete type=0 #753
-2026/03/17-10:13:57.824 68b Compacting 4@0 + 1@1 files
-2026/03/17-10:13:57.846 68b Generated table #757@0: 449 keys, 31489 bytes
-2026/03/17-10:13:57.846 68b Compacted 4@0 + 1@1 files => 31489 bytes
-2026/03/17-10:13:57.852 68b compacted to: files[ 0 1 1 0 0 0 0 ]
-2026/03/17-10:13:57.852 68b Delete type=2 #747
-2026/03/17-10:13:57.852 68b Delete type=2 #749
-2026/03/17-10:13:57.852 68b Delete type=2 #751
-2026/03/17-10:13:57.852 68b Delete type=2 #754
-2026/03/17-10:13:57.853 68b Delete type=2 #756
+2026/03/17-14:22:21.752 3f11 Reusing MANIFEST /home/mahesh/.config/vivaldi/Default/Sync Data/LevelDB/MANIFEST-000001
+2026/03/17-14:22:21.760 3f11 Recovering log #767
+2026/03/17-14:22:21.767 3f11 Reusing old log /home/mahesh/.config/vivaldi/Default/Sync Data/LevelDB/000767.log 
+2026/03/17-14:22:21.768 3f11 Delete type=2 #741
+2026/03/17-14:22:21.768 3f11 Delete type=2 #725
+2026/03/17-14:22:21.768 3f11 Delete type=2 #727
+2026/03/17-14:22:21.768 3f11 Delete type=2 #729
+2026/03/17-14:22:21.769 3f11 Delete type=0 #732
+2026/03/17-14:22:21.769 3f11 Delete type=2 #733
+2026/03/17-14:22:21.769 3f11 Delete type=2 #737
+2026/03/17-14:22:21.769 3f11 Delete type=0 #738
+2026/03/17-14:22:21.770 3f11 Delete type=2 #739
+2026/03/17-14:22:21.770 3f11 Delete type=0 #755
+2026/03/17-14:22:21.770 3f11 Delete type=0 #759
+2026/03/17-14:22:21.771 3f11 Delete type=2 #757
+2026/03/17-14:22:21.773 3f11 Delete type=2 #760
+2026/03/17-14:22:21.774 3f11 Delete type=2 #763
+2026/03/17-14:22:21.774 3f11 Delete type=0 #764
+2026/03/17-14:22:21.774 3f11 Delete type=2 #765

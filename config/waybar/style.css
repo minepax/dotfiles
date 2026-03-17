@@ -6,7 +6,7 @@
 }
 
 window#waybar {
-    background-color: rgba(20, 20, 20, 1);
+    background-color: rgba(19, 6, 6, 1);
     border-radius: 100px;
 }
 
@@ -26,10 +26,10 @@ tooltip {
 
 tooltip label {
     padding: 5px 10px;
-    color: rgb(20, 20, 20);
+    color: rgb(19, 6, 6);
 }
 
-#custom-shutdown {
+#custom-shutdown, #custom-power {
     padding-right: 4px;
 }
 

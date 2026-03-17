@@ -1,3 +1,67 @@
-2026/03/17-11:35:11.967 13712 Reusing MANIFEST /home/mahesh/.config/vivaldi/Default/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/MANIFEST-000001
-2026/03/17-11:35:11.968 13712 Recovering log #1100
-2026/03/17-11:35:11.976 13712 Reusing old log /home/mahesh/.config/vivaldi/Default/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/001100.log 
+2026/03/17-22:15:52.143 9bef Reusing MANIFEST /home/mahesh/.config/vivaldi/Default/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/MANIFEST-000001
+2026/03/17-22:15:52.145 9bef Recovering log #1108
+2026/03/17-22:15:52.147 9bef Level-0 table #1111: started
+2026/03/17-22:15:52.156 9bef Level-0 table #1111: 159261 bytes OK
+2026/03/17-22:15:52.156 9bef Recovering log #1138
+2026/03/17-22:15:52.166 9bef Reusing old log /home/mahesh/.config/vivaldi/Default/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/001138.log 
+2026/03/17-22:15:52.175 9bef Delete type=2 #1140
+2026/03/17-22:15:52.175 9bef Delete type=0 #1073
+2026/03/17-22:15:52.175 9bef Delete type=2 #1074
+2026/03/17-22:15:52.176 9bef Delete type=2 #1070
+2026/03/17-22:15:52.176 9bef Delete type=0 #1071
+2026/03/17-22:15:52.176 9bef Delete type=2 #1072
+2026/03/17-22:15:52.177 9bef Delete type=2 #1073
+2026/03/17-22:15:52.177 9bef Delete type=2 #1061
+2026/03/17-22:15:52.177 9bef Delete type=0 #1062
+2026/03/17-22:15:52.177 9bef Delete type=2 #1063
+2026/03/17-22:15:52.177 9bef Delete type=2 #1064
+2026/03/17-22:15:52.177 9bef Delete type=0 #1015
+2026/03/17-22:15:52.177 9bef Delete type=2 #1017
+2026/03/17-22:15:52.178 9bef Delete type=0 #969
+2026/03/17-22:15:52.178 9bef Delete type=2 #971
+2026/03/17-22:15:52.178 9bef Delete type=0 #986
+2026/03/17-22:15:52.178 9bef Delete type=2 #988
+2026/03/17-22:15:52.178 9bef Delete type=2 #1007
+2026/03/17-22:15:52.178 9bef Delete type=0 #1008
+2026/03/17-22:15:52.178 9bef Delete type=2 #1009
+2026/03/17-22:15:52.178 9bef Delete type=2 #1011
+2026/03/17-22:15:52.178 9bef Delete type=0 #1029
+2026/03/17-22:15:52.178 9bef Delete type=2 #1031
+2026/03/17-22:15:52.178 9bef Delete type=2 #1066
+2026/03/17-22:15:52.178 9bef Delete type=0 #1067
+2026/03/17-22:15:52.178 9bef Delete type=2 #1068
+2026/03/17-22:15:52.178 9bef Delete type=2 #1098
+2026/03/17-22:15:52.179 9bef Delete type=2 #1101
+2026/03/17-22:15:52.179 9bef Delete type=0 #1100
+2026/03/17-22:15:52.179 9bef Delete type=2 #1102
+2026/03/17-22:15:52.179 9bef Delete type=0 #1108
+2026/03/17-22:15:52.969 9c07 Compacting 1@0 + 1@1 files
+2026/03/17-22:15:52.988 9c07 Generated table #1139@0: 1009 keys, 53914 bytes
+2026/03/17-22:15:52.989 9c07 Compacted 1@0 + 1@1 files => 53914 bytes
+2026/03/17-22:15:52.998 9c07 compacted to: files[ 0 1 1 0 0 0 0 ]
+2026/03/17-22:15:53.010 9bf1 Compacting 1@1 + 1@2 files
+2026/03/17-22:15:53.045 9bf1 Generated table #1140@1: 2120 keys, 215694 bytes
+2026/03/17-22:15:53.045 9bf1 Compacted 1@1 + 1@2 files => 215694 bytes
+2026/03/17-22:15:53.055 9bf1 compacted to: files[ 0 0 1 0 0 0 0 ]
+2026/03/17-22:17:30.450 9bf1 Level-0 table #1142: started
+2026/03/17-22:17:30.467 9bf1 Level-0 table #1142: 1571424 bytes OK
+2026/03/17-22:17:30.474 9bf1 Delete type=0 #1138
+2026/03/17-22:17:30.474 9bf1 Delete type=2 #1106
+2026/03/17-22:17:30.474 9bf1 Delete type=2 #1109
+2026/03/17-22:17:30.474 9bf1 Delete type=2 #1111
+2026/03/17-22:17:30.474 9bf1 Delete type=2 #1139
+2026/03/17-22:24:35.415 9bf1 Compacting 1@1 + 1@2 files
+2026/03/17-22:24:35.462 9bf1 Generated table #1143@1: 2173 keys, 286576 bytes
+2026/03/17-22:24:35.462 9bf1 Compacted 1@1 + 1@2 files => 286576 bytes
+2026/03/17-22:24:35.472 9bf1 compacted to: files[ 0 0 1 0 0 0 0 ]
+2026/03/17-22:24:35.472 9bf1 Delete type=2 #1140
+2026/03/17-22:24:35.472 9bf1 Delete type=2 #1142
+2026/03/17-22:42:37.617 9bf1 Level-0 table #1145: started
+2026/03/17-22:42:37.648 9bf1 Level-0 table #1145: 1298192 bytes OK
+2026/03/17-22:42:37.654 9bf1 Delete type=0 #1141
+2026/03/17-22:43:34.207 9bf1 Compacting 1@1 + 1@2 files
+2026/03/17-22:43:34.232 9bf1 Generated table #1146@1: 2199 keys, 280016 bytes
+2026/03/17-22:43:34.233 9bf1 Compacted 1@1 + 1@2 files => 280016 bytes
+2026/03/17-22:43:34.239 9bf1 compacted to: files[ 0 0 1 0 0 0 0 ]
+2026/03/17-22:43:34.240 9bf1 Delete type=2 #1143
+2026/03/17-22:43:34.240 9bf1 Delete type=2 #1145

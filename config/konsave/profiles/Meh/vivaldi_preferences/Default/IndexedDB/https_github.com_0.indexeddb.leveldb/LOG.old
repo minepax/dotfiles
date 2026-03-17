@@ -1,15 +1,3 @@
-2026/03/17-09:22:57.373 68b Reusing MANIFEST /home/mahesh/.config/vivaldi/Default/IndexedDB/https_github.com_0.indexeddb.leveldb/MANIFEST-000001
-2026/03/17-09:22:57.373 68b Recovering log #39
-2026/03/17-09:22:57.374 68b Reusing old log /home/mahesh/.config/vivaldi/Default/IndexedDB/https_github.com_0.indexeddb.leveldb/000039.log 
-2026/03/17-10:13:06.006 68d Level-0 table #44: started
-2026/03/17-10:13:06.010 68d Level-0 table #44: 209 bytes OK
-2026/03/17-10:13:06.016 68d Delete type=0 #39
-2026/03/17-10:13:06.016 68d Manual compaction at level-0 from (begin) .. (end); will stop at (end)
-2026/03/17-10:13:06.016 68d Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x00\x00\x00\x06' @ 142 : 1
-2026/03/17-10:13:06.016 68d Compacting 1@1 + 1@2 files
-2026/03/17-10:13:06.018 68d Generated table #45@1: 19 keys, 525 bytes
-2026/03/17-10:13:06.019 68d Compacted 1@1 + 1@2 files => 525 bytes
-2026/03/17-10:13:06.024 68d compacted to: files[ 0 0 1 0 0 0 0 ]
-2026/03/17-10:13:06.024 68d Delete type=2 #41
-2026/03/17-10:13:06.024 68d Delete type=2 #44
-2026/03/17-10:13:06.025 68d Manual compaction at level-1 from '\x00\x00\x00\x00\x06' @ 142 : 1 .. (end); will stop at (end)
+2026/03/17-12:40:51.579 67b Reusing MANIFEST /home/mahesh/.config/vivaldi/Default/IndexedDB/https_github.com_0.indexeddb.leveldb/MANIFEST-000001
+2026/03/17-12:40:51.579 67b Recovering log #43
+2026/03/17-12:40:51.579 67b Reusing old log /home/mahesh/.config/vivaldi/Default/IndexedDB/https_github.com_0.indexeddb.leveldb/000043.log 

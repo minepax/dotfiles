@@ -1,0 +1,12 @@
+[Common]
+OutlineEnabled=false
+OutlineIntensity=OutlineOff
+RoundedCorners=false
+ShadowColor=26,26,26
+ShadowSize=ShadowMedium
+
+[Style]
+MenuOpacity=50
+
+[Windeco]
+DrawBorderOnMaximizedWindows=true

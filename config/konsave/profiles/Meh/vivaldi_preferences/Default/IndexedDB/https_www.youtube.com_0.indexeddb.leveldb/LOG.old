@@ -1,12 +1,6 @@
-2026/03/17-09:03:14.502 68b Reusing MANIFEST /home/mahesh/.config/vivaldi/Default/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/MANIFEST-000001
-2026/03/17-09:03:14.502 68b Recovering log #1096
-2026/03/17-09:03:14.550 68b Reusing old log /home/mahesh/.config/vivaldi/Default/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/001096.log 
-2026/03/17-09:18:23.968 68d Level-0 table #1101: started
-2026/03/17-09:18:24.005 68d Level-0 table #1101: 2061452 bytes OK
-2026/03/17-09:18:24.015 68d Delete type=0 #1096
-2026/03/17-10:34:49.073 68d Compacting 1@1 + 1@2 files
-2026/03/17-10:34:49.087 68d Generated table #1102@1: 2059 keys, 201372 bytes
-2026/03/17-10:34:49.087 68d Compacted 1@1 + 1@2 files => 201372 bytes
-2026/03/17-10:34:49.092 68d compacted to: files[ 0 0 1 0 0 0 0 ]
-2026/03/17-10:34:49.092 68d Delete type=2 #1098
-2026/03/17-10:34:49.092 68d Delete type=2 #1101
+2026/03/17-11:56:52.739 67d Reusing MANIFEST /home/mahesh/.config/vivaldi/Default/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/MANIFEST-000001
+2026/03/17-11:56:52.741 67d Recovering log #1104
+2026/03/17-11:56:52.800 67d Reusing old log /home/mahesh/.config/vivaldi/Default/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/001104.log 
+2026/03/17-12:40:31.048 67d Level-0 table #1109: started
+2026/03/17-12:40:31.074 67d Level-0 table #1109: 2298885 bytes OK
+2026/03/17-12:40:31.082 67d Delete type=0 #1104

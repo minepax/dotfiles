@@ -25,8 +25,6 @@ if pgrep -x "waybar" >/dev/null; then
 fi
 waybar &
 
-#pkill -USR2 waybar
-
 # 6. Wait a moment and then send the notification
 sleep 2
 notify-send -a "Theme Switcher" "Theme Switched!" "Your desktop is now using the '$THEME' profile." -i preferences-desktop-theme -t 5000

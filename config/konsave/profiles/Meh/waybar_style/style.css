@@ -29,7 +29,7 @@ tooltip label {
     color: rgb(20, 20, 20);
 }
 
-#custom-shutdown {
+#custom-shutdown, #custom-power {
     padding-right: 4px;
 }
 

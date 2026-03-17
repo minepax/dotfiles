@@ -1,3 +1,6 @@
-2026/03/16-11:52:31.290 687 Reusing MANIFEST /home/mahesh/.config/vivaldi/Default/IndexedDB/https_meet.google.com_0.indexeddb.leveldb/MANIFEST-000001
-2026/03/16-11:52:31.291 687 Recovering log #71
-2026/03/16-11:52:31.291 687 Reusing old log /home/mahesh/.config/vivaldi/Default/IndexedDB/https_meet.google.com_0.indexeddb.leveldb/000071.log 
+2026/03/17-14:13:01.615 69a Reusing MANIFEST /home/mahesh/.config/vivaldi/Default/IndexedDB/https_meet.google.com_0.indexeddb.leveldb/MANIFEST-000001
+2026/03/17-14:13:01.615 69a Recovering log #76
+2026/03/17-14:13:01.632 69a Reusing old log /home/mahesh/.config/vivaldi/Default/IndexedDB/https_meet.google.com_0.indexeddb.leveldb/000076.log 
+2026/03/17-14:13:03.152 69a Level-0 table #81: started
+2026/03/17-14:13:03.178 69a Level-0 table #81: 4008140 bytes OK
+2026/03/17-14:13:03.184 69a Delete type=0 #76

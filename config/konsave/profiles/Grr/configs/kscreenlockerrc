@@ -1,0 +1,7 @@
+[Daemon]
+LockGrace=900
+Timeout=15
+
+[Greeter][Wallpaper][org.kde.image][General]
+Image=/home/mahesh/Pictures/Wallpapers/Hmm/Lock Screen - Linux.jpeg
+PreviewImage=/home/mahesh/Pictures/Wallpapers/Hmm/Lock Screen - Linux.jpeg

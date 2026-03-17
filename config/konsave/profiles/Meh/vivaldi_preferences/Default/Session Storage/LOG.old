@@ -1,6 +1,12 @@
-2026/03/17-09:00:12.074 5 Reusing MANIFEST /home/mahesh/.config/vivaldi/Default/Session Storage/MANIFEST-000001
-2026/03/17-09:00:12.098 5 Recovering log #763
-2026/03/17-09:00:12.108 5 Reusing old log /home/mahesh/.config/vivaldi/Default/Session Storage/000763.log 
-2026/03/17-09:03:21.900 5 Level-0 table #768: started
-2026/03/17-09:03:21.905 5 Level-0 table #768: 16927 bytes OK
-2026/03/17-09:03:21.912 5 Delete type=0 #763
+2026/03/17-14:22:22.387 5 Reusing MANIFEST /home/mahesh/.config/vivaldi/Default/Session Storage/MANIFEST-000001
+2026/03/17-14:22:22.411 5 Recovering log #770
+2026/03/17-14:22:22.415 5 Reusing old log /home/mahesh/.config/vivaldi/Default/Session Storage/000770.log 
+2026/03/17-14:22:22.420 5 Delete type=2 #762
+2026/03/17-14:22:22.420 5 Delete type=2 #758
+2026/03/17-14:22:22.420 5 Delete type=0 #753
+2026/03/17-14:22:22.420 5 Delete type=2 #754
+2026/03/17-14:22:22.421 5 Delete type=2 #756
+2026/03/17-14:22:22.421 5 Delete type=2 #759
+2026/03/17-14:22:22.421 5 Delete type=0 #760
+2026/03/17-14:22:22.421 5 Delete type=2 #761
+2026/03/17-14:22:22.421 5 Delete type=0 #767

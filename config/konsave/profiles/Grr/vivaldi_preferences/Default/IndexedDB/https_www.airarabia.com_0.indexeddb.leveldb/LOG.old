@@ -1,0 +1,7 @@
+2026/03/12-18:44:55.359 15379 Reusing MANIFEST /home/mahesh/.config/vivaldi/Default/IndexedDB/https_www.airarabia.com_0.indexeddb.leveldb/MANIFEST-000001
+2026/03/12-18:44:55.359 15379 Recovering log #69
+2026/03/12-18:44:55.360 15379 Reusing old log /home/mahesh/.config/vivaldi/Default/IndexedDB/https_www.airarabia.com_0.indexeddb.leveldb/000069.log 
+2026/03/12-18:44:57.428 15379 Level-0 table #75: started
+2026/03/12-18:44:57.431 15379 Level-0 table #75: 551 bytes OK
+2026/03/12-18:44:57.437 15379 Delete type=0 #69
+2026/03/12-18:44:57.437 15379 Manual compaction at level-0 from '\x00\x12\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x13\x00\x00\x00' @ 0 : 0; will stop at (end)

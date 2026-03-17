@@ -6,15 +6,16 @@
     "spacing": 20,
     "margin": "8",
     "modules-left": [
-        "custom/shutdown",
-        "custom/reboot",
-        "custom/lock",
-        "custom/weather",
-        "custom/themeswitcher"
+        "custom/power",
+        // "custom/shutdown",
+        // "custom/reboot",
+        // "custom/lock",
+        "custom/themeswitcher",
+        "custom/weather"
     ],
     "modules-center": [
         "clock",
-        "custom/workspaces",
+        "custom/workspaces"
     ],
     "modules-right": [
         "bluetooth",
@@ -85,7 +86,6 @@
             "default": ["󰂎", "󰁺", "󰁻", "󰁼", "󰁽", "󰁾", "󰁿", "󰂀", "󰂁", "󰂂", "󰁹"],
             "charging": ["󰢟", "󰢜", "󰂆", "󰂇", "󰂈", "󰢝", "󰂉", "󰢞", "󰂊", "󰂋", "󰂅"]
         },
-        "tooltip": false,
         "on-click": "systemsettings kcm_powerdevilprofilesconfig"
     },
     "custom/brightness": {
@@ -99,20 +99,10 @@
         "on-click": "systemsettings kcm_kscreen",
         "signal": 5
     },
-    "custom/shutdown": {
-        "format": "⏻",
-        "tooltip-format": "Shutdown",
-        "on-click": "systemctl poweroff"
-    },
-    "custom/reboot": {
-        "format": "🗘",
-        "tooltip-format": "Restart",
-        "on-click": "systemctl reboot"
-    },
-    "custom/lock": {
-        "format": "",
-        "tooltip-format": "Lock",
-        "on-click": "loginctl lock-session"
+    "custom/power": {
+        "format": "",
+        "on-click": "~/.config/waybar/scripts/power-menu.sh",
+        "tooltip": false
     },
     "custom/weather": {
         "format": "{}",

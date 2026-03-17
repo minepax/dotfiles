@@ -1,12 +1,10 @@
-2026/03/17-09:00:13.852 68d Reusing MANIFEST /home/mahesh/.config/vivaldi/Default/IndexedDB/https_meet.google.com_0.indexeddb.leveldb/MANIFEST-000001
-2026/03/17-09:00:13.853 68d Recovering log #71
-2026/03/17-09:00:13.875 68d Reusing old log /home/mahesh/.config/vivaldi/Default/IndexedDB/https_meet.google.com_0.indexeddb.leveldb/000071.log 
-2026/03/17-09:05:16.664 68d Level-0 table #77: started
-2026/03/17-09:05:16.705 68d Level-0 table #77: 3824015 bytes OK
-2026/03/17-09:05:16.713 68d Delete type=0 #71
-2026/03/17-10:22:09.941 68b Compacting 1@1 + 1@2 files
-2026/03/17-10:22:09.951 68b Generated table #78@1: 113 keys, 268895 bytes
-2026/03/17-10:22:09.951 68b Compacted 1@1 + 1@2 files => 268895 bytes
-2026/03/17-10:22:09.958 68b compacted to: files[ 0 0 1 0 0 0 0 ]
-2026/03/17-10:22:09.958 68b Delete type=2 #74
-2026/03/17-10:22:09.958 68b Delete type=2 #77
+2026/03/17-14:22:25.161 3f11 Reusing MANIFEST /home/mahesh/.config/vivaldi/Default/IndexedDB/https_meet.google.com_0.indexeddb.leveldb/MANIFEST-000001
+2026/03/17-14:22:25.162 3f11 Recovering log #80
+2026/03/17-14:22:25.167 3f11 Reusing old log /home/mahesh/.config/vivaldi/Default/IndexedDB/https_meet.google.com_0.indexeddb.leveldb/000080.log 
+2026/03/17-14:22:25.168 3f11 Delete type=2 #59
+2026/03/17-14:22:25.168 3f11 Delete type=0 #57
+2026/03/17-14:22:25.168 3f11 Delete type=2 #54
+2026/03/17-14:22:25.168 3f11 Delete type=2 #56
+2026/03/17-14:22:25.168 3f11 Delete type=2 #74
+2026/03/17-14:22:25.168 3f11 Delete type=2 #77
+2026/03/17-14:22:25.168 3f11 Delete type=0 #76
