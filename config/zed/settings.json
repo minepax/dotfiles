@@ -1,0 +1,79 @@
+// Zed settings
+//
+// For information on how to configure Zed, see the Zed
+// documentation: https://zed.dev/docs/configuring-zed
+//
+// To see all of Zed's default settings without changing your
+// custom settings, run `zed: open default settings` from the
+// command palette (cmd-shift-p / ctrl-shift-p)
+{
+  "bottom_dock_layout": "contained",
+  "tab_bar": {
+    "show": true
+  },
+  "title_bar": {
+    "show_branch_icon": false,
+    "show_branch_name": true,
+    "show_project_items": true,
+    "show_sign_in": true,
+    "show_user_menu": true
+  },
+  "debugger": {
+    "button": true
+  },
+  "search": {
+    "button": true
+  },
+  "diagnostics": {
+    "button": true
+  },
+  "icon_theme": "Soft Charmed Icons",
+  "terminal": {
+    "button": true,
+    "cursor_shape": "bar",
+  },
+  "vertical_scroll_margin": 10.0,
+  "scroll_beyond_last_line": "vertical_scroll_margin",
+  "on_last_window_closed": "quit_app",
+  "when_closing_with_no_tabs": "close_window",
+  "current_line_highlight": "all",
+  "unnecessary_code_fade": 0.3,
+  "text_rendering_mode": "platform_default",
+  "agent_buffer_font_size": 15.0,
+  "agent_ui_font_size": 15.0,
+  "ui_font_weight": 400.0,
+  "ui_font_family": "Geist",
+  "buffer_line_height": "standard",
+  "buffer_font_weight": 400.0,
+  "project_panel": {
+    "dock": "left",
+    "scrollbar": {
+      "show": "auto",
+    },
+    "auto_reveal_entries": false,
+    "indent_size": 20.0,
+    "git_status": true,
+    "folder_icons": true,
+    "file_icons": true,
+    "entry_spacing": "comfortable",
+    "hide_gitignore": false,
+    "default_width": 240.0,
+    "button": true,
+  },
+  "buffer_font_family": "JetBrainsMono Nerd Font",
+  "session": {
+    "trust_all_worktrees": true,
+  },
+  "base_keymap": "VSCode",
+  "minimap": {
+    "show": "auto",
+    "thumb": "always",
+  },
+  "cursor_blink": true,
+  "soft_wrap": "editor_width",
+  "ui_font_size": 15.0,
+  "buffer_font_size": 12.0,
+  "theme": "One Black",
+  "format_on_save": "off",
+  "ensure_final_newline_on_save": false,
+}

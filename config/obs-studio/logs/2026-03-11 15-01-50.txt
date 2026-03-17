@@ -1,0 +1,187 @@
+15:01:50.551: Crash or unclean shutdown detected
+15:01:51.634: [Safe Mode] Normal launch selected, loading third-party plugins is enabled
+15:01:51.635: Platform: Wayland
+15:01:51.635: CPU Name: Intel(R) Core(TM) i7-5500U CPU @ 2.40GHz
+15:01:51.635: CPU Speed: 1157.780MHz
+15:01:51.636: Physical Cores: 2, Logical Cores: 4
+15:01:51.636: Physical Memory: 15908MB Total, 6657MB Free
+15:01:51.636: Kernel Version: Linux 6.19.6-2-cachyos
+15:01:51.636: Distribution: "CachyOS Linux" Unknown
+15:01:51.636: Desktop Environment: KDE (KDE)
+15:01:51.636: Session Type: wayland
+15:01:51.640: Current Date/Time: 2026-03-11, 03:01:51 PM
+15:01:51.640: Browser Hardware Acceleration: true
+15:01:51.640: Qt Version: 6.10.2 (runtime), 6.10.1 (compiled)
+15:01:51.640: Portable mode: false
+15:01:51.673: OBS 32.0.4 (linux)
+15:01:51.673: ---------------------------------
+15:01:51.674: ---------------------------------
+15:01:51.674: audio settings reset:
+15:01:51.674: 	samples per sec: 48000
+15:01:51.674: 	speakers:        2
+15:01:51.674: 	max buffering:   960 milliseconds
+15:01:51.674: 	buffering type:  dynamically increasing
+15:01:51.676: ---------------------------------
+15:01:51.676: Initializing OpenGL...
+15:01:51.676: Using EGL/Wayland
+15:01:51.684: Initialized EGL 1.5
+15:01:51.708: Loading up OpenGL on adapter Intel Mesa Intel(R) HD Graphics 5500 (BDW GT2)
+15:01:51.708: OpenGL loaded successfully, version 4.6 (Core Profile) Mesa 26.0.1-arch2.3, shading language 4.60
+15:01:51.749: ---------------------------------
+15:01:51.749: video settings reset:
+15:01:51.749: 	base resolution:   1920x1080
+15:01:51.749: 	output resolution: 1920x1080
+15:01:51.749: 	downscale filter:  Lanczos
+15:01:51.749: 	fps:               30/1
+15:01:51.749: 	format:            NV12
+15:01:51.749: 	YUV mode:          Rec. 709/Partial
+15:01:51.750: NV12 texture support enabled
+15:01:51.750: P010 texture support not available
+15:01:51.757: Audio monitoring device:
+15:01:51.757: 	name: Default
+15:01:51.757: 	id: default
+15:01:51.759: ---------------------------------
+15:01:51.761: Failed to load 'en-US' text for module: 'decklink-captions.so'
+15:01:51.763: Failed to load 'en-US' text for module: 'decklink-output-ui.so'
+15:01:51.764: A DeckLink iterator could not be created.  The DeckLink drivers may not be installed
+15:01:51.764: Failed to initialize module 'decklink.so'
+15:01:51.948: [pipewire] Available capture sources:
+15:01:51.948: [pipewire]     - Monitor source
+15:01:51.948: [pipewire]     - Window source
+15:01:51.983: VAAPI: API version 1.23
+15:01:51.984: FFmpeg VAAPI H264 encoding supported
+15:01:52.116: FFmpeg VAAPI AV1 encoding not supported
+15:01:52.212: FFmpeg VAAPI HEVC encoding not supported
+15:01:52.546: [NVENC] Test process failed: no_supported_devices
+15:01:52.546: NVENC not supported
+15:01:52.546: Failed to initialize module 'obs-nvenc.so'
+15:01:52.667: [obs-websocket] [obs_module_load] you can haz websockets (Version: 5.6.3 | RPC Version: 1)
+15:01:52.667: [obs-websocket] [obs_module_load] Qt version (compile-time): 6.10.1 | Qt version (run-time): 6.10.2
+15:01:52.667: [obs-websocket] [obs_module_load] Linked ASIO Version: 103600
+15:01:52.673: [obs-websocket] [obs_module_load] Module loaded.
+15:01:52.678: ---------------------------------
+15:01:52.678:   Loaded Modules:
+15:01:52.678:     text-freetype2.so
+15:01:52.678:     rtmp-services.so
+15:01:52.678:     obs-x264.so
+15:01:52.678:     obs-websocket.so
+15:01:52.678:     obs-webrtc.so
+15:01:52.678:     obs-vst.so
+15:01:52.678:     obs-transitions.so
+15:01:52.678:     obs-qsv11.so
+15:01:52.678:     obs-outputs.so
+15:01:52.678:     obs-libfdk.so
+15:01:52.678:     obs-filters.so
+15:01:52.678:     obs-ffmpeg.so
+15:01:52.678:     linux-v4l2.so
+15:01:52.678:     linux-pulseaudio.so
+15:01:52.678:     linux-pipewire.so
+15:01:52.678:     linux-jack.so
+15:01:52.678:     linux-capture.so
+15:01:52.678:     linux-alsa.so
+15:01:52.678:     image-source.so
+15:01:52.678:     frontend-tools.so
+15:01:52.678:     decklink-output-ui.so
+15:01:52.678:     decklink-captions.so
+15:01:52.678: ---------------------------------
+15:01:52.678: ---------------------------------
+15:01:52.678: Available Encoders:
+15:01:52.678:   Video Encoders:
+15:01:52.678: 	- ffmpeg_svt_av1 (SVT-AV1)
+15:01:52.678: 	- ffmpeg_aom_av1 (AOM AV1)
+15:01:52.678: 	- ffmpeg_vaapi_tex (FFmpeg VAAPI H.264)
+15:01:52.678: 	- obs_qsv11_v2 (QuickSync H.264)
+15:01:52.678: 	- obs_x264 (x264)
+15:01:52.678:   Audio Encoders:
+15:01:52.678: 	- ffmpeg_aac (FFmpeg AAC)
+15:01:52.678: 	- ffmpeg_opus (FFmpeg Opus)
+15:01:52.678: 	- ffmpeg_pcm_s16le (FFmpeg PCM (16-bit))
+15:01:52.678: 	- ffmpeg_pcm_s24le (FFmpeg PCM (24-bit))
+15:01:52.678: 	- ffmpeg_pcm_f32le (FFmpeg PCM (32-bit float))
+15:01:52.678: 	- ffmpeg_alac (FFmpeg ALAC (24-bit))
+15:01:52.678: 	- ffmpeg_flac (FFmpeg FLAC (16-bit))
+15:01:52.678: 	- libfdk_aac (libfdk AAC)
+15:01:52.678: ==== Startup complete ===============================================
+15:01:52.742: All scene data cleared
+15:01:52.742: ------------------------------------------------
+15:01:52.749: Device for 'Audio Output Capture' source Desktop Audio is also used for audio monitoring.
+15:01:52.749: Deduplication logic is being applied to all monitored sources.
+15:01:52.749: pulse-input: Server name: 'PulseAudio (on PipeWire 1.6.0) 15.0.0'
+15:01:52.750: pulse-input: Audio format: float32le, 48000 Hz, 2 channels
+15:01:52.750: pulse-input: Started recording from 'bluez_output.00:1E:7C:91:24:8C.monitor' (default)
+15:01:52.750: [Loaded global audio device]: 'Desktop Audio'
+15:01:52.750: pulse-input: Server name: 'PulseAudio (on PipeWire 1.6.0) 15.0.0'
+15:01:52.751: pulse-input: Audio format: float32le, 48000 Hz, 2 channels
+15:01:52.751: pulse-input: Started recording from 'bluez_output.00:1E:7C:91:24:8C.monitor' (default)
+15:01:52.751: [Loaded global audio device]: 'Mic/Aux'
+15:01:52.751: PipeWire initialized
+15:01:52.766: Device for 'Audio Output Capture' source Audio Output Capture (PulseAudio) is also used for audio monitoring.
+15:01:52.766: Deduplication logic is being applied to all monitored sources.
+15:01:52.767: Device for 'Audio Output Capture' source Desktop Audio is also used for audio monitoring.
+15:01:52.767: Deduplication logic is being applied to all monitored sources.
+15:01:52.767: pulse-input: Server name: 'PulseAudio (on PipeWire 1.6.0) 15.0.0'
+15:01:52.767: pulse-input: Audio format: float32le, 48000 Hz, 2 channels
+15:01:52.767: pulse-input: Started recording from 'bluez_output.00:1E:7C:91:24:8C.monitor' (default)
+15:01:52.770: Switched to scene 'Scene'
+15:01:52.770: ------------------------------------------------
+15:01:52.770: Loaded scenes:
+15:01:52.770: - scene 'Scene':
+15:01:52.770:     - source: 'Screen Capture (PipeWire)' (pipewire-screen-capture-source)
+15:01:52.770:     - source: 'Audio Output Capture (PulseAudio)' (pulse_output_capture)
+15:01:52.770: ------------------------------------------------
+15:01:52.820: Device for 'Audio Output Capture' source Audio Output Capture (PulseAudio) is also used for audio monitoring.
+15:01:52.820: Deduplication logic is being applied to all monitored sources.
+15:01:52.850: [pipewire] Screencast session created
+15:01:52.899: [pipewire] Asking for monitor and window
+15:01:52.941: [pipewire] source selected, setting up screencast
+15:01:52.986: [pipewire] Server version: 1.6.0
+15:01:52.986: [pipewire] Library version: 1.6.1
+15:01:52.986: [pipewire] Header version: 1.4.9
+15:01:52.986: [pipewire] Created stream 0x55bae2952290
+15:01:52.986: [pipewire] Stream 0x55bae2952290 state: "connecting" (error: none)
+15:01:52.989: [pipewire] Playing stream 0x55bae2952290
+15:01:52.992: [pipewire] Stream 0x55bae2952290 state: "paused" (error: none)
+15:01:53.004: [pipewire] Negotiated format:
+15:01:53.004: [pipewire]     Format: 12 (Spa:Enum:VideoFormat:BGRA)
+15:01:53.004: [pipewire]     Modifier: 0x0
+15:01:53.004: [pipewire]     Size: 1920x1080
+15:01:53.004: [pipewire]     Framerate: 0/1
+15:01:53.009: [pipewire] Negotiated format:
+15:01:53.009: [pipewire]     Format: 12 (Spa:Enum:VideoFormat:BGRA)
+15:01:53.009: [pipewire]     Modifier: 0x100000000000001
+15:01:53.009: [pipewire]     Size: 1920x1080
+15:01:53.009: [pipewire]     Framerate: 0/1
+15:01:53.025: [pipewire] Stream 0x55bae2952290 state: "streaming" (error: none)
+15:01:53.317: adding 21 milliseconds of audio buffering, total audio buffering is now 21 milliseconds (source: Desktop Audio)
+15:01:53.317: 
+15:01:53.637: adding 64 milliseconds of audio buffering, total audio buffering is now 85 milliseconds (source: Mic/Aux)
+15:01:53.637: 
+15:02:00.170: ---------------------------------
+15:02:00.171: [FFmpeg VAAPI encoder: 'advanced_video_recording'] settings:
+15:02:00.171: 	device:       /dev/dri/by-path/pci-0000:00:02.0-render
+15:02:00.171: 	rate_control: CBR
+15:02:00.171: 	profile:      100
+15:02:00.171: 	level:        -99
+15:02:00.171: 	qp:           0
+15:02:00.171: 	bitrate:      5000
+15:02:00.171: 	maxrate:      5000
+15:02:00.171: 	keyint:       120
+15:02:00.171: 	width:        1920
+15:02:00.171: 	height:       1080
+15:02:00.171: 	b-frames:     0
+15:02:00.171: 	ffmpeg opts:  
+15:02:00.171: 
+15:02:00.178: ---------------------------------
+15:02:00.178: [FFmpeg aac encoder: 'Track1'] bitrate: 320, channels: 2, channel_layout: stereo, track: 1
+15:02:00.178: 
+15:02:00.185: ==== Recording Start ===============================================
+15:02:00.185: [mp4 output: 'adv_file_output'] Writing Hybrid MP4/MOV file '/home/mahesh/Videos/OBS/2026-03-11 15-02-00.mp4'...
+15:02:40.805: [mp4 muxer: 'adv_file_output'] Flushing final fragment...
+15:02:40.805: [mp4 muxer: 'adv_file_output'] Number of fragments: 11
+15:02:40.806: [mp4 muxer: 'adv_file_output'] Full moov size: 13 KiB
+15:02:40.806: [mp4 muxer: 'adv_file_output'] Final mdat size: 24690 KiB
+15:02:40.806: Output 'adv_file_output': stopping
+15:02:40.806: Output 'adv_file_output': Total frames output: 1213
+15:02:40.806: Output 'adv_file_output': Total drawn frames: 1219
+15:02:40.806: [mp4 output: 'adv_file_output'] Waiting for file writer to finish...
+15:02:40.806: [mp4 output: 'adv_file_output'] File output complete. Finalization took 0 ms.
