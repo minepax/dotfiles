@@ -13,7 +13,7 @@
 
     background-color: transparent;
     text-color:       @fg;
-    font:            "JetBrainsMono Nerd Font 12";
+    font:            "JetBrainsMono Nerd Font SemiBold 12";
 }
 
 window {

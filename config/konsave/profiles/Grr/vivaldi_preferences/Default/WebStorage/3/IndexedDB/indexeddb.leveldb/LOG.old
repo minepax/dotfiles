@@ -1,3 +1,9 @@
-2026/03/17-20:08:01.602 6fa Reusing MANIFEST /home/mahesh/.config/vivaldi/Default/WebStorage/3/IndexedDB/indexeddb.leveldb/MANIFEST-000001
-2026/03/17-20:08:01.602 6fa Recovering log #157
-2026/03/17-20:08:01.628 6fa Reusing old log /home/mahesh/.config/vivaldi/Default/WebStorage/3/IndexedDB/indexeddb.leveldb/000157.log 
+2026/03/18-00:19:27.734 129a5 Reusing MANIFEST /home/mahesh/.config/vivaldi/Default/WebStorage/3/IndexedDB/indexeddb.leveldb/MANIFEST-000001
+2026/03/18-00:19:27.735 129a5 Recovering log #161
+2026/03/18-00:19:27.739 129a5 Reusing old log /home/mahesh/.config/vivaldi/Default/WebStorage/3/IndexedDB/indexeddb.leveldb/000161.log 
+2026/03/18-00:21:33.022 129a5 Compacting 1@1 + 1@2 files
+2026/03/18-00:21:33.034 129a5 Generated table #164@1: 282 keys, 114291 bytes
+2026/03/18-00:21:33.034 129a5 Compacted 1@1 + 1@2 files => 114291 bytes
+2026/03/18-00:21:33.040 129a5 compacted to: files[ 0 0 1 0 0 0 0 ]
+2026/03/18-00:21:33.041 129a5 Delete type=2 #159
+2026/03/18-00:21:33.041 129a5 Delete type=2 #162

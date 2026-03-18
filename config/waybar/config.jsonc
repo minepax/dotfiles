@@ -109,6 +109,7 @@
         "interval": 1800,
         "exec": "~/.config/waybar/scripts/weather.sh",
         "return-type": "json",
+        "on-click": "~/.local/bin/rofi-location-switcher.sh",
         "tooltip": true
     },
     "custom/workspaces": {
@@ -120,7 +121,7 @@
         "exec": "~/.config/waybar/scripts/theme-switch.sh",
         "return-type": "",
         "interval": "once",
-        "signal": 1, 
+        "signal": 1,
         "on-click": "~/.local/bin/theme_switch.sh",
         "tooltip": false
     }

@@ -6,7 +6,7 @@ STATE_FILE="$HOME/.current_location"
 OPTIONS="Sharjah\nDubai\nCoonoor\nCoimbatore\nCustom..."
 
 # 2. Get user selection via Rofi
-CHOICE=$(echo -e "$OPTIONS" | rofi -dmenu -p "Location")
+CHOICE=$(echo -e "$OPTIONS" | rofi -dmenu -no-show-icons -p "Location")
 
 # 3. Handle the selection
 if [ -z "$CHOICE" ]; then
