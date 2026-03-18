@@ -1,6 +1,0 @@
-2026/03/17-18:41:54.903 6fa Reusing MANIFEST /home/mahesh/.config/vivaldi/Default/Sync Data/LevelDB/MANIFEST-000001
-2026/03/17-18:41:54.905 6fa Recovering log #774
-2026/03/17-18:41:54.906 6fa Reusing old log /home/mahesh/.config/vivaldi/Default/Sync Data/LevelDB/000774.log 
-2026/03/17-19:30:02.011 6fa Level-0 table #779: started
-2026/03/17-19:30:02.030 6fa Level-0 table #779: 140953 bytes OK
-2026/03/17-19:30:02.040 6fa Delete type=0 #774

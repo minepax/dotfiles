@@ -1,6 +1,0 @@
-2026/03/12-16:30:09.096 15379 Creating DB /home/mahesh/.config/vivaldi/Default/IndexedDB/https_cstimer.net_0.indexeddb.leveldb since it was missing.
-2026/03/12-16:30:09.106 15379 Reusing MANIFEST /home/mahesh/.config/vivaldi/Default/IndexedDB/https_cstimer.net_0.indexeddb.leveldb/MANIFEST-000001
-2026/03/12-16:30:13.619 1537b Level-0 table #5: started
-2026/03/12-16:30:13.623 1537b Level-0 table #5: 2659 bytes OK
-2026/03/12-16:30:13.629 1537b Delete type=0 #3
-2026/03/12-16:30:13.629 1537b Manual compaction at level-0 from (begin) .. (end); will stop at (end)

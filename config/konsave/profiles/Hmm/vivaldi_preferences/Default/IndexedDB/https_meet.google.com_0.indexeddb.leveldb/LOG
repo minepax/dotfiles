@@ -1,6 +1,0 @@
-2026/03/17-14:23:15.572 41dd Reusing MANIFEST /home/mahesh/.config/vivaldi/Default/IndexedDB/https_meet.google.com_0.indexeddb.leveldb/MANIFEST-000001
-2026/03/17-14:23:15.572 41dd Recovering log #80
-2026/03/17-14:23:15.578 41dd Reusing old log /home/mahesh/.config/vivaldi/Default/IndexedDB/https_meet.google.com_0.indexeddb.leveldb/000080.log 
-2026/03/17-14:23:15.578 41dd Delete type=2 #78
-2026/03/17-14:23:15.578 41dd Delete type=2 #81
-2026/03/17-14:23:15.579 41dd Delete type=0 #57

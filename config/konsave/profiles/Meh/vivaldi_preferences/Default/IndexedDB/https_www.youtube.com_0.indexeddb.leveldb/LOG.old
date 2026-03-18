@@ -1,6 +1,0 @@
-2026/03/17-11:56:52.739 67d Reusing MANIFEST /home/mahesh/.config/vivaldi/Default/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/MANIFEST-000001
-2026/03/17-11:56:52.741 67d Recovering log #1104
-2026/03/17-11:56:52.800 67d Reusing old log /home/mahesh/.config/vivaldi/Default/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/001104.log 
-2026/03/17-12:40:31.048 67d Level-0 table #1109: started
-2026/03/17-12:40:31.074 67d Level-0 table #1109: 2298885 bytes OK
-2026/03/17-12:40:31.082 67d Delete type=0 #1104

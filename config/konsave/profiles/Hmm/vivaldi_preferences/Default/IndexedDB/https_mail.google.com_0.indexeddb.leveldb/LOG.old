@@ -1,9 +1,0 @@
-2026/03/13-12:39:35.170 1fd17 Reusing MANIFEST /home/mahesh/.config/vivaldi/Default/IndexedDB/https_mail.google.com_0.indexeddb.leveldb/MANIFEST-000001
-2026/03/13-12:39:35.171 1fd17 Recovering log #228
-2026/03/13-12:39:35.193 1fd17 Reusing old log /home/mahesh/.config/vivaldi/Default/IndexedDB/https_mail.google.com_0.indexeddb.leveldb/000228.log 
-2026/03/13-12:39:42.749 1fd2d Level-0 table #232: started
-2026/03/13-12:39:42.843 1fd2d Level-0 table #232: 3035312 bytes OK
-2026/03/13-12:39:42.854 1fd2d Delete type=0 #228
-2026/03/13-12:39:58.075 1fd2d Level-0 table #234: started
-2026/03/13-12:39:58.120 1fd2d Level-0 table #234: 3207161 bytes OK
-2026/03/13-12:39:58.126 1fd2d Delete type=0 #231

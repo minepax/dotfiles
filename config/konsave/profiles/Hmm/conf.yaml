@@ -36,89 +36,31 @@ save:
     configs:
         location: "$CONFIG_DIR"
         entries:
-            - gtk-2.0
+            # Wallpapers, lockscreen, colors
+            - kdeglobals                              # Active color ccheme
+            - plasma-org.kde.plasma.desktop-appletsrc # Desktop wallpapers
+            - kscreenlockerrc                         # Lockscreen image your path
+            - plasmarc                                # Metadata for the plasma pheme
+            - plasmashellrc                           # Layout/Shell state
+            
+            # GTK and Kvantum app themes 
             - gtk-3.0
             - gtk-4.0
-            - kate
             - Kvantum
-            - latte
-            - dolphinrc
-            - katerc
-            - konsolerc
-            - kcminputrc
-            - kdeglobals
-            - kglobalshortcutsrc
-            - klipperrc
-            - krunnerrc
-            - kscreenlockerrc
-            - ksmserverrc
-            - kwinrc
-            - kwinrulesrc
-            - plasma-org.kde.plasma.desktop-appletsrc
-            - plasmarc
-            - plasmashellrc
-            - gtkrc
-            - gtkrc-2.0
-            - lattedockrc
-            - breezerc
-            - oxygenrc
-            - lightlyrc
+            
+            # App configs
             - kitty
-            - ksplashrc
-            - khotkeysrc
-            # Added for Plasma 6.x compatibility (optional/extra configs)
-            - systemsettingsrc
-            - kded5rc               # renamed from kdedrc (Plasma 6)
-            - kconf_updaterc
-            - kscreenrc            # include if persistent on your system
-            - plasma-systemmonitorrc
             - rofi
-            - spectaclerc
-            - plasmanotifyrc
-            - plasma-localerc
-            - plasma_calendar_holiday_regions
-            - xdg-desktop-portal-kderc
-            - kwinoutputconfig.json
-    
+    #
     waybar_style:
         location: "$CONFIG_DIR/waybar"
         entries:
             - style.css
 
     vivaldi_preferences:
-        location: "$CONFIG_DIR/vivaldi/"
+        location: "$CONFIG_DIR/vivaldi/Default"
         entries:
-            - Default
-
-    app_layouts:
-        location: "$HOME/.local/share/kxmlgui5"
-        entries:
-            - dolphin
-            - konsole
-            - yakuakerc
-            # Optional application GUI layout overrides (add if present)
-            - systemsettings
-            - spectacle
-            - plasma-systemmonitor
-
-    # Autostart user .desktop entries (do NOT include distro defaults)
-    autostart:
-        location: "$CONFIG_DIR/autostart"
-        entries:
-            # Add/remove entries above if your autostart changes.
-
-    # Here are a few examples of how you can add more stuff to back up.
-    # Uncomment these lines if you want.
-    # firefox:
-    #     location: "$HOME/.mozilla/firefox/${ENDS_WITH='.default-release'}"
-    #     entries:
-    #         - chrome # for firefox customizations
-
-    # code oss:
-    #     location: "$CONFIG_DIR/Code - OSS/User/"
-    #     entries:
-    #         - settings.json
-
+            - Preferences
 
 # The following files will only be used for exporting and importing.
 export:

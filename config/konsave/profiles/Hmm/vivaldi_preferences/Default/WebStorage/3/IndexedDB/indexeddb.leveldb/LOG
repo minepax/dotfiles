@@ -1,6 +1,0 @@
-2026/03/17-22:05:02.718 772f Reusing MANIFEST /home/mahesh/.config/vivaldi/Default/WebStorage/3/IndexedDB/indexeddb.leveldb/MANIFEST-000001
-2026/03/17-22:05:02.719 772f Recovering log #157
-2026/03/17-22:05:02.740 772f Reusing old log /home/mahesh/.config/vivaldi/Default/WebStorage/3/IndexedDB/indexeddb.leveldb/000157.log 
-2026/03/17-22:07:12.028 7731 Level-0 table #162: started
-2026/03/17-22:07:12.061 7731 Level-0 table #162: 1907131 bytes OK
-2026/03/17-22:07:12.076 7731 Delete type=0 #157

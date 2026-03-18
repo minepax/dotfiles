@@ -1,9 +1,0 @@
-2026/03/17-22:53:07.478 9bf1 Reusing MANIFEST /home/mahesh/.config/vivaldi/Default/WebStorage/3/IndexedDB/indexeddb.leveldb/MANIFEST-000001
-2026/03/17-22:53:07.478 9bf1 Recovering log #161
-2026/03/17-22:53:07.487 9bf1 Reusing old log /home/mahesh/.config/vivaldi/Default/WebStorage/3/IndexedDB/indexeddb.leveldb/000161.log 
-2026/03/17-22:53:07.597 9bf1 Compacting 1@1 + 1@2 files
-2026/03/17-22:53:07.608 9bf1 Generated table #163@1: 283 keys, 118117 bytes
-2026/03/17-22:53:07.608 9bf1 Compacted 1@1 + 1@2 files => 118117 bytes
-2026/03/17-22:53:07.614 9bf1 compacted to: files[ 0 0 1 0 0 0 0 ]
-2026/03/17-22:53:07.615 9bf1 Delete type=2 #154
-2026/03/17-22:53:07.615 9bf1 Delete type=2 #156

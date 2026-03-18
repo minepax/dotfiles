@@ -1,6 +1,0 @@
-2026/03/05-14:34:49.071 1d437 Creating DB /home/mahesh/.config/vivaldi/Default/IndexedDB/https_www.digitalspy.com_0.indexeddb.leveldb since it was missing.
-2026/03/05-14:34:49.081 1d437 Reusing MANIFEST /home/mahesh/.config/vivaldi/Default/IndexedDB/https_www.digitalspy.com_0.indexeddb.leveldb/MANIFEST-000001
-2026/03/05-16:46:07.118 1d439 Level-0 table #5: started
-2026/03/05-16:46:07.122 1d439 Level-0 table #5: 843 bytes OK
-2026/03/05-16:46:07.128 1d439 Delete type=0 #3
-2026/03/05-16:46:07.128 1d439 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

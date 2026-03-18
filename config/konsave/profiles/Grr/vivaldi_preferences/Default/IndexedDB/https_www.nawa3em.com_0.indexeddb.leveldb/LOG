@@ -1,6 +1,0 @@
-2026/02/07-00:22:35.951 1076f Creating DB /home/mahesh/.config/vivaldi/Default/IndexedDB/https_www.nawa3em.com_0.indexeddb.leveldb since it was missing.
-2026/02/07-00:22:35.989 1076f Reusing MANIFEST /home/mahesh/.config/vivaldi/Default/IndexedDB/https_www.nawa3em.com_0.indexeddb.leveldb/MANIFEST-000001
-2026/02/07-00:30:09.783 10759 Level-0 table #5: started
-2026/02/07-00:30:09.787 10759 Level-0 table #5: 3444 bytes OK
-2026/02/07-00:30:09.796 10759 Delete type=0 #3
-2026/02/07-00:30:09.799 10759 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
