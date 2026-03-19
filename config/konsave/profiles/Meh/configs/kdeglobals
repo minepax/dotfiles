@@ -107,7 +107,8 @@ ForegroundVisited=127,140,141
 [General]
 AccentColor=104,107,111
 BrowserApplication=vivaldi-stable.desktop
-ColorSchemeHash=de3edbee06a20cfe75da8d5a78adef7c86bea2ed
+ColorScheme=BreezeBlack
+ColorSchemeHash=150bcdac82d6576ec60f6c2b7c9bfef8e733f33b
 LastUsedCustomAccentColor=104,107,111
 TerminalApplication=kitty
 TerminalService=kitty.desktop
