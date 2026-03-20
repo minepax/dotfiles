@@ -8,7 +8,7 @@ LOCATION=$(cat "$HOME/.current_location" || echo "Coonoor")
 geo_data=$(curl -s "https://geocoding-api.open-meteo.com/v1/search?name=$LOCATION&count=1&language=en&format=json")
 
 if [[ -z "$geo_data" || "$geo_data" == *"\"results\":null"* ]]; then
-    echo "{\"text\": \"󰖪 Error\", \"tooltip\": \"Location not found\"}"
+    echo "{\"text\": \"󰤭 Error\", \"tooltip\": \"Location not found\"}"
     exit 0
 fi
 
@@ -20,7 +20,7 @@ full_name=$(echo "$geo_data" | jq -r '.results[0].name')
 weather_data=$(curl -s "https://api.open-meteo.com/v1/forecast?latitude=$lat&longitude=$lon&current_weather=true")
 
 if [[ -z "$weather_data" || "$weather_data" == *"error"* ]]; then
-    echo "{\"text\": \"󰖪 Error\", \"tooltip\": \"Weather service down\"}"
+    echo "{\"text\": \"󰤭 Error\", \"tooltip\": \"Weather service down\"}"
     exit 0
 fi
 

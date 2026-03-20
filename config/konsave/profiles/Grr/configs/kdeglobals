@@ -21,13 +21,13 @@ IntensityAmount=0
 IntensityEffect=0
 
 [Colors:Button]
-BackgroundAlternate=140,24,45
-BackgroundNormal=19,6,6
-DecorationFocus=192,33,63
-DecorationHover=192,33,63
-ForegroundActive=192,33,63
+BackgroundAlternate=124,21,41
+BackgroundNormal=0,0,0
+DecorationFocus=178,30,59
+DecorationHover=178,30,59
+ForegroundActive=178,30,59
 ForegroundInactive=189,195,199
-ForegroundLink=250,178,184
+ForegroundLink=251,175,182
 ForegroundNegative=218,68,83
 ForegroundNeutral=246,116,0
 ForegroundNormal=239,240,241
@@ -37,11 +37,11 @@ ForegroundVisited=127,140,141
 [Colors:Complementary]
 BackgroundAlternate=59,64,69
 BackgroundNormal=49,54,59
-DecorationFocus=192,33,63
-DecorationHover=192,33,63
-ForegroundActive=192,33,63
+DecorationFocus=178,30,59
+DecorationHover=178,30,59
+ForegroundActive=178,30,59
 ForegroundInactive=175,176,179
-ForegroundLink=250,178,184
+ForegroundLink=251,175,182
 ForegroundNegative=237,21,21
 ForegroundNeutral=201,206,59
 ForegroundNormal=239,240,241
@@ -49,13 +49,13 @@ ForegroundPositive=17,209,22
 ForegroundVisited=61,174,230
 
 [Colors:Selection]
-BackgroundAlternate=140,24,45
-BackgroundNormal=140,24,45
-DecorationFocus=192,33,63
-DecorationHover=192,33,63
-ForegroundActive=192,33,63
+BackgroundAlternate=124,21,41
+BackgroundNormal=124,21,41
+DecorationFocus=178,30,59
+DecorationHover=178,30,59
+ForegroundActive=178,30,59
 ForegroundInactive=255,255,255
-ForegroundLink=140,24,46
+ForegroundLink=130,22,43
 ForegroundNegative=218,68,83
 ForegroundNeutral=246,116,0
 ForegroundNormal=255,255,255
@@ -63,13 +63,13 @@ ForegroundPositive=39,174,96
 ForegroundVisited=189,195,199
 
 [Colors:Tooltip]
-BackgroundAlternate=77,77,77
-BackgroundNormal=19,6,6
-DecorationFocus=192,33,63
-DecorationHover=192,33,63
-ForegroundActive=192,33,63
+BackgroundAlternate=0,0,0
+BackgroundNormal=0,0,0
+DecorationFocus=178,30,59
+DecorationHover=178,30,59
+ForegroundActive=178,30,59
 ForegroundInactive=189,195,199
-ForegroundLink=250,178,184
+ForegroundLink=251,175,182
 ForegroundNegative=218,68,83
 ForegroundNeutral=246,116,0
 ForegroundNormal=239,240,241
@@ -77,13 +77,13 @@ ForegroundPositive=39,174,96
 ForegroundVisited=127,140,141
 
 [Colors:View]
-BackgroundAlternate=19,6,6
-BackgroundNormal=19,6,6
-DecorationFocus=192,33,63
-DecorationHover=192,33,63
-ForegroundActive=192,33,63
+BackgroundAlternate=0,0,0
+BackgroundNormal=0,0,0
+DecorationFocus=178,30,59
+DecorationHover=178,30,59
+ForegroundActive=178,30,59
 ForegroundInactive=189,195,199
-ForegroundLink=250,178,184
+ForegroundLink=251,175,182
 ForegroundNegative=218,68,83
 ForegroundNeutral=246,116,0
 ForegroundNormal=239,240,241
@@ -91,13 +91,13 @@ ForegroundPositive=39,174,96
 ForegroundVisited=127,140,141
 
 [Colors:Window]
-BackgroundAlternate=19,6,6
-BackgroundNormal=19,6,6
-DecorationFocus=192,33,63
-DecorationHover=192,33,63
-ForegroundActive=192,33,63
+BackgroundAlternate=0,0,0
+BackgroundNormal=0,0,0
+DecorationFocus=178,30,59
+DecorationHover=178,30,59
+ForegroundActive=178,30,59
 ForegroundInactive=189,195,199
-ForegroundLink=250,178,184
+ForegroundLink=251,175,182
 ForegroundNegative=218,68,83
 ForegroundNeutral=246,116,0
 ForegroundNormal=239,240,241
@@ -105,9 +105,9 @@ ForegroundPositive=39,174,96
 ForegroundVisited=127,140,141
 
 [General]
-AccentColor=192,33,63
+AccentColor=178,30,59
 BrowserApplication=vivaldi-stable.desktop
-ColorSchemeHash=150bcdac82d6576ec60f6c2b7c9bfef8e733f33b
+ColorSchemeHash=de3edbee06a20cfe75da8d5a78adef7c86bea2ed
 LastUsedCustomAccentColor=146,110,228
 TerminalApplication=kitty
 TerminalService=kitty.desktop
@@ -162,10 +162,10 @@ MaximumRemoteSize=0
 Theme=modern-minimal-ui-sounds-v1.1
 
 [WM]
-activeBackground=19,6,6
+activeBackground=0,0,0
 activeBlend=255,255,255
 activeFont=Geist,10,-1,5,700,0,0,0,0,0,0,0,0,0,0,1,Bold
 activeForeground=239,240,241
-inactiveBackground=19,6,6
+inactiveBackground=0,0,0
 inactiveBlend=75,71,67
 inactiveForeground=127,140,141

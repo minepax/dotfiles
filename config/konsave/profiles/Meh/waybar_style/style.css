@@ -1,17 +1,21 @@
+@define-color font #cccccc;
+@define-color bg #0d0d0d;
+
 * {
+    all: unset;
     font-family: JetBrains Mono nerd Font;
-    font-size: 14px;
+    font-size: 13px;
     font-weight: 800;
-    color: #cccccc;
+    color: @font;
 }
 
 window#waybar {
-    background-color: rgba(20, 20, 20, 1);
     border-radius: 100px;
+    background-color: @bg;
 }
 
 window#waybar > box {
-    padding: 10px 16px;
+    padding: 8px 16px;
 }
 
 .modules-center, .modules-left, .modules-right {
@@ -20,13 +24,13 @@ window#waybar > box {
 
 tooltip {
     border: none;
-    border-radius: 6px;
-    background-color: #cccccc;
+    border-radius: 8px;
+    background-color: @font;
 }
 
 tooltip label {
     padding: 5px 10px;
-    color: rgb(20, 20, 20);
+    color: @bg;
 }
 
 #custom-shutdown, #custom-power {
@@ -38,7 +42,6 @@ tooltip label {
 }
 
 #custom-workspaces {
-    color: #cccccc;
-    font-size: 14px;
+    font-size: 13px;
     transition: all 0.3s linear;
 }

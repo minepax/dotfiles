@@ -51,7 +51,10 @@ save:
             # App configs
             - kitty
             - rofi
-    #
+            
+            # KWin rules exclusively for KDE rounded corners outlines
+            - kwinrc
+
     waybar_style:
         location: "$CONFIG_DIR/waybar"
         entries:

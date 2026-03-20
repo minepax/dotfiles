@@ -24,6 +24,8 @@ qdbus6 org.kde.KWin /KWin reconfigure
 
 # 4. Restart the Shell & Waybar (You already had this)
 plasmashell --replace >/dev/null 2>&1 &
+# Kill all workspaces.sh process to bypass the lag
+pkill -f workspaces.sh
 if pgrep -x "waybar" >/dev/null; then
     killall "waybar"
     sleep 0.5
@@ -31,4 +33,4 @@ fi
 waybar &
 
 # 5. Send the notification
-notify-send -a "Theme Switcher" "Theme Switched!" "Environment Refreshed." -i preferences-desktop-theme -t 3000
+notify-send -a "Theme Switcher" "Theme Switched!" "'$THEME' Theme Applied!" -i preferences-desktop-theme -t 3000
