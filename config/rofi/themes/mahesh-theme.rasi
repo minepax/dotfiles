@@ -5,11 +5,11 @@
 
 * {
     /* Color Variables */
-    bg:          #110613b3;
-    bg-selected: #43194DFF;
+    bg:          #000000b3;
+    bg-selected: #333333FF;
     fg:          #FFFFFFFF;
     fg-alt:      #999999FF;
-    border-col:  #4B2D53FF;
+    border-col:  #444444FF;
 
     background-color: transparent;
     text-color:       @fg;

@@ -1,5 +1,5 @@
-@define-color font #dbb3e6;
-@define-color bg #110613;
+@define-color font #cccccc;
+@define-color bg #0d0d0d;
 
 * {
     all: unset;

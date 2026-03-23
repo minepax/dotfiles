@@ -7,7 +7,10 @@ configuration {
     combi-hide-mode-prefix: true;
     tokenize: true;
     sort: true;
-    levenshtein-sort: true;
+    levenshtein-sort: false;
 }
 
 @theme "/home/mahesh/.config/rofi/themes/mahesh-theme.rasi"
+
+// Rofi command
+// rofi -show combi -combi-modi "drun,files:~/.local/bin/rofi-file-search.sh" -mode combi -show-icons -icon-theme "~/.local/share/icons/YAMIS" -drun-display-format "{name}" -threads 0 -mem-cache-size 64 -scroll-method 1 -theme ~/.config/rofi/themes/mahesh-theme.rasi
