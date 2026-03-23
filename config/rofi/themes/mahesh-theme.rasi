@@ -5,15 +5,15 @@
 
 * {
     /* Color Variables */
-    bg:          #000000b3;
-    bg-selected: #333333FF;
+    bg:          #130606b3;
+    bg-selected: #4D1919FF;
     fg:          #FFFFFFFF;
     fg-alt:      #999999FF;
-    border-col:  #444444FF;
+    border-col:  #532D2DFF;
 
     background-color: transparent;
     text-color:       @fg;
-    font:            "JetBrainsMono Nerd Font SemiBold 12";
+    font:             "JetBrainsMono Nerd Font SemiBold 12";
 }
 
 window {

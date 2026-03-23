@@ -8,4 +8,4 @@ else
 fi
 
 # This is what will show up in your bar
-echo "Theme: $THEME"
+echo "󰃣 $THEME"

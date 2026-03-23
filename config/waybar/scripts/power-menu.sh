@@ -21,7 +21,7 @@ CHOICE=$(echo -e "$OPTIONS" | rofi -dmenu -no-show-icons -theme-str '
     listview {
         columns: 5;
         spacing: 50px;
-        margin: 30% 0;
+        margin: 35% 0;
         fixed-columns: true;
     }
 
