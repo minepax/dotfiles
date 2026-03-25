@@ -1,11 +1,12 @@
-@define-color font #cccccc;
-@define-color bg #0d0d0d;
+@import "colors.css";
 
 * {
     all: unset;
-    font-family: JetBrains Mono nerd Font;
-    font-size: 13px;
-    font-weight: 800;
+    padding: 0;
+    margin: 0;
+    font-family: "SF Pro Display", "JetBrainsMono Nerd Font Propo";
+    font-size: 14px;
+    font-weight: 700;
     color: @font;
 }
 
@@ -29,19 +30,12 @@ tooltip {
 }
 
 tooltip label {
-    padding: 5px 10px;
+    font-family: "JetBrainsMono Nerd Font Propo";
+    font-weight: 800;
+    padding: 4px 8px;
     color: @bg;
 }
 
-#custom-shutdown, #custom-power {
-    padding-right: 4px;
-}
-
-#custom-lock {
-    padding-right: 3px;
-}
-
 #custom-workspaces {
-    font-size: 13px;
-    transition: all 0.3s linear;
+    font-family: "JetBrainsMono Nerd Font";
 }
