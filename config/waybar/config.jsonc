@@ -43,20 +43,8 @@
         "on-click": "systemsettings kcm_kscreen",
         "scroll-step": 5
     },
-//    "clock": {
-//        "interval": 1,
-//        "format": "{:%r | %A}",
-//        "format-alt": "{:%B %d %Y}",
-//        "tooltip-format": "{calendar}",
-//        "actions": {
-//            "on-scroll-down": "shift_up",
-//            "on-scroll-up": "shift_down",
-//            "on-click-middle": "shift_reset",
-//            "on-click-right": "mode",
-//        }
-//    },
     "clock": {
-        "format": "{:%H:%M %p | %A}",
+        "format": "{:%H:%M %p, %A}",
         "format-alt": "{:%B %d %Y}",
         "tooltip-format": "{calendar}",
         "calendar": {
