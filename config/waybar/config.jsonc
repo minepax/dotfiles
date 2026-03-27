@@ -1,27 +1,24 @@
 {
-    "layer": "bottom",
+    "layer": "top",
     "position": "top",
     "exclusive": true,
     "passthrough": false,
-    "spacing": 20,
-    "margin": "8",
+    "spacing": 18,
+    "margin": "12 12 0 12",
     "modules-left": [
-        "custom/power",
-        // "custom/shutdown",
-        // "custom/reboot",
-        // "custom/lock",
-        "custom/themeswitcher",
-        "custom/weather"
+        "hyprland/workspaces"
+        // "custom/workspaces"
     ],
     "modules-center": [
+        "custom/themeswitcher",
         "clock",
-        "custom/workspaces"
+        "custom/weather"
     ],
     "modules-right": [
-        "bluetooth",
         "pulseaudio",
         // "backlight",
         "custom/brightness",
+        "bluetooth",
         // "battery",
         "network"
     ],
@@ -29,24 +26,24 @@
     "bluetooth": {
     	"format": " {status}",
     	"format-disabled": " Disconnected",
-    	"format-connected": " {num_connections} Devices",
-    	"tooltip-format": "{controller_alias}\t{controller_address}",
+    	"format-connected": " {num_connections}",
     	"tooltip-format-connected": "{device_enumerate}",
     	"tooltip-format-enumerate-connected": "{device_alias}",
         "on-click": "systemsettings kcm_bluetooth"
     },
     "backlight": {
         "device": "intel_backlight",
-        "format": "{icon} {percent}%",
+        "format": "{icon}",
         "format-icons": ["", ""],
-        "tooltip": false,
+        "tooltip-format": "{percent}%",
         "on-click": "systemsettings kcm_kscreen",
         "scroll-step": 5
     },
     "clock": {
-        "format": "{:%H:%M %p  |  %A}",
-        "format-alt": "{:%B %d %Y}",
+        "format": "{:%I:%M %p}",
+        "format-alt": "{:%A, %B %d %Y}",
         "tooltip-format": "{calendar}",
+        "locale": "en_US.UTF-8",
         "calendar": {
             "mode"          : "months",
             "mode-mon-col"  : 3,
@@ -65,7 +62,12 @@
                     "on-scroll-down": "tz_up",
                     "on-scroll-up": "shift_down",
                     "on-scroll-down": "shift_up"
-                    }
+        }
+    },
+    "hyprland/workspaces": {
+        "format": "{name}",
+        "on-click": "activate",
+        "sort-by-number": true
     },
     "pulseaudio": {
         "format": "{icon} {volume}%",
@@ -87,17 +89,16 @@
         "ignored-sinks": ["Easy Effects Sink"]
     },
     "network": {
-        "format-wifi": "{icon} Wi-Fi",
-        "format-ethernet": " Ethernet",
-        "format-disconnected": "󰤭 Disconnected",
+        "format-wifi": "{icon}",
+        "format-ethernet": "",
+        "format-disconnected": "󰤭",
         "format-icons": ["󰤟", "󰤢", "󰤥", "󰤨"],
         "tooltip-format-wifi": "{essid} ({signalStrength}%)",
-        "tooltip-format-ethernet": "{ifname}",
+        "tooltip-format-ethernet": "Ethernet",
         "tooltip-format-disconnected": "No Connections",
         "on-click": "systemsettings kcm_networkmanagement"
     },
     "battery": {
-        // "bat": "BAT2",
         "interval": 60,
         "format": "{icon} {capacity}%",
         "format-icons": {
@@ -106,20 +107,12 @@
         },
         "on-click": "systemsettings kcm_powerdevilprofilesconfig"
     },
-    "custom/brightness": {
-        "format": "{icon} {percentage}%",
-        "format-icons": ["", ""],
-        "return-type": "json",
-        "exec": "ddcutil --bus 2 getvcp 10 | grep -oP 'current.*?=\\s*\\K[0-9]+' | { read x; echo '{\"percentage\":'${x}'}'; }",
-        "on-scroll-up": "ddcutil --noverify --bus 2 setvcp 10 + 10",
-        "on-scroll-down": "ddcutil --noverify --bus 2 setvcp 10 - 10",
-        "on-click": "systemsettings kcm_kscreen",
-        "tooltip": false,
-        "signal": 5
-    },
-    "custom/power": {
-        "format": "",
-        "on-click": "~/.config/waybar/scripts/power-menu.sh",
+    "custom/themeswitcher": {
+        "exec": "~/.config/waybar/scripts/theme-switch.sh",
+        "return-type": "",
+        "interval": "once",
+        "signal": 1,
+        "on-click": "~/.local/bin/theme_switch.sh",
         "tooltip": false
     },
     "custom/weather": {
@@ -130,17 +123,15 @@
         "on-click": "~/.local/bin/rofi-location-switcher.sh",
         "tooltip": true
     },
-    "custom/workspaces": {
-        "format": "{}",
+    "custom/brightness": {
+        "format": "{icon} {percentage}%",
+        "format-icons": ["", ""],
         "return-type": "json",
-        "exec": "~/.config/waybar/scripts/workspaces.sh",
-    },
-    "custom/themeswitcher": {
-        "exec": "~/.config/waybar/scripts/theme-switch.sh",
-        "return-type": "",
-        "interval": "once",
-        "signal": 1,
-        "on-click": "~/.local/bin/theme_switch.sh",
+        "exec": "ddcutil --bus 2 getvcp 10 | grep -oP 'current.*?=\\s*\\K[0-9]+' | { read x; echo '{\"percentage\":'${x}'}'; }",
+        "on-scroll-up": "ddcutil --noverify --bus 2 setvcp 10 + 10",
+        "on-scroll-down": "ddcutil --noverify --bus 2 setvcp 10 - 10",
+        "on-click": "systemsettings kcm_kscreen",
+        "signal": 5,
         "tooltip": false
     }
 }

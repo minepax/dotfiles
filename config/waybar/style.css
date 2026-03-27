@@ -4,6 +4,7 @@
     all: unset;
     padding: 0;
     margin: 0;
+    min-height: 0;
     font-family: "SF Pro Display", "JetBrainsMono Nerd Font Propo";
     font-size: 14px;
     font-weight: 700;
@@ -11,16 +12,23 @@
 }
 
 window#waybar {
+    background-color: transparent;
+}
+
+window#waybar>box {
+    background-color: transparent;
+}
+
+.modules-center,
+.modules-left,
+.modules-right {
+    padding: 7px 14px;
     border-radius: 100px;
     background-color: @bg;
 }
 
-window#waybar > box {
-    padding: 8px 16px;
-}
-
-.modules-center, .modules-left, .modules-right {
-    padding: 0px;
+.modules-left {
+    padding: 7px;
 }
 
 tooltip {
@@ -38,4 +46,25 @@ tooltip label {
 
 #custom-workspaces {
     font-family: "JetBrainsMono Nerd Font";
+}
+
+#workspaces button {
+    margin: 0 2px;
+    min-width: 20px;
+    border-radius: 100px;
+    transition: all 0.2s ease;
+}
+
+#workspaces button.active {
+    min-width: 40px;
+    min-height: 1rem;
+    background-color: @font;
+}
+
+#workspaces button.active label {
+    color: @bg;
+}
+
+#workspaces button.empty label {
+    color: @font2;
 }

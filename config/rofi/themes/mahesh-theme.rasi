@@ -1,26 +1,19 @@
-/**
- * User: mahesh
- * Font: JetBrainsMono Nerd Font 12
-**/
-
 * {
-    /* Color Variables */
-    bg:          #130606b3;
-    bg-selected: #4D1919FF;
-    fg:          #FFFFFFFF;
+    bg:          #000000B3;
+    bg-selected: #222222FF;
+    fg:          #DDDDDDFF;
     fg-alt:      #999999FF;
-    border-col:  #532D2DFF;
+    border-col:  #444444FF;
 
     background-color: transparent;
     text-color:       @fg;
-    font:             "JetBrainsMono Nerd Font SemiBold 12";
+    font:             "SF Pro Display Bold 12";
 }
 
 window {
     location:       center;
     anchor:         center;
-    width:          50%;
-    height:         600px;
+    width:          40%;
     x-offset:       0;
     y-offset:       0;
 
@@ -47,7 +40,7 @@ inputbar {
     padding:            0px;
     background-color:   transparent;
     text-color:         @fg;
-    children:           [ "prompt", "entry" ];
+    children:           [ "entry" ];
 }
 
 prompt {
@@ -69,13 +62,14 @@ entry {
 listview {
     enabled:            true;
     columns:            1;
-    lines:              12;
+    dynamic:            true;
     cycle:              false;
     dynamic:            true;
     scrollbar:          false;
     layout:             vertical;
     reverse:            false;
-    fixed-height:       true;
+    lines:              10;
+    fixed-height:       false;
     fixed-columns:      true;
 
     spacing:            0px;

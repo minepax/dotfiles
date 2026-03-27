@@ -1,2 +1,8 @@
-@define-color font #e6b3b3;
-@define-color bg #130606;
+/* @define-color font #e6b3b3;
+@define-color bg #130606; 
+@define-color bg2 #4d0000 */
+
+@define-color font #cccccc;
+@define-color font2 #666666;
+@define-color bg #0d0d0d;
+@define-color bg2 #333333;

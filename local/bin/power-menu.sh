@@ -7,31 +7,28 @@ OPTIONS="\n\n\n\n󰗼"
 # I've set a slim width (15%) to make it look like a vertical power strip
 CHOICE=$(echo -e "$OPTIONS" | rofi -dmenu -no-show-icons -theme-str '
     window {
-        fullscreen: true;
+        width: 800px;
         location: center;
         anchor: center;
-        border: 0px;
-        border-radius: 0px;
     }
-    
+
     mainbox {
         children: [ "listview" ];
     }
 
     listview {
         columns: 5;
-        spacing: 50px;
-        margin: 35% 0;
-        fixed-columns: true;
+        lines: 1;
+        spacing: 20px;
+        margin: 0 0;
     }
 
     element {
-        orientation: horizontal;
-        padding: 90px 50px;
+        padding: 50px;
     }
 
     element-text {
-        font: "JetBrains Nerd Font 48";
+        font: "JetBrains Nerd Font 24";
         vertical-align: 0.5;
         horizontal-align: 0.5;
     }
@@ -48,10 +45,10 @@ case "$CHOICE" in
     systemctl suspend
     ;;
 *)
-    loginctl lock-session
+    hyprlock
     ;;
 *󰗼)
-    qdbus6 org.kde.Shutdown /Shutdown org.kde.Shutdown.logout
+    hyprctl dispatch exit
     ;;
 *)
     exit 0

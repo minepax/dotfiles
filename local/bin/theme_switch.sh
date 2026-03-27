@@ -3,7 +3,15 @@
 STATE_FILE="$HOME/.current_theme"
 OPTIONS="Meh\nHmm\nGrr"
 
-THEME=$(echo -e "$OPTIONS" | rofi -dmenu -no-show-icons -p "Theme")
+THEME=$(echo -e "$OPTIONS" | rofi -dmenu -no-show-icons -theme-str '
+    window {
+        width: 12ch;
+    }
+
+    mainbox {
+        children: [ "listview" ];
+    }
+')
 
 if [ -z "$THEME" ]; then
     exit 0

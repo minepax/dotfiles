@@ -3,6 +3,7 @@ configuration {
     show-icons: true;
     icon-theme: "Papirus-Dark";
     markup-rows: true;
+    display-combi: "";
     combi-display-format: "{text}";
     combi-hide-mode-prefix: true;
     tokenize: true;

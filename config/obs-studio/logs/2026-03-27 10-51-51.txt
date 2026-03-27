@@ -1,0 +1,178 @@
+10:51:51.045: Crash or unclean shutdown detected
+10:51:52.825: [Safe Mode] Normal launch selected, loading third-party plugins is enabled
+10:51:52.825: Platform: Wayland
+10:51:52.825: CPU Name: Intel(R) Core(TM) i7-5500U CPU @ 2.40GHz
+10:51:52.825: CPU Speed: 2934.238MHz
+10:51:52.825: Physical Cores: 2, Logical Cores: 4
+10:51:52.825: Physical Memory: 15908MB Total, 2945MB Free
+10:51:52.825: Kernel Version: Linux 6.19.9-1-cachyos
+10:51:52.825: Distribution: "CachyOS Linux" Unknown
+10:51:52.825: Desktop Environment: Hyprland (Hyprland)
+10:51:52.825: Session Type: wayland
+10:51:52.829: Current Date/Time: 2026-03-27, +04 10:51:52 ص
+10:51:52.829: Browser Hardware Acceleration: true
+10:51:52.829: Qt Version: 6.10.2 (runtime), 6.10.2 (compiled)
+10:51:52.829: Portable mode: false
+10:51:52.867: OBS 32.1.0 (linux)
+10:51:52.867: ---------------------------------
+10:51:52.868: ---------------------------------
+10:51:52.868: audio settings reset:
+10:51:52.868: 	samples per sec: 48000
+10:51:52.868: 	speakers:        2
+10:51:52.868: 	max buffering:   960 milliseconds
+10:51:52.868: 	buffering type:  dynamically increasing
+10:51:52.872: ---------------------------------
+10:51:52.872: Initializing OpenGL...
+10:51:52.873: Using EGL/Wayland
+10:51:52.882: Initialized EGL 1.5
+10:51:52.906: Loading up OpenGL on adapter Intel Mesa Intel(R) HD Graphics 5500 (BDW GT2)
+10:51:52.906: OpenGL loaded successfully, version 4.6 (Core Profile) Mesa 26.0.3-arch2.2, shading language 4.60
+10:51:52.953: ---------------------------------
+10:51:52.953: video settings reset:
+10:51:52.953: 	base resolution:   1920x1080
+10:51:52.953: 	output resolution: 1920x1080
+10:51:52.953: 	downscale filter:  Lanczos
+10:51:52.953: 	fps:               30/1
+10:51:52.953: 	format:            NV12
+10:51:52.953: 	YUV mode:          Rec. 709/Partial
+10:51:52.954: NV12 texture support enabled
+10:51:52.954: P010 texture support not available
+10:51:52.962: Audio monitoring device:
+10:51:52.962: 	name: Default
+10:51:52.962: 	id: default
+10:51:52.966: ---------------------------------
+10:51:52.969: Failed to load 'en-US' text for module: 'decklink-captions.so'
+10:51:52.972: Failed to load 'en-US' text for module: 'decklink-output-ui.so'
+10:51:52.974: A DeckLink iterator could not be created.  The DeckLink drivers may not be installed
+10:51:52.974: Failed to initialize module 'decklink.so'
+10:51:53.156: [pipewire] Available capture sources:
+10:51:53.156: [pipewire]     - Monitor source
+10:51:53.156: [pipewire]     - Window source
+10:51:53.209: VAAPI: API version 1.23
+10:51:53.209: FFmpeg VAAPI H264 encoding supported
+10:51:53.394: FFmpeg VAAPI AV1 encoding not supported
+10:51:53.488: FFmpeg VAAPI HEVC encoding not supported
+10:51:53.841: [NVENC] Test process failed: no_supported_devices
+10:51:53.841: NVENC not supported
+10:51:53.841: Failed to initialize module 'obs-nvenc.so'
+10:51:53.992: [obs-websocket] [obs_module_load] you can haz websockets (Version: 5.7.2 | RPC Version: 1)
+10:51:53.992: [obs-websocket] [obs_module_load] Qt version (compile-time): 6.10.2 | Qt version (run-time): 6.10.2
+10:51:53.992: [obs-websocket] [obs_module_load] Linked ASIO Version: 103600
+10:51:53.998: [obs-websocket] [obs_module_load] Module loaded.
+10:51:54.007: ---------------------------------
+10:51:54.007:   Loaded Modules:
+10:51:54.007:     text-freetype2.so
+10:51:54.007:     rtmp-services.so
+10:51:54.007:     obs-x264.so
+10:51:54.007:     obs-websocket.so
+10:51:54.007:     obs-webrtc.so
+10:51:54.007:     obs-vst.so
+10:51:54.007:     obs-transitions.so
+10:51:54.007:     obs-qsv11.so
+10:51:54.007:     obs-outputs.so
+10:51:54.007:     obs-libfdk.so
+10:51:54.007:     obs-filters.so
+10:51:54.007:     obs-ffmpeg.so
+10:51:54.007:     linux-v4l2.so
+10:51:54.007:     linux-pulseaudio.so
+10:51:54.007:     linux-pipewire.so
+10:51:54.007:     linux-jack.so
+10:51:54.007:     linux-capture.so
+10:51:54.007:     linux-alsa.so
+10:51:54.007:     image-source.so
+10:51:54.007:     frontend-tools.so
+10:51:54.007:     decklink-output-ui.so
+10:51:54.007:     decklink-captions.so
+10:51:54.007: ---------------------------------
+10:51:54.007: ---------------------------------
+10:51:54.007: Available Encoders:
+10:51:54.007:   Video Encoders:
+10:51:54.007: 	- ffmpeg_svt_av1 (SVT-AV1)
+10:51:54.007: 	- ffmpeg_aom_av1 (AOM AV1)
+10:51:54.007: 	- ffmpeg_vaapi_tex (FFmpeg VAAPI H.264)
+10:51:54.007: 	- obs_qsv11_v2 (QuickSync H.264)
+10:51:54.007: 	- obs_x264 (x264)
+10:51:54.007:   Audio Encoders:
+10:51:54.007: 	- ffmpeg_aac (FFmpeg AAC)
+10:51:54.007: 	- ffmpeg_opus (FFmpeg Opus)
+10:51:54.007: 	- ffmpeg_pcm_s16le (FFmpeg PCM (16-bit))
+10:51:54.007: 	- ffmpeg_pcm_s24le (FFmpeg PCM (24-bit))
+10:51:54.007: 	- ffmpeg_pcm_f32le (FFmpeg PCM (32-bit float))
+10:51:54.007: 	- ffmpeg_alac (FFmpeg ALAC (24-bit))
+10:51:54.007: 	- ffmpeg_flac (FFmpeg FLAC (16-bit))
+10:51:54.007: 	- libfdk_aac (libfdk AAC)
+10:51:54.007: ==== Startup complete ===============================================
+10:51:54.065: All scene data cleared
+10:51:54.065: ------------------------------------------------
+10:51:54.072: Device for 'Audio Output Capture' source Desktop Audio is also used for audio monitoring.
+10:51:54.072: Deduplication logic is being applied to all monitored sources.
+10:51:54.072: pulse-input: Server name: 'PulseAudio (on PipeWire 1.6.2) 15.0.0'
+10:51:54.072: pulse-input: Audio format: s16le, 48000 Hz, 2 channels
+10:51:54.072: pulse-input: Started recording from 'bluez_output.00_1E_7C_91_24_8C.1.monitor' (default)
+10:51:54.072: [Loaded global audio device]: 'Desktop Audio'
+10:51:54.073: pulse-input: Server name: 'PulseAudio (on PipeWire 1.6.2) 15.0.0'
+10:51:54.073: pulse-input: Audio format: s32le, 48000 Hz, 2 channels
+10:51:54.073: pulse-input: Started recording from 'alsa_input.pci-0000_00_1b.0.analog-stereo' (default)
+10:51:54.073: [Loaded global audio device]: 'Mic/Aux'
+10:51:54.074: PipeWire initialized
+10:51:54.076: Switched to scene 'Scene'
+10:51:54.076: ------------------------------------------------
+10:51:54.076: Loaded scenes:
+10:51:54.076: - scene 'Scene':
+10:51:54.076:     - source: 'Screen Capture (PipeWire)' (pipewire-screen-capture-source)
+10:51:54.076: ------------------------------------------------
+10:51:54.109: Device for 'Audio Output Capture' source Desktop Audio is also used for audio monitoring.
+10:51:54.109: Deduplication logic is being applied to all monitored sources.
+10:51:54.188: [pipewire] Screencast session created
+10:51:54.640: adding 21 milliseconds of audio buffering, total audio buffering is now 21 milliseconds (source: Desktop Audio)
+10:51:54.640: 
+10:52:03.444: [pipewire] Asking for monitor and window
+10:52:03.451: [pipewire] source selected, setting up screencast
+10:52:03.463: [pipewire] Server version: 1.6.2
+10:52:03.463: [pipewire] Library version: 1.6.2
+10:52:03.463: [pipewire] Header version: 1.6.1
+10:52:03.463: [pipewire] Created stream 0x55dcb5a864b0
+10:52:03.463: [pipewire] Stream 0x55dcb5a864b0 state: "connecting" (error: none)
+10:52:03.464: [pipewire] Playing stream 0x55dcb5a864b0
+10:52:03.467: [pipewire] Stream 0x55dcb5a864b0 state: "paused" (error: none)
+10:52:03.480: [pipewire] Negotiated format:
+10:52:03.480: [pipewire]     Format: 12 (Spa:Enum:VideoFormat:BGRA)
+10:52:03.480: [pipewire]     Modifier: 0x0
+10:52:03.480: [pipewire]     Size: 1920x1080
+10:52:03.480: [pipewire]     Framerate: 0/1
+10:52:03.484: [pipewire] Negotiated format:
+10:52:03.485: [pipewire]     Format: 12 (Spa:Enum:VideoFormat:BGRA)
+10:52:03.485: [pipewire]     Modifier: 0x100000000000002
+10:52:03.485: [pipewire]     Size: 1920x1080
+10:52:03.485: [pipewire]     Framerate: 0/1
+10:52:03.493: [pipewire] Stream 0x55dcb5a864b0 state: "streaming" (error: none)
+10:52:09.595: ---------------------------------
+10:52:09.596: [FFmpeg VAAPI encoder: 'advanced_video_recording'] settings:
+10:52:09.596: 	device:       /dev/dri/by-path/pci-0000:00:02.0-render
+10:52:09.596: 	rate_control: CBR
+10:52:09.596: 	profile:      100
+10:52:09.596: 	level:        -99
+10:52:09.596: 	qp:           0
+10:52:09.596: 	bitrate:      5000
+10:52:09.596: 	maxrate:      5000
+10:52:09.596: 	keyint:       120
+10:52:09.596: 	width:        1920
+10:52:09.596: 	height:       1080
+10:52:09.596: 	b-frames:     0
+10:52:09.596: 	ffmpeg opts:  
+10:52:09.596: 
+10:52:09.612: ---------------------------------
+10:52:09.612: [FFmpeg aac encoder: 'Track1'] bitrate: 320, channels: 2, channel_layout: stereo, track: 1
+10:52:09.612: 
+10:52:09.619: ==== Recording Start ===============================================
+10:52:09.619: [mp4 output: 'adv_file_output'] Writing Hybrid MP4/MOV file '/home/mahesh/Videos/OBS/2026-03-27 10-52-09.mp4'...
+10:52:21.797: [mp4 muxer: 'adv_file_output'] Flushing final fragment...
+10:52:21.799: [mp4 muxer: 'adv_file_output'] Number of fragments: 3
+10:52:21.799: [mp4 muxer: 'adv_file_output'] Full moov size: 5 KiB
+10:52:21.799: [mp4 muxer: 'adv_file_output'] Final mdat size: 7334 KiB
+10:52:21.799: Output 'adv_file_output': stopping
+10:52:21.799: Output 'adv_file_output': Total frames output: 361
+10:52:21.799: Output 'adv_file_output': Total drawn frames: 366
+10:52:21.799: [mp4 output: 'adv_file_output'] Waiting for file writer to finish...
+10:52:21.800: ==== Recording Stop ================================================
+10:52:21.800: [mp4 output: 'adv_file_output'] File output complete. Finalization took 3 ms.
