@@ -7,7 +7,7 @@
     min-height: 0;
     font-family: "SF Pro Display", "JetBrainsMono Nerd Font Propo";
     font-size: 14px;
-    font-weight: 700;
+    font-weight: 800;
     color: @font;
 }
 
@@ -22,13 +22,13 @@ window#waybar>box {
 .modules-center,
 .modules-left,
 .modules-right {
-    padding: 7px 14px;
+    padding: 6px 12px;
     border-radius: 100px;
     background-color: @bg;
 }
 
 .modules-left {
-    padding: 7px;
+    padding: 6px;
 }
 
 tooltip {
@@ -57,7 +57,6 @@ tooltip label {
 
 #workspaces button.active {
     min-width: 40px;
-    min-height: 1rem;
     background-color: @font;
 }
 
@@ -65,6 +64,10 @@ tooltip label {
     color: @bg;
 }
 
-#workspaces button.empty label {
-    color: @font2;
+#workspaces button:first-child {
+    margin-left: 0;
+}
+
+#workspaces button:last-child {
+    margin-right: 0;
 }

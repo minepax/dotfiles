@@ -89,9 +89,9 @@
         "ignored-sinks": ["Easy Effects Sink"]
     },
     "network": {
-        "format-wifi": "{icon}",
-        "format-ethernet": "",
-        "format-disconnected": "󰤭",
+        "format-wifi": "{icon} Wi-Fi",
+        "format-ethernet": " Ethernet",
+        "format-disconnected": "󰤭 Disconnected",
         "format-icons": ["󰤟", "󰤢", "󰤥", "󰤨"],
         "tooltip-format-wifi": "{essid} ({signalStrength}%)",
         "tooltip-format-ethernet": "Ethernet",

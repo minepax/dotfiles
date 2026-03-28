@@ -8,7 +8,7 @@ configuration {
     combi-hide-mode-prefix: true;
     tokenize: true;
     sort: true;
-    levenshtein-sort: true;
+    levenshtein-sort: false;
 }
 
 @theme "/home/mahesh/.config/rofi/themes/mahesh-theme.rasi"
