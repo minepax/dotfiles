@@ -24,7 +24,7 @@ window#waybar>box {
 .modules-right {
     padding: 6px 12px;
     border-radius: 100px;
-    background-color: @bg;
+    background-color: alpha(@bg, 0.9);
 }
 
 .modules-left {
@@ -34,7 +34,7 @@ window#waybar>box {
 tooltip {
     border: none;
     border-radius: 8px;
-    background-color: @font;
+    background-color: alpha(@font, 0.9);
 }
 
 tooltip label {

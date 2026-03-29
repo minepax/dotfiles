@@ -1,9 +1,9 @@
 * {
-    bg:          #000000B3;
-    bg-selected: #222222FF;
-    fg:          #DDDDDDFF;
-    fg-alt:      #999999FF;
-    border-col:  #444444FF;
+    bg:          #0d0d0db3;
+    bg-selected: #333333FF;
+    fg:          #ccccccFF;
+    fg-alt:      #666666FF;
+    border-col:  #cccccc80;
 
     background-color: transparent;
     text-color:       @fg;
