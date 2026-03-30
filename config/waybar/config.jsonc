@@ -10,7 +10,6 @@
         // "custom/workspaces"
     ],
     "modules-center": [
-        "custom/themeswitcher",
         "clock",
         "custom/weather"
     ],
@@ -28,8 +27,8 @@
     	"format-disabled": " Disconnected",
     	"format-connected": " {num_connections}",
     	"tooltip-format-connected": "{device_enumerate}",
-    	"tooltip-format-enumerate-connected": "{device_alias}",
-        "on-click": "systemsettings kcm_bluetooth"
+    	"tooltip-format-enumerate-connected": "{device_alias} {device_battery_percentage}%",
+        "on-click": "kitty bluetuith"
     },
     "backlight": {
         "device": "intel_backlight",
@@ -96,7 +95,7 @@
         "tooltip-format-wifi": "{essid} ({signalStrength}%)",
         "tooltip-format-ethernet": "Ethernet",
         "tooltip-format-disconnected": "No Connections",
-        "on-click": "systemsettings kcm_networkmanagement"
+        "on-click": "nm-connection-editor"
     },
     "battery": {
         "interval": 60,

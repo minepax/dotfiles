@@ -3,7 +3,7 @@
     bg-selected: #333333FF;
     fg:          #ccccccFF;
     fg-alt:      #666666FF;
-    border-col:  #cccccc80;
+    border-col:  #cccccc4d;
 
     background-color: transparent;
     text-color:       @fg;

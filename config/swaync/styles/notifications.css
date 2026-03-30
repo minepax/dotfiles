@@ -1,0 +1,82 @@
+@define-color text @foreground;
+@define-color background-alt @color1;
+@define-color selected @color3;
+@define-color hover @color5;
+@define-color urgent @color2;
+
+.notification-row {
+    outline: none;
+}
+
+.floating-notifications.background .notification-row .notification-background {
+    background: alpha(@bg, 0.7);
+    border: 1px solid alpha(@font, 0.3);
+    box-shadow: 0 0 10px 0 alpha(@bg, 0.7);
+    border-radius: 8px;
+    margin: 32px;
+}
+
+.floating-notifications.background .notification-row .notification-background .notification.critical {
+    border: 2px solid @urgent;
+}
+
+.floating-notifications.background .notification-row .notification-background .notification .notification-content {
+    padding: 12px;
+}
+
+.floating-notifications.background .notification-row .notification-background .notification>*:last-child>* {
+    min-height: 2rem;
+}
+
+.floating-notifications.background .notification-row .notification-background .notification>*:last-child>* .notification-action {
+    border-radius: 8px;
+    background-color: @bg;
+    color: red;
+    margin: 6px;
+    border: 1px solid transparent;
+}
+
+.floating-notifications.background .notification-row .notification-background .notification>*:last-child>* .notification-action:hover {
+    background-color: @hover;
+    border: 1px solid @bg2;
+}
+
+.image {
+    margin: 10px 20px 10px 0px;
+}
+
+.summary {
+    font-weight: 800;
+    font-size: 1rem;
+}
+
+.body {
+    font-weight: 500;
+    font-size: 0.7rem;
+}
+
+.floating-notifications.background .notification-row .notification-background .close-button {
+    margin: 6px;
+    padding: 2px;
+    border-radius: 6px;
+    background-color: transparent;
+    border: 1px solid transparent;
+}
+
+.floating-notifications.background .notification-row .notification-background .close-button:hover {
+    background-color: @bg2;
+}
+
+/* Target the progress bar specifically in notifications */
+progressbar,
+progress,
+trough {
+    min-height: 5px;
+    border-radius: 100px;
+    background: alpha(@bg2, 0.5);
+}
+
+progress {
+    border-radius: 100px;
+    background-color: @font; /* A nice Blue, or use your theme color */
+}

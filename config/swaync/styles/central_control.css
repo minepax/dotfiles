@@ -1,0 +1,223 @@
+* {
+    font-family: "SF Pro Display";
+    font-size: 1rem;
+    font-weight: 800;
+    color: @font;
+    all: unset;
+    margin: 0;
+    padding: 0;
+    transition: 200ms;
+}
+
+/* Avoid 'annoying' backgroud */
+.blank-window {
+    background: transparent;
+}
+
+/* CONTROL CENTER ------------------------------------------------------------------------ */
+
+.control-center {
+    margin: 32px;
+    padding: 0px 24px;
+    color: @font;
+    border: 1px solid alpha(@font, 0.3);
+    border-radius: 12px;
+    background-color: alpha(@bg, 0.7);
+    box-shadow: 4px 4px 8px alpha(@bg, 0.7);
+}
+
+/* Notifications  */
+.control-center .notification-row .notification-background,
+.control-center .notification-row .notification-background .notification.critical {
+    margin: 4px 0px;
+    border: 1px solid alpha(@font, 0.2);
+    border-radius: 8px;
+    background-color: @bg;
+}
+
+.control-center .notification-row .notification-background .notification.critical {
+    color: red;
+}
+
+.control-center .notification-row .notification-background .notification .notification-content {
+    padding: 12px;
+}
+
+.control-center .notification-row .notification-background .notification>*:last-child>* {
+    min-height: 2rem;
+}
+
+.control-center .notification-row .notification-background .notification>*:last-child>* .notification-action {
+    background: red;
+    border-radius: 6px;
+    margin: 6px;
+}
+
+.control-center .notification-row .notification-background .notification>*:last-child>* .notification-action:hover {
+    background: @font2;
+}
+
+.control-center .notification-row .notification-background .notification>*:last-child>* .notification-action:active {
+    background-color: @font2;
+}
+
+/* Buttons */
+
+.control-center .notification-row .notification-background .close-button {
+    margin: 3px;
+    background: transparent;
+}
+
+progressbar,
+progress,
+trough {
+    border-radius: 12px;
+}
+
+progressbar {
+    background-color: rgba(255, 255, 255, .1);
+}
+
+/* Notifications expanded-group */
+
+.notification-group {
+    margin-bottom: 8px;
+    padding: 12px;
+    border: 1px solid alpha(@font, 0.2);
+    border-radius: 8px;
+    background: alpha(@bg2, 0.5);
+}
+
+.notification-group-headers {
+    font-weight: 700;
+    font-size: 1.25rem;
+}
+
+.notification-group-collapse-button,
+.notification-group-close-all-button {
+    margin: 2px;
+    padding: 4px;
+    border: 1px solid alpha(@font, 0.2);
+    border-radius: 6px;
+    background: @bg;
+}
+
+.notification-group-collapse-button:hover,
+.notification-group-close-all-button:hover {
+    background: @bg2;
+}
+
+/* WIDGETS --------------------------------------------------------------------------- */
+
+/* Notification clear button */
+.widget-title {
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+
+.widget-title button {
+    padding: 2px 16px;
+    border: 1px solid alpha(@font, 0.2);
+    border-radius: 6px;
+    background: alpha(@bg2, 0.5);
+}
+
+.widget-title button:hover {
+    background: @bg2;
+}
+
+/* Do not disturb */
+.widget-dnd {
+    font-weight: 700;
+    font-size: 1.1rem;
+    margin: 12px 0px;
+}
+
+.widget-dnd>switch {
+    font-size: initial;
+    padding: 2px;
+    border: 1px solid alpha(@font, 0.2);
+    border-radius: 100px;
+    background: alpha(@bg2, 0.5);
+}
+
+.widget-dnd>switch:hover {
+    background: @bg2;
+}
+
+.widget-dnd>switch slider {
+    border-radius: 50%;
+    background: @font2;
+}
+
+.widget-dnd>switch:checked slider {
+    background: @font;
+}
+
+
+/* Buttons menu */
+.widget-buttons-grid {
+    font-size: x-large;
+    margin: 6px;
+    padding: 6px 2px;
+    border-radius: 12px;
+    background: @background-alt;
+}
+
+.widget-buttons-grid>flowbox>flowboxchild>button {
+    margin: 4px 10px;
+    padding: 6px 12px;
+    border-radius: 8px;
+    background: transparent;
+}
+
+.widget-buttons-grid>flowbox>flowboxchild>button:hover {
+    background: @hover;
+}
+
+
+/* Music player */
+.widget-mpris {
+    margin: 20px 0px;
+    background: transparent;
+}
+
+/* NOTE: Background need *opacity 1* otherwise will turn into the album art blurred  */
+.widget-mpris-player {
+    padding: 12px;
+    border: 1px solid alpha(@font, 0.2);
+    border-radius: 8px;
+    background: alpha(@bg2, 0.5);
+}
+
+.widget-mpris>box>button {
+    border: 1px solid red;
+    border-radius: 12px;
+}
+
+.widget-mpris-album-art {
+    border-radius: 12px;
+}
+
+.widget-mpris-title {
+    font-weight: 700;
+    font-size: 1rem;
+}
+
+.widget-mpris-subtitle {
+    font-weight: 500;
+    font-size: 0.8rem;
+}
+
+picture.mpris-background {
+    opacity: 0;
+}
+
+/* Volume */
+.widget-volume {
+    background: @background;
+    color: @background;
+    padding: 4px;
+    margin: 6px;
+    border-radius: 6px;
+}

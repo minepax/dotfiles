@@ -70,8 +70,8 @@
             "id": "pipewire-screen-capture-source",
             "versioned_id": "pipewire-screen-capture-source",
             "settings": {
-                "RestoreToken": "",
-                "ShowCursor": true
+                "ShowCursor": true,
+                "RestoreToken": ""
             },
             "mixers": 0,
             "sync": 0,
@@ -218,7 +218,7 @@
     "saved_projectors": [],
     "preview_locked": false,
     "scaling_enabled": false,
-    "scaling_level": -10,
+    "scaling_level": -11,
     "scaling_off_x": 0.0,
     "scaling_off_y": 0.0,
     "virtual-camera": {
