@@ -10,6 +10,7 @@
         // "custom/workspaces"
     ],
     "modules-center": [
+        "custom/theme-display",
         "clock",
         "custom/weather"
     ],
@@ -21,6 +22,12 @@
         // "battery",
         "network"
     ],
+
+    "custom/theme-display": {
+        "format": "󰃣 {}",
+        "exec": "jq -r '.theme | (ascii_upcase[0:1] + .[1:])' ~/.config/vshypr-theme-manager/current-theme.json",
+        "tooltip": false
+    },
 
     "bluetooth": {
     	"format": " {status}",

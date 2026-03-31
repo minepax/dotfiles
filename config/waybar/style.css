@@ -1,4 +1,50 @@
-@import "colors.css";
+/* theme-changer: begin */
+@define-color base #11140e;
+@define-color mantle #0c0f09;
+@define-color crust #1d211a;
+@define-color surface0 #191d16;
+@define-color surface1 #282b24;
+@define-color overlay0 #43483e;
+@define-color text #e1e4d9;
+@define-color subtext0 #c4c8bb;
+@define-color blue #abd290;
+@define-color mauve #bdcbaf;
+@define-color red #ffb4ab;
+@define-color green #a0cfcf;
+@define-color yellow #c6eeaa;
+@define-color peach #d9e7ca;
+/* theme-changer: end */
+
+/* theme-changer: begin keyframes */
+@keyframes ws-active {
+    0%   { background-color: #abd290; }
+    50%  { background-color: #bdcbaf; }
+    100% { background-color: #abd290; }
+}
+/* theme-changer: end keyframes */
+
+/* theme-changer: begin modules */
+.modules-left,
+.modules-center,
+.modules-right {
+    background: rgba(17,20,14,0.95);
+    border-radius: 14px;
+    padding: 2px 10px;
+    border: 2px solid #191d16;
+    min-height: 0;
+}
+/* theme-changer: end modules */
+
+.modules-center,
+.modules-left,
+.modules-right {
+    padding: 4px 8px;
+    border-radius: 100px;
+}
+
+.modules-left {
+    padding: 4px;
+}
 
 * {
     all: unset;
@@ -8,60 +54,38 @@
     font-family: "SF Pro Display", "JetBrainsMono Nerd Font Propo";
     font-size: 14px;
     font-weight: 800;
-    color: @font;
-}
-
-window#waybar {
-    background-color: transparent;
-}
-
-window#waybar>box {
-    background-color: transparent;
-}
-
-.modules-center,
-.modules-left,
-.modules-right {
-    padding: 6px 12px;
-    border-radius: 100px;
-    background-color: alpha(@bg, 0.9);
-}
-
-.modules-left {
-    padding: 6px;
+    color: @text;
 }
 
 tooltip {
     border: none;
     border-radius: 8px;
-    background-color: alpha(@font, 0.9);
+    background-color: @text;
 }
 
 tooltip label {
     font-family: "JetBrainsMono Nerd Font Propo";
     font-weight: 800;
     padding: 4px 8px;
-    color: @bg;
-}
-
-#custom-workspaces {
-    font-family: "JetBrainsMono Nerd Font";
+    color: @base;
 }
 
 #workspaces button {
     margin: 0 2px;
+    padding: 0 5px;
     min-width: 20px;
     border-radius: 100px;
     transition: all 0.2s ease;
+    background-color: @surface0;
 }
 
 #workspaces button.active {
     min-width: 40px;
-    background-color: @font;
+    animation: ws-active forwards;
 }
 
 #workspaces button.active label {
-    color: @bg;
+    color: @crust;
 }
 
 #workspaces button:first-child {
@@ -71,40 +95,3 @@ tooltip label {
 #workspaces button:last-child {
     margin-right: 0;
 }
-
-/* theme-changer: begin */
-@define-color base #191d27;
-@define-color mantle #2e3440;
-@define-color crust #1e2330;
-@define-color surface0 #242b38;
-@define-color surface1 #2a3040;
-@define-color overlay0 #3b4252;
-@define-color text #eceff4;
-@define-color subtext0 #d8dee9;
-@define-color blue #88c0d0;
-@define-color mauve #b48ead;
-@define-color red #bf616a;
-@define-color green #8fbcbb;
-@define-color yellow #ebcb8b;
-@define-color peach #d08770;
-/* theme-changer: end */
-
-/* theme-changer: begin modules */
-.modules-left,
-.modules-center,
-.modules-right {
-    background: rgba(25,29,39,0.95);
-    border-radius: 14px;
-    padding: 2px 10px;
-    border: 2px solid #242b38;
-    min-height: 0;
-}
-/* theme-changer: end modules */
-
-/* theme-changer: begin keyframes */
-@keyframes ws-active {
-    0%   { background-color: #88c0d0; }
-    50%  { background-color: #81a1c1; }
-    100% { background-color: #88c0d0; }
-}
-/* theme-changer: end keyframes */

@@ -2,7 +2,7 @@
     font-family: "SF Pro Display";
     font-size: 1rem;
     font-weight: 800;
-    color: @font;
+    color: var(--text-color);
     all: unset;
     margin: 0;
     padding: 0;
@@ -19,20 +19,24 @@
 .control-center {
     margin: 32px;
     padding: 0px 24px;
-    color: @font;
-    border: 1px solid alpha(@font, 0.3);
+    color: var(--text-color);
+    border: 1px solid var(--noti-border-color);
     border-radius: 12px;
-    background-color: alpha(@bg, 0.7);
-    box-shadow: 4px 4px 8px alpha(@bg, 0.7);
+    background-color: var(--cc-bg);
+    box-shadow: 4px 4px 8px var(--cc-bg);
 }
 
 /* Notifications  */
 .control-center .notification-row .notification-background,
 .control-center .notification-row .notification-background .notification.critical {
     margin: 4px 0px;
-    border: 1px solid alpha(@font, 0.2);
+    border: 1px solid var(--noti-border-color);
     border-radius: 8px;
-    background-color: @bg;
+    background-color: rgb(var(--noti-bg));
+}
+
+.notification-icon {
+    background: black;
 }
 
 .control-center .notification-row .notification-background .notification.critical {
@@ -54,18 +58,18 @@
 }
 
 .control-center .notification-row .notification-background .notification>*:last-child>* .notification-action:hover {
-    background: @font2;
+    background-color: var(--bg-selected);
 }
 
 .control-center .notification-row .notification-background .notification>*:last-child>* .notification-action:active {
-    background-color: @font2;
+    background-color: var(--bg-selected);
 }
 
 /* Buttons */
 
 .control-center .notification-row .notification-background .close-button {
     margin: 3px;
-    background: transparent;
+    background-color: ;
 }
 
 progressbar,
@@ -83,9 +87,9 @@ progressbar {
 .notification-group {
     margin-bottom: 8px;
     padding: 12px;
-    border: 1px solid alpha(@font, 0.2);
+    border: 1px solid var(--noti-border-color);
     border-radius: 8px;
-    background: alpha(@bg2, 0.5);
+    background-color: rgba(var(--noti-bg), 0.3);
 }
 
 .notification-group-headers {
@@ -185,9 +189,13 @@ progressbar {
 /* NOTE: Background need *opacity 1* otherwise will turn into the album art blurred  */
 .widget-mpris-player {
     padding: 12px;
-    border: 1px solid alpha(@font, 0.2);
+    border: 1px solid var(--noti-border-color);
     border-radius: 8px;
-    background: alpha(@bg2, 0.5);
+    background-color: var(--noti-bg-darker);
+}
+
+.widget-mpris-player:hover {
+    background-color: var(--bg-selected);
 }
 
 .widget-mpris>box>button {

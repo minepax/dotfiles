@@ -1,27 +1,26 @@
-@define-color text @foreground;
-@define-color background-alt @color1;
-@define-color selected @color3;
-@define-color hover @color5;
-@define-color urgent @color2;
-
 .notification-row {
     outline: none;
 }
 
 .floating-notifications.background .notification-row .notification-background {
-    background: alpha(@bg, 0.7);
-    border: 1px solid alpha(@font, 0.3);
-    box-shadow: 0 0 10px 0 alpha(@bg, 0.7);
-    border-radius: 8px;
     margin: 32px;
+    border: 2px solid var(--noti-border-color);
+    border-radius: 8px;
+    background-color: rgba(var(--noti-bg), var(--noti-bg-alpha));
+    box-shadow: 4px 4px 8px rgba(var(--noti-bg), var(--noti-bg-alpha));
 }
 
-.floating-notifications.background .notification-row .notification-background .notification.critical {
-    border: 2px solid @urgent;
+.floating-notifications.background .notification-row .notification-background:hover {
+    background-color: var(--noti-bg-hover);
 }
 
 .floating-notifications.background .notification-row .notification-background .notification .notification-content {
     padding: 12px;
+    color: var(--text-color);
+}
+
+.floating-notifications.background .notification-row .notification-background .notification .notification-icon {
+    background: black;
 }
 
 .floating-notifications.background .notification-row .notification-background .notification>*:last-child>* {
@@ -78,5 +77,6 @@ trough {
 
 progress {
     border-radius: 100px;
-    background-color: @font; /* A nice Blue, or use your theme color */
+    background-color: @font;
+    /* A nice Blue, or use your theme color */
 }
