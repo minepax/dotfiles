@@ -1,5 +1,5 @@
 configuration {
-    modes: "run,drun,ssh,filebrowser,combi";
+    modes: "run,drun,ssh,filebrowser,combi,calc";
     show-icons: true;
     icon-theme: "Papirus-Dark";
     markup-rows: true;
@@ -9,6 +9,12 @@ configuration {
     tokenize: true;
     sort: true;
     levenshtein-sort: false;
+
+    calc {
+        display-format: "{result}";
+        display-history: false;
+        no-history: true;
+    }
 }
 
 * {
@@ -17,15 +23,15 @@ configuration {
 
 * {
     /* theme-changer: begin */
-    bg:      #11140e;
-    bg-sel:  #191d16;
-    fg:      #e1e4d9;
-    fg-dim:  #c4c8bb;
-    accent:  #abd290;
+    bg:      #0d1117;
+    bg-sel:  #161b22;
+    fg:      #c9d1d9;
+    fg-dim:  #8b949e;
+    accent:  #58a6ff;
 
     background-color: transparent;
     text-color:       @fg;
-    border-color:     #282b24;
+    border-color:     #30363d;
     spacing:          0;
     padding:          0;
     margin:           0;
@@ -33,17 +39,17 @@ configuration {
 }
 
 window {
-    location:       center;
-    anchor:         center;
-    width:          40%;
-    x-offset:       0;
-    y-offset:       0;
+    location:           center;
+    anchor:             center;
+    width:              40%;
+    x-offset:           0;
+    y-offset:           0;
 
-    enabled:              true;
-    border:               1px;
-    border-radius:        12px;
-    background-color:     @bg;
-    cursor:               "default";
+    enabled:            true;
+    border:             0;
+    border-radius:      12px;
+    background-color:   @bg;
+    cursor:             "default";
 }
 
 mainbox {
@@ -51,6 +57,17 @@ mainbox {
     spacing:            20px;
     padding:            20px;
     children:           [ "inputbar", "listview" ];
+}
+
+message {
+    border:             0;
+    padding:            10px 0;
+    border-radius:      10px;
+    background-color:   transparent;
+}
+
+textbox {
+    text-color:         @fg;
 }
 
 /* Search Bar Area */
