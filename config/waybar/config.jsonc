@@ -26,7 +26,8 @@
     "custom/theme-display": {
         "format": "󰃣 {}",
         "exec": "jq -r '.theme | (ascii_upcase[0:1] + .[1:])' ~/.config/vshypr-theme-manager/current-theme.json",
-        "tooltip": false
+        "tooltip": false,
+        "interval": 60
     },
 
     "bluetooth": {
@@ -105,13 +106,13 @@
         "on-click": "nm-connection-editor"
     },
     "battery": {
-        "interval": 60,
         "format": "{icon} {capacity}%",
         "format-icons": {
             "default": ["󰂎", "󰁺", "󰁻", "󰁼", "󰁽", "󰁾", "󰁿", "󰂀", "󰂁", "󰂂", "󰁹"],
             "charging": ["󰢟", "󰢜", "󰂆", "󰂇", "󰂈", "󰢝", "󰂉", "󰢞", "󰂊", "󰂋", "󰂅"]
         },
-        "on-click": "systemsettings kcm_powerdevilprofilesconfig"
+        "on-click": "systemsettings kcm_powerdevilprofilesconfig",
+        "interval": 60
     },
     "custom/themeswitcher": {
         "exec": "~/.config/waybar/scripts/theme-switch.sh",

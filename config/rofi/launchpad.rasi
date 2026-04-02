@@ -22,11 +22,11 @@ configuration {
     padding:          0;
     margin:           0;
     /* theme-changer: begin */
-    bg:      #0d1117;
-    bg-alt:  #161b22;
-    fg:      #c9d1d9;
-    fg-dim:  #8b949e;
-    sel:     #58a6ff;
+    bg:      #11140e;
+    bg-alt:  #191d16;
+    fg:      #e1e4d9;
+    fg-dim:  #c4c8bb;
+    sel:     #abd290;
 
     background-color: transparent;
     text-color:       @fg;
