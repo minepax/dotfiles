@@ -10,6 +10,7 @@ fd . "$SEARCH_DIR" \
     --exclude .cache \
     --exclude node_modules \
     --exclude .mozilla \
+    --exclude mnt \
     --exclude .config/BraveSoftware |
     awk '
 {

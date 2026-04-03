@@ -103,7 +103,7 @@
         "tooltip-format-wifi": "{essid} ({signalStrength}%)",
         "tooltip-format-ethernet": "Ethernet",
         "tooltip-format-disconnected": "No Connections",
-        "on-click": "nm-connection-editor"
+        "on-click": "kitty nmtui"
     },
     "battery": {
         "format": "{icon} {capacity}%",
