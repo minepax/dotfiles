@@ -19,11 +19,11 @@ configuration {
     padding:          0;
     margin:           0;
     /* theme-changer: begin */
-    bg:      #1a1c20;
-    bg-alt:  #141421;
+    bg:      #1c2b23;
+    bg-alt:  #19231c;
     fg:      #d3dae3;
     fg-dim:  #666a73;
-    sel:     #d6246e;
+    sel:     #41ae76;
 
     background-color: transparent;
     text-color:       @fg;
