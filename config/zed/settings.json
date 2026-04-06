@@ -87,4 +87,5 @@
   "theme": "One Black",
   "format_on_save": "off",
   "ensure_final_newline_on_save": false,
+  "disable_ai": true
 }
