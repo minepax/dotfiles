@@ -21,15 +21,15 @@ configuration {
     padding:          0;
     margin:           0;
     /* theme-changer: begin */
-    bg:      #1c2b23;
-    bg-sel:  #19231c;
-    fg:      #d3dae3;
-    fg-dim:  #666a73;
-    accent:  #41ae76;
+    bg:      #1a1b26;
+    bg-sel:  #24283b;
+    fg:      #c0caf5;
+    fg-dim:  #a9b1d6;
+    accent:  #7aa2f7;
 
     background-color: transparent;
     text-color:       @fg;
-    border-color:     #1c2b23;
+    border-color:     #3b4261;
     spacing:          0;
     padding:          0;
     margin:           0;

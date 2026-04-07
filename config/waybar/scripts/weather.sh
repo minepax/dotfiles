@@ -1,77 +1,55 @@
 #!/bin/bash
 
 # --- CONFIGURATION ---
-LOCATION=$(cat "$HOME/.current_location" || echo "Coonoor")
+LOCATION=$(cat "$HOME/.current_location" 2>/dev/null || echo "Sharjah")
+CACHE_FILE="/tmp/waybar_weather_cache.json"
+CACHE_TTL=600 # 10 minutes in seconds
 # ---------------------
 
-# 1. Geocoding: Get Lat/Lon
-geo_data=$(curl -s "https://geocoding-api.open-meteo.com/v1/search?name=$LOCATION&count=1&language=en&format=json")
+# Check if cache is fresh
+if [ -f "$CACHE_FILE" ]; then
+    last_update=$(stat -c %Y "$CACHE_FILE")
+    now=$(date +%s)
+    if [ $((now - last_update)) -lt $CACHE_TTL ]; then
+        cat "$CACHE_FILE"
+        exit 0
+    fi
+fi
 
-if [[ -z "$geo_data" || "$geo_data" == *"\"results\":null"* ]]; then
-    echo "{\"text\": \"󰤭 Error\", \"tooltip\": \"Location not found\"}"
+# Fetch new data from wttr.in (JSON format)
+# We use --max-time to prevent Waybar from hanging if wttr.in is slow
+weather_data=$(curl -s --max-time 7 "https://wttr.in/${LOCATION}?format=j1")
+
+# Check if we got a valid JSON response
+if [[ $? -ne 0 || -z "$weather_data" || "$weather_data" == *"toolate"* || "$weather_data" == *"503"* ]]; then
+    if [ -f "$CACHE_FILE" ]; then
+        # If API fails, serve the old cache
+        cat "$CACHE_FILE"
+    else
+        echo "{\"text\": \"󰤭 N/A\", \"tooltip\": \"Weather service limited\"}"
+    fi
     exit 0
 fi
 
-lat=$(echo "$geo_data" | jq '.results[0].latitude')
-lon=$(echo "$geo_data" | jq '.results[0].longitude')
-full_name=$(echo "$geo_data" | jq -r '.results[0].name')
+# Parse data using jq
+temp=$(echo "$weather_data" | jq -r '.current_condition[0].temp_C')
+code=$(echo "$weather_data" | jq -r '.current_condition[0].weatherCode')
+desc=$(echo "$weather_data" | jq -r '.current_condition[0].weatherDesc[0].value')
 
-# 2. Weather: Fetch data
-weather_data=$(curl -s "https://api.open-meteo.com/v1/forecast?latitude=$lat&longitude=$lon&current_weather=true")
-
-if [[ -z "$weather_data" || "$weather_data" == *"error"* ]]; then
-    echo "{\"text\": \"󰤭 Error\", \"tooltip\": \"Weather service down\"}"
-    exit 0
-fi
-
-# Parse weather
-temp=$(echo "$weather_data" | jq '.current_weather.temperature' | sed 's/\..*//')
-code=$(echo "$weather_data" | jq '.current_weather.weathercode')
-
-# 3. Granular Mapping (Separating 1, 2, and 3)
+# Mapping wttr.in codes to your preferred Nerd Font icons
 case "$code" in
-0)
-    icon="󰖙"
-    desc="Sunny"
-    ;; # Google: Sunny
-1)
-    icon="󰖙"
-    desc="Mostly Sunny"
-    ;; # Google: Mostly Sunny
-2)
-    icon="󰖕"
-    desc="Partly Cloudy"
-    ;; # Google: Partly Cloudy
-3)
-    icon="󰖐"
-    desc="Mostly Cloudy"
-    ;; # Google: Mostly Cloudy
-45 | 48)
-    icon="󰖑"
-    desc="Mist"
-    ;; # Google: Mist
-51 | 53 | 55)
-    icon="󰖖"
-    desc="Showers"
-    ;; # Google: Showers
-61 | 63 | 65)
-    icon="󰖗"
-    desc="Rain"
-    ;; # Google: Rain
-80 | 81 | 82)
-    icon="󰖖"
-    desc="Rain Showers"
-    ;;
-95 | 96 | 99)
-    icon="󰙾"
-    desc="Thunderstorm"
-    ;;
-*)
-    icon=""
-    desc="Cloudy"
-    ;;
+113) icon="󰖙" ;;                                                                   # Sunny
+116) icon="󰖙" ;;                                                                   # Partly Cloudy
+119 | 122) icon="󰖕" ;;                                                             # Cloudy
+143 | 248 | 260) icon="󰖑" ;;                                                       # Fog/Mist
+176 | 263 | 266 | 293 | 296 | 299 | 302 | 305 | 308 | 353 | 356 | 359) icon="󰖗" ;; # Rain
+200 | 386 | 389 | 392 | 395) icon="󰙾" ;;                                           # Thunderstorm
+*) icon="" ;;                                                                     # Default Cloudy
 esac
 
-# Return JSON to Waybar
-# I added (Code: $code) to the tooltip so you can verify it's changing!
-echo "{\"text\": \"$icon ${temp}°C\", \"tooltip\": \"$desc in $full_name\"}"
+# Construct JSON
+output="{\"text\": \"$icon ${temp}°C\", \"tooltip\": \"$desc in $LOCATION\"}"
+
+# Save to cache and print
+echo "$output" >"$CACHE_FILE"
+echo "$output"
