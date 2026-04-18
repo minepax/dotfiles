@@ -2,18 +2,18 @@
 
 /* theme-changer: begin */
 :root {
-  --cc-bg:               rgba(40,42,54,0.93);
-  --noti-border-color:   rgba(98,114,164,0.35);
-  --noti-bg:             68, 71, 90;
+  --cc-bg:               rgba(31,35,40,0.93);
+  --noti-border-color:   rgba(68,75,83,0.35);
+  --noti-bg:             43, 48, 54;
   --noti-bg-alpha:       0.85;
-  --noti-bg-darker:      #282a36;
-  --noti-bg-hover:       #6272a4;
-  --noti-bg-focus:       rgba(98,114,164,0.3);
-  --noti-close-bg:       #6272a4;
-  --noti-close-bg-hover: #6272a4;
-  --text-color:          #f8f8f2;
-  --text-color-disabled: #abb2bf;
-  --bg-selected:         #bd93f9;
+  --noti-bg-darker:      #1f2328;
+  --noti-bg-hover:       #31363d;
+  --noti-bg-focus:       rgba(68,75,83,0.3);
+  --noti-close-bg:       #31363d;
+  --noti-close-bg-hover: #444b53;
+  --text-color:          #d0d4d9;
+  --text-color-disabled: #8a9199;
+  --bg-selected:         #8fa1b3;
 }
 /* theme-changer: end */
 
