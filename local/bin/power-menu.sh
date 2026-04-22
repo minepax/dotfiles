@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Define the options with icons
-OPTIONS="\n\n\n\n󰗼"
+OPTIONS="󰐥\n\n\n\n󰗼"
 
 # Launch Rofi
 # I've set a slim width (15%) to make it look like a vertical power strip
