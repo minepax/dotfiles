@@ -5,7 +5,6 @@ CONF_DIR="$HOME/.config"
 BIN_DIR="$HOME/.local/bin"
 
 # 1. Sync files to the dotfiles folder
-# We use rsync to efficiently copy only changed files
 echo "Syncing configs..."
 rsync -av --delete --exclude 'google-chrome' --exclude 'discord' "$CONF_DIR/fastfetch" "$DOTS_DIR/config/"
 rsync -av --delete "$CONF_DIR/waybar" "$DOTS_DIR/config/"
@@ -16,12 +15,8 @@ rsync -av --delete "$CONF_DIR/zed" "$DOTS_DIR/config/"
 rsync -av --delete "$CONF_DIR/nvim" "$DOTS_DIR/config/"
 rsync -av --delete "$CONF_DIR/obs-studio" "$DOTS_DIR/config/"
 rsync -av --delete "$CONF_DIR/Open-RGB" "$DOTS_DIR/config/"
-rsync -av --delete "$CONF_DIR/waybar-ddcutil.py" "$DOTS_DIR/config/"
 
 rsync -av --delete "$BIN_DIR/" "$DOTS_DIR/local/bin/"
-
-# Add any other specific configs you want here
-# Example: cp "$HOME/.zshrc" "$DOTS_DIR/"
 
 # 2. Git Automation
 cd "$DOTS_DIR" || exit
