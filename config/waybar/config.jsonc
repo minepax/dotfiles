@@ -9,7 +9,7 @@
         "hyprland/workspaces"
     ],
     "modules-center": [
-        "custom/theme-display",
+        // "custom/theme-display",
         "clock",
         "custom/weather"
     ],
