@@ -69,7 +69,6 @@
 
 .control-center .notification-row .notification-background .close-button {
     margin: 3px;
-    background-color: ;
 }
 
 progressbar,
@@ -101,14 +100,14 @@ progressbar {
 .notification-group-close-all-button {
     margin: 2px;
     padding: 4px;
-    border: 1px solid alpha(@font, 0.2);
+    border: 1px solid var(--noti-border-color);
     border-radius: 6px;
-    background: @bg;
+    background: var(--noti-bg-darker);
 }
 
 .notification-group-collapse-button:hover,
 .notification-group-close-all-button:hover {
-    background: @bg2;
+    background: rgb(var(--noti-bg));
 }
 
 /* WIDGETS --------------------------------------------------------------------------- */
@@ -121,13 +120,13 @@ progressbar {
 
 .widget-title button {
     padding: 2px 16px;
-    border: 1px solid alpha(@font, 0.2);
+    border: 1px solid var(--noti-border-color);
     border-radius: 6px;
-    background: alpha(@bg2, 0.5);
+    background: var(--noti-bg);
 }
 
 .widget-title button:hover {
-    background: @bg2;
+    background: rgb(var(--noti-bg));
 }
 
 /* Do not disturb */
@@ -140,22 +139,22 @@ progressbar {
 .widget-dnd>switch {
     font-size: initial;
     padding: 2px;
-    border: 1px solid alpha(@font, 0.2);
+    border: 1px solid var(--noti-border-color);
     border-radius: 100px;
-    background: alpha(@bg2, 0.5);
+    background: var(--noti-bg-darker);
 }
 
 .widget-dnd>switch:hover {
-    background: @bg2;
+    background: rgb(var(--noti-bg));
 }
 
 .widget-dnd>switch slider {
     border-radius: 50%;
-    background: @font2;
+    background: var(--text-color-disabled);
 }
 
 .widget-dnd>switch:checked slider {
-    background: @font;
+    background: var(--text-color);
 }
 
 
@@ -186,21 +185,11 @@ progressbar {
     background: transparent;
 }
 
-/* NOTE: Background need *opacity 1* otherwise will turn into the album art blurred  */
 .widget-mpris-player {
     padding: 12px;
     border: 1px solid var(--noti-border-color);
     border-radius: 8px;
     background-color: var(--noti-bg-darker);
-}
-
-.widget-mpris-player:hover {
-    background-color: var(--bg-selected);
-}
-
-.widget-mpris>box>button {
-    border: 1px solid red;
-    border-radius: 12px;
 }
 
 .widget-mpris-album-art {
@@ -219,13 +208,4 @@ progressbar {
 
 picture.mpris-background {
     opacity: 0;
-}
-
-/* Volume */
-.widget-volume {
-    background: @background;
-    color: @background;
-    padding: 4px;
-    margin: 6px;
-    border-radius: 6px;
 }

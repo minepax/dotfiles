@@ -2,7 +2,7 @@
 
 /* theme-changer: begin */
 :root {
-  --cc-bg:               rgba(15,23,34,0.93);
+  --cc-bg:               rgba(15,23,34,0.8);
   --noti-border-color:   rgba(127,140,163,0.35);
   --noti-bg:             30, 42, 61;
   --noti-bg-alpha:       0.85;

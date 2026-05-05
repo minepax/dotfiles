@@ -24,7 +24,7 @@ configuration {
 
 * {
     /* theme-changer: begin */
-    bg:      #0F1722;
+    bg:      rgba(15,23,34,0.8);
     bg-sel:  #1E2A3D;
     fg:      #E6EDF7;
     fg-dim:  #AAB4C3;
@@ -47,7 +47,7 @@ window {
     y-offset:           0;
 
     enabled:            true;
-    border:             0;
+    border:             2;
     border-radius:      12px;
     background-color:   @bg;
     cursor:             "default";
