@@ -1,0 +1,73 @@
+@import "colors.css";
+
+* {
+    all: unset;
+    padding: 0;
+    margin: 0;
+    min-height: 0;
+    font-family: "SF Pro Display", "JetBrainsMono Nerd Font Propo";
+    font-size: 14px;
+    font-weight: 800;
+    color: @font;
+}
+
+window#waybar {
+    background-color: transparent;
+}
+
+window#waybar>box {
+    background-color: transparent;
+}
+
+.modules-center,
+.modules-left,
+.modules-right {
+    padding: 6px 12px;
+    border-radius: 100px;
+    background-color: alpha(@bg, 0.9);
+}
+
+.modules-left {
+    padding: 6px;
+}
+
+tooltip {
+    border: none;
+    border-radius: 8px;
+    background-color: alpha(@font, 0.9);
+}
+
+tooltip label {
+    font-family: "JetBrainsMono Nerd Font Propo";
+    font-weight: 800;
+    padding: 4px 8px;
+    color: @bg;
+}
+
+#custom-workspaces {
+    font-family: "JetBrainsMono Nerd Font";
+}
+
+#workspaces button {
+    margin: 0 2px;
+    min-width: 20px;
+    border-radius: 100px;
+    transition: all 0.2s ease;
+}
+
+#workspaces button.active {
+    min-width: 40px;
+    background-color: @font;
+}
+
+#workspaces button.active label {
+    color: @bg;
+}
+
+#workspaces button:first-child {
+    margin-left: 0;
+}
+
+#workspaces button:last-child {
+    margin-right: 0;
+}

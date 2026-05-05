@@ -1,0 +1,32 @@
+{
+  "meta": {
+    "name": "arc-aurora-dark",
+    "display_name": "Arc Aurora Dark",
+    "variant": "dark"
+  },
+  "colors": {
+    "bg": "#052726",
+    "bg_alt": "#073634",
+    "surface": "#0c3c39",
+    "surface2": "#124b48",
+    "surface3": "#124b48",
+    "overlay": "#1a5550",
+    "fg": "#dedede",
+    "fg_dim": "#bdc3c7",
+    "accent": "#58d147",
+    "accent_alt": "#3daee9",
+    "accent_dim": "#58d147",
+    "red": "#da4453",
+    "orange": "#f67400",
+    "yellow": "#c9ce3b",
+    "green": "#27ae60",
+    "teal": "#3daee9",
+    "teal_dim": "#3daee9",
+    "blue": "#313bef",
+    "mauve": "#7f8c8d",
+    "pink": "#da4453",
+    "border_active": "#58d147",
+    "border_inactive": "#073634",
+    "shadow": "#010f0e"
+  }
+}

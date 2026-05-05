@@ -7,6 +7,8 @@ BIN_DIR="$HOME/.local/bin"
 # 1. Sync files to the dotfiles folder
 echo "Syncing configs..."
 rsync -av --delete --exclude 'google-chrome' --exclude 'discord' "$CONF_DIR/fastfetch" "$DOTS_DIR/config/"
+rsync -av --delete "$CONF_DIR/hypr" "$DOTS_DIR/config/"
+rsync -av --delete "$CONF_DIR/vshypr-theme-manager" "$DOTS_DIR/config/"
 rsync -av --delete "$CONF_DIR/waybar" "$DOTS_DIR/config/"
 rsync -av --delete "$CONF_DIR/swaync" "$DOTS_DIR/config/"
 rsync -av --delete "$CONF_DIR/rofi" "$DOTS_DIR/config/"

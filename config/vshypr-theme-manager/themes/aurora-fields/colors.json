@@ -1,0 +1,35 @@
+{
+  "meta": {
+    "name": "aurora-fields",
+    "display_name": "Aurora Fields",
+    "variant": "light"
+  },
+  "colors": {
+    "bg": "#FFFDF4",
+    "bg_alt": "#FFF799",
+    "surface": "#F2F6FB",
+    "surface2": "#E4ECF7",
+    "surface3": "#D6E2F2",
+    "overlay": "#8A94A6",
+    "fg": "#1F2A3A",
+    "fg_dim": "#5C6A7D",
+
+    "accent": "#4C8CE4",
+    "accent_alt": "#91D06C",
+    "accent_dim": "#406093",
+
+    "red": "#D95C5C",
+    "orange": "#F2A541",
+    "yellow": "#FFF799",
+    "green": "#6BBF59",
+    "teal": "#4CB3C7",
+    "teal_dim": "#3A8FA0",
+    "blue": "#406093",
+    "mauve": "#7B8190",
+    "pink": "#E07BAA",
+
+    "border_active": "#4C8CE4",
+    "border_inactive": "#E4ECF7",
+    "shadow": "#C9D3E1"
+  }
+}

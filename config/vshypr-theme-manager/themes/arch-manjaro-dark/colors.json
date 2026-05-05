@@ -1,0 +1,32 @@
+{
+  "meta": {
+    "name": "arch-manjaro-dark",
+    "display_name": "Arch Manjaro Dark",
+    "variant": "dark"
+  },
+  "colors": {
+    "bg": "#282a33",
+    "bg_alt": "#303239",
+    "surface": "#323445",
+    "surface2": "#2f343f",
+    "surface3": "#2f343f",
+    "overlay": "#2f343f",
+    "fg": "#d3dae3",
+    "fg_dim": "#666a73",
+    "accent": "#2eb398",
+    "accent_alt": "#42ffd6",
+    "accent_dim": "#2eb398",
+    "red": "#da4453",
+    "orange": "#f67400",
+    "yellow": "#fdbc4b",
+    "green": "#27ae60",
+    "teal": "#2eb398",
+    "teal_dim": "#2eb398",
+    "blue": "#2980b9",
+    "mauve": "#bdc3c7",
+    "pink": "#da4453",
+    "border_active": "#2eb398",
+    "border_inactive": "#282a33",
+    "shadow": "#141618"
+  }
+}

@@ -1,0 +1,97 @@
+/* theme-changer: begin */
+@define-color base #0F1722;
+@define-color mantle #2C3A57;
+@define-color crust #1A2433;
+@define-color surface0 #1E2A3D;
+@define-color surface1 #25324A;
+@define-color overlay0 #7F8CA3;
+@define-color text #E6EDF7;
+@define-color subtext0 #AAB4C3;
+@define-color blue #4C8CE4;
+@define-color mauve #9AA3B2;
+@define-color red #FF6B6B;
+@define-color green #4FD1C5;
+@define-color yellow #FFF799;
+@define-color peach #FFB347;
+/* theme-changer: end */
+
+/* theme-changer: begin keyframes */
+@keyframes ws-active {
+    0%   { background-color: #4C8CE4; }
+    50%  { background-color: #91D06C; }
+    100% { background-color: #4C8CE4; }
+}
+/* theme-changer: end keyframes */
+
+/* theme-changer: begin modules */
+.modules-left,
+.modules-center,
+.modules-right {
+    background: rgba(15,23,34,0.95);
+    border-radius: 14px;
+    padding: 2px 10px;
+    border: 2px solid #1E2A3D;
+    min-height: 0;
+}
+/* theme-changer: end modules */
+
+.modules-center,
+.modules-left,
+.modules-right {
+    padding: 4px 8px;
+    border-radius: 100px;
+}
+
+.modules-left {
+    padding: 4px;
+}
+
+* {
+    all: unset;
+    padding: 0;
+    margin: 0;
+    min-height: 0;
+    font-family: "SF Pro Display", "JetBrainsMono Nerd Font Propo";
+    font-size: 14px;
+    font-weight: 800;
+    color: @text;
+}
+
+tooltip {
+    border: none;
+    border-radius: 8px;
+    background-color: @text;
+}
+
+tooltip label {
+    font-family: "JetBrainsMono Nerd Font Propo";
+    font-weight: 800;
+    padding: 4px 8px;
+    color: @base;
+}
+
+#workspaces button {
+    margin: 0 2px;
+    padding: 0 5px;
+    min-width: 20px;
+    border-radius: 100px;
+    transition: all 0.2s ease;
+    background-color: @surface0;
+}
+
+#workspaces button.active {
+    min-width: 40px;
+    animation: ws-active forwards;
+}
+
+#workspaces button.active label {
+    color: @crust;
+}
+
+#workspaces button:first-child {
+    margin-left: 0;
+}
+
+#workspaces button:last-child {
+    margin-right: 0;
+}

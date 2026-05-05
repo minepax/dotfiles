@@ -1,0 +1,35 @@
+{
+  "meta": {
+    "name": "azure-dunes",
+    "display_name": "Azure Dunes",
+    "variant": "dark"
+  },
+  "colors": {
+    "bg": "#1D5D9B",
+    "bg_alt": "#2468AA",
+    "surface": "#2B73B9",
+    "surface2": "#327EC8",
+    "surface3": "#3989D7",
+    "overlay": "#8FAFCC",
+    "fg": "#F4F8FB",
+    "fg_dim": "#C7D6E5",
+
+    "accent": "#75C2F6",
+    "accent_alt": "#F4D160",
+    "accent_dim": "#5AA9D8",
+
+    "red": "#E57373",
+    "orange": "#F4A261",
+    "yellow": "#F4D160",
+    "green": "#7BC96F",
+    "teal": "#5EC2D1",
+    "teal_dim": "#4AA5B2",
+    "blue": "#75C2F6",
+    "mauve": "#A0AEC0",
+    "pink": "#F29CB7",
+
+    "border_active": "#75C2F6",
+    "border_inactive": "#2B73B9",
+    "shadow": "#000000"
+  }
+}

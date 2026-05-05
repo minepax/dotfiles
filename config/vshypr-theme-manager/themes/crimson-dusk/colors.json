@@ -1,0 +1,35 @@
+{
+  "meta": {
+    "name": "crimson-dusk",
+    "display_name": "Crimson Dusk",
+    "variant": "light"
+  },
+  "colors": {
+    "bg": "#F7F8F9",
+    "bg_alt": "#C9CDCF",
+    "surface": "#ECEFF1",
+    "surface2": "#E1E5E8",
+    "surface3": "#D6DBDF",
+    "overlay": "#8F959B",
+    "fg": "#2A2D30",
+    "fg_dim": "#6B7177",
+
+    "accent": "#E4004B",
+    "accent_alt": "#ED775A",
+    "accent_dim": "#B8003C",
+
+    "red": "#E4004B",
+    "orange": "#ED775A",
+    "yellow": "#FAD691",
+    "green": "#7FB77E",
+    "teal": "#5DA9A6",
+    "teal_dim": "#4B8F8C",
+    "blue": "#5C88C4",
+    "mauve": "#8A8F99",
+    "pink": "#F06292",
+
+    "border_active": "#E4004B",
+    "border_inactive": "#E1E5E8",
+    "shadow": "#C4C8CB"
+  }
+}

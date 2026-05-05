@@ -1,0 +1,151 @@
+configuration {
+    modes: "run,drun,ssh,filebrowser,combi,calc";
+    show-icons: true;
+    icon-theme: "Papirus-Dark";
+    markup-rows: true;
+    display-combi: "";
+    scroll-method: 1;
+    combi-display-format: "{text}";
+    combi-hide-mode-prefix: true;
+    tokenize: true;
+    sort: true;
+    levenshtein-sort: false;
+
+    calc {
+        display-format: "{result}";
+        display-history: false;
+        no-history: true;
+    }
+}
+
+* {
+    font: "SF Pro Display Bold 12";
+}
+
+* {
+    /* theme-changer: begin */
+    bg:      rgba(15,23,34,0.9);
+    bg-sel:  #1E2A3D;
+    fg:      #E6EDF7;
+    fg-dim:  #AAB4C3;
+    accent:  #4C8CE4;
+
+    background-color: transparent;
+    text-color:       @fg;
+    border-color:     #25324A;
+    spacing:          0;
+    padding:          0;
+    margin:           0;
+    /* theme-changer: end */
+}
+
+window {
+    location:           center;
+    anchor:             center;
+    width:              40%;
+    x-offset:           0;
+    y-offset:           0;
+
+    enabled:            true;
+    border:             0;
+    border-radius:      12px;
+    background-color:   @bg;
+    cursor:             "default";
+}
+
+mainbox {
+    enabled:            true;
+    spacing:            20px;
+    padding:            20px;
+    children:           [ "inputbar", "listview" ];
+}
+
+message {
+    border:             0;
+    padding:            10px 0;
+    border-radius:      10px;
+    background-color:   transparent;
+}
+
+textbox {
+    text-color:         @fg;
+}
+
+/* Search Bar Area */
+inputbar {
+    enabled:            true;
+    spacing:            10px;
+    margin:             0px;
+    padding:            0px;
+    background-color:   transparent;
+    children:           [ "entry" ];
+}
+
+prompt {
+    enabled:            true;
+    background-color:   transparent;
+}
+
+entry {
+    enabled:            true;
+    background-color:   transparent;
+    text-color:         @fg;
+    cursor:             text;
+    placeholder:        "Search...";
+    placeholder-color:  @fg-dim;
+}
+
+/* Results List */
+listview {
+    enabled:            true;
+    columns:            1;
+    dynamic:            true;
+    cycle:              false;
+    dynamic:            true;
+    scrollbar:          false;
+    layout:             vertical;
+    reverse:            false;
+    lines:              10;
+    fixed-height:       false;
+    fixed-columns:      true;
+    border:             0px;
+    spacing:            0px;
+    background-color:   transparent;
+}
+
+/* Individual Result Item */
+element {
+    enabled:            true;
+    spacing:            10px;
+    padding:            10px;
+    border-radius:      10px;
+    background-color:   @bg-sel;
+    cursor:             pointer;
+}
+
+element normal.normal {
+    background-color:   transparent;
+}
+
+element alternate.normal {
+    background-color:   transparent;
+}
+
+element selected.normal {
+    background-color:   @bg-sel;
+}
+
+element-icon {
+    size:               24px;
+    cursor:             inherit;
+    background-color:   transparent;
+}
+
+element-text {
+    vertical-align:     0.5;
+    horizontal-align:   0.0;
+    cursor:             inherit;
+    background-color:   transparent;
+    text-color:         @fg;
+    markup:             true;
+}

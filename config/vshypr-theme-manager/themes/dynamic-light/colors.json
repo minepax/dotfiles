@@ -1,0 +1,34 @@
+{
+  "meta": {
+    "name": "dynamic-light",
+    "display_name": "Dynamic Light",
+    "variant": "light"
+  },
+  "colors": {
+    "bg": "#f9f9ff",
+    "bg_alt": "#dfe2eb",
+    "surface": "#ededf4",
+    "surface2": "#e7e8ee",
+    "surface3": "#e1e2e9",
+    "overlay": "#e1e2e9",
+    "fg": "#191c20",
+    "fg_dim": "#43474e",
+    "accent": "#3b608f",
+    "accent_alt": "#545f71",
+    "accent_dim": "#d4e3ff",
+    "red": "#ba1a1a",
+    "orange": "#f6d9ff",
+    "yellow": "#d8e3f8",
+    "green": "#6d5676",
+    "teal": "#d4e3ff",
+    "teal_dim": "#214876",
+    "blue": "#3b608f",
+    "sky": "#bcc7dc",
+    "mauve": "#d9bde2",
+    "pink": "#ffdad6",
+    "lavender": "#d8e3f8",
+    "border_active": "#3b608f",
+    "border_inactive": "#dfe2eb",
+    "shadow": "#000000"
+  }
+}

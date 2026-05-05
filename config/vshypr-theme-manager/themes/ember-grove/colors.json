@@ -1,0 +1,35 @@
+{
+  "meta": {
+    "name": "ember-grove",
+    "display_name": "Ember Grove",
+    "variant": "dark"
+  },
+  "colors": {
+    "bg": "#347433",
+    "bg_alt": "#3E823C",
+    "surface": "#478F45",
+    "surface2": "#519C4E",
+    "surface3": "#5BA957",
+    "overlay": "#8FB08E",
+    "fg": "#F3F7F1",
+    "fg_dim": "#C4D0C2",
+
+    "accent": "#FFC107",
+    "accent_alt": "#FF6F3C",
+    "accent_dim": "#D4A106",
+
+    "red": "#B22222",
+    "orange": "#FF6F3C",
+    "yellow": "#FFC107",
+    "green": "#5FAE5C",
+    "teal": "#4FAF9F",
+    "teal_dim": "#3F8F82",
+    "blue": "#4F7DBA",
+    "mauve": "#8A8F99",
+    "pink": "#D96C6C",
+
+    "border_active": "#FFC107",
+    "border_inactive": "#478F45",
+    "shadow": "#000000"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "meta": {
+    "name": "abyssal-bloom",
+    "display_name": "Abyssal Bloom",
+    "variant": "dark"
+  },
+  "colors": {
+    "bg": "#281C59",
+    "bg_alt": "#2F2266",
+    "surface": "#352A73",
+    "surface2": "#3C3080",
+    "surface3": "#44368D",
+    "overlay": "#7E7AA3",
+    "fg": "#EAF2F0",
+    "fg_dim": "#AEB8C2",
+
+    "accent": "#4E8D9C",
+    "accent_alt": "#85C79A",
+    "accent_dim": "#3F7482",
+
+    "red": "#E06C75",
+    "orange": "#F0A35E",
+    "yellow": "#EDF7BD",
+    "green": "#85C79A",
+    "teal": "#4E8D9C",
+    "teal_dim": "#3F7482",
+    "blue": "#5A78C9",
+    "mauve": "#9A92C7",
+    "pink": "#D98FBF",
+
+    "border_active": "#4E8D9C",
+    "border_inactive": "#3C3080",
+    "shadow": "#000000"
+  }
+}

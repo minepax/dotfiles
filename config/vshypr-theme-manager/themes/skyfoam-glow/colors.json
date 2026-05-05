@@ -1,0 +1,35 @@
+{
+  "meta": {
+    "name": "skyfoam-glow",
+    "display_name": "Skyfoam Glow",
+    "variant": "light"
+  },
+  "colors": {
+    "bg": "#FBFBFB",
+    "bg_alt": "#D4F6FF",
+    "surface": "#EEF7FF",
+    "surface2": "#E0F0FF",
+    "surface3": "#D2E9FF",
+    "overlay": "#9AA9B5",
+    "fg": "#1F2A33",
+    "fg_dim": "#6B7C88",
+
+    "accent": "#C6E7FF",
+    "accent_alt": "#FFDDAE",
+    "accent_dim": "#AFCFE6",
+
+    "red": "#E57373",
+    "orange": "#FFB347",
+    "yellow": "#FFDDAE",
+    "green": "#7BC96F",
+    "teal": "#6EC5D9",
+    "teal_dim": "#57A8BA",
+    "blue": "#7FB3E6",
+    "mauve": "#A0A7B4",
+    "pink": "#F2A7B5",
+
+    "border_active": "#C6E7FF",
+    "border_inactive": "#E0F0FF",
+    "shadow": "#D6E2EA"
+  }
+}

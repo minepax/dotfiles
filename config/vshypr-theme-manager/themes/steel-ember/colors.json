@@ -1,0 +1,35 @@
+{
+  "meta": {
+    "name": "steel-ember",
+    "display_name": "Steel Ember",
+    "variant": "light"
+  },
+  "colors": {
+    "bg": "#EAEFEF",
+    "bg_alt": "#BFC9D1",
+    "surface": "#DCE3E8",
+    "surface2": "#CFD7DD",
+    "surface3": "#C2CCD3",
+    "overlay": "#8C97A0",
+    "fg": "#1F2A30",
+    "fg_dim": "#5F6B73",
+
+    "accent": "#FF9B51",
+    "accent_alt": "#25343F",
+    "accent_dim": "#D98245",
+
+    "red": "#E35D5D",
+    "orange": "#FF9B51",
+    "yellow": "#F2C94C",
+    "green": "#6FAF8F",
+    "teal": "#5DA9A6",
+    "teal_dim": "#4B8C89",
+    "blue": "#5C88C4",
+    "mauve": "#7E8790",
+    "pink": "#E58AAE",
+
+    "border_active": "#FF9B51",
+    "border_inactive": "#CFD7DD",
+    "shadow": "#B5BEC6"
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "meta": {
+    "name": "nord-dark",
+    "display_name": "Nord Dark",
+    "variant": "dark"
+  },
+  "colors": {
+    "bg":              "#2e3440",
+    "bg_alt":          "#3b4252",
+    "surface":         "#3b4252",
+    "surface2":        "#434c5e",
+    "surface3":        "#4c566a",
+    "overlay":         "#4c566a",
+    "fg":              "#eceff4",
+    "fg_dim":          "#d8dee9",
+    "accent":          "#88c0d0",
+    "accent_alt":      "#81a1c1",
+    "accent_dim":      "#5e81ac",
+    "red":             "#bf616a",
+    "orange":          "#d08770",
+    "yellow":          "#ebcb8b",
+    "green":           "#a3be8c",
+    "teal":            "#8fbcbb",
+    "teal_dim":        "#5e81ac",
+    "blue":            "#5e81ac",
+    "sky":             "#88c0d0",
+    "mauve":           "#b48ead",
+    "pink":            "#bf616a",
+    "lavender":        "#81a1c1",
+    "border_active":   "#88c0d0",
+    "border_inactive": "#3b4252",
+    "shadow":          "#1a1f2b"
+  }
+}

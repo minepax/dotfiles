@@ -1,0 +1,14 @@
+configuration {
+    modes: "run,drun,ssh,filebrowser,combi";
+    show-icons: true;
+    icon-theme: "Papirus-Dark";
+    markup-rows: true;
+    display-combi: "";
+    combi-display-format: "{text}";
+    combi-hide-mode-prefix: true;
+    tokenize: true;
+    sort: true;
+    levenshtein-sort: false;
+}
+
+@theme "/home/mahesh/.config/rofi/themes/mahesh-theme.rasi"

@@ -1,0 +1,35 @@
+{
+  "meta": {
+    "name": "blueprint-frost",
+    "display_name": "Blueprint Frost",
+    "variant": "light"
+  },
+  "colors": {
+    "bg": "#EEF5FF",
+    "bg_alt": "#E3ECFA",
+    "surface": "#D6E2F5",
+    "surface2": "#C9D7EF",
+    "surface3": "#BCCCE9",
+    "overlay": "#8A9BB0",
+    "fg": "#0F1720",
+    "fg_dim": "#4F5F73",
+
+    "accent": "#7C93C3",
+    "accent_alt": "#9EB8D9",
+    "accent_dim": "#5F78A8",
+
+    "red": "#D95C5C",
+    "orange": "#F0A35E",
+    "yellow": "#F2C94C",
+    "green": "#6FBF8F",
+    "teal": "#5DA9C4",
+    "teal_dim": "#4B8FA8",
+    "blue": "#7C93C3",
+    "mauve": "#7E8795",
+    "pink": "#D98FBF",
+
+    "border_active": "#7C93C3",
+    "border_inactive": "#D6E2F5",
+    "shadow": "#C5D2E3"
+  }
+}
