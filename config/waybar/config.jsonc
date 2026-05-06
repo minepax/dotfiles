@@ -12,6 +12,7 @@
         // "custom/theme-display",
         "clock",
         "custom/weather"
+        // "tray"
     ],
     "modules-right": [
         "pulseaudio",
@@ -21,6 +22,9 @@
         // "battery",
         "network"
     ],
+    "tray": {
+        "spacing": 10
+    },
     "custom/theme-display": {
         "format": "󰃣 {}",
         "exec": "jq -r '.theme | (ascii_upcase[0:1] + .[1:])' ~/.config/vshypr-theme-manager/current-theme.json",

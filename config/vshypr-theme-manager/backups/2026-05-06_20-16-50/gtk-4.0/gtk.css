@@ -1,0 +1,121 @@
+/* GTK4 color overrides — gestionado por theme-changer */
+
+/* theme-changer: begin */
+/* libadwaita */
+@define-color accent_color #4C8CE4;
+@define-color accent_bg_color #4C8CE4;
+@define-color accent_fg_color #0F1722;
+@define-color window_bg_color #0F1722;
+@define-color window_fg_color #E6EDF7;
+@define-color view_bg_color #1E2A3D;
+@define-color view_fg_color #E6EDF7;
+@define-color headerbar_bg_color #1A2433;
+@define-color headerbar_fg_color #E6EDF7;
+@define-color headerbar_backdrop_color #0F1722;
+@define-color headerbar_border_color #25324A;
+@define-color headerbar_shade_color #000000;
+@define-color headerbar_darker_shade_color #000000;
+@define-color sidebar_bg_color #1A2433;
+@define-color sidebar_fg_color #E6EDF7;
+@define-color sidebar_backdrop_color #0F1722;
+@define-color sidebar_border_color #25324A;
+@define-color sidebar_shade_color #000000;
+@define-color secondary_sidebar_bg_color #0F1722;
+@define-color secondary_sidebar_fg_color #E6EDF7;
+@define-color secondary_sidebar_backdrop_color #0F1722;
+@define-color secondary_sidebar_border_color #25324A;
+@define-color secondary_sidebar_shade_color #000000;
+@define-color card_bg_color #1E2A3D;
+@define-color card_fg_color #E6EDF7;
+@define-color card_shade_color #000000;
+@define-color popover_bg_color #25324A;
+@define-color popover_fg_color #E6EDF7;
+@define-color popover_shade_color #000000;
+@define-color dialog_bg_color #1E2A3D;
+@define-color dialog_fg_color #E6EDF7;
+@define-color thumbnail_bg_color #25324A;
+@define-color thumbnail_fg_color #E6EDF7;
+@define-color shade_color #000000;
+@define-color scrollbar_outline_color #000000;
+
+/* GTK legacy */
+@define-color theme_bg_color #0F1722;
+@define-color theme_base_color #1E2A3D;
+@define-color theme_fg_color #E6EDF7;
+@define-color theme_text_color #E6EDF7;
+@define-color theme_selected_bg_color #4C8CE4;
+@define-color theme_selected_fg_color #0F1722;
+@define-color theme_unfocused_bg_color #0F1722;
+@define-color theme_unfocused_fg_color #AAB4C3;
+@define-color insensitive_fg_color #AAB4C3;
+@define-color borders #25324A;
+@define-color content_view_bg #1E2A3D;
+@define-color error_color #FF6B6B;
+@define-color success_color #91D06C;
+@define-color warning_color #FFF799;
+/* theme-changer: end */
+
+
+.sidebar-pane row:selected {
+    color: @accent_fg_color;
+    background: @accent_bg_color;
+}
+
+.sidebar-pane {
+    background: alpha(@view_bg_color, 0.6);
+}
+
+window {
+    color: @window_fg_color;
+    background: alpha(@window_bg_color, 0.8);
+}
+
+listview row:selected {
+    color: @accent_fg_color;
+    background: @accent_bg_color;
+}
+
+header {
+    color: @headerbar_fg_color;
+    background: alpha(@headerbar_bg_color, 0.6);
+}
+
+header tabs,
+header tabs tab,
+stack,
+stack box,
+stack box scrolledwindow,
+stack box scrolledwindow box,
+popover contents modelbutton {
+    background: transparent;
+}
+
+button {
+    color: @view_fg_color;
+    background: @view_bg_color;
+}
+
+button:checked {
+    color: @accent_fg_color;
+    background: @accent_bg_color;
+}
+
+popover contents {
+    border-color: @borders;
+    background: @popover_bg_color;
+}
+
+popover contents modelbutton:hover {
+    color: @accent_fg_color;
+    background: @accent_bg_color;
+}
+
+trough {
+    border: none;
+    background: @window_bg_color;
+}
+
+trough highlight {
+    border: none;
+    background: @accent_color;
+}
