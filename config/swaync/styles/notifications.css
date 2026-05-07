@@ -72,6 +72,7 @@ progress,
 trough {
     min-height: 5px;
     border-radius: 100px;
+    background-color: var(--noti-bg-darker);
 }
 
 progress {
