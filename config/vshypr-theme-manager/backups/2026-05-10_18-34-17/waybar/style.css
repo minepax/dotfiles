@@ -1,0 +1,111 @@
+/* theme-changer: begin */
+@define-color base #11140e;
+@define-color mantle #0c0f09;
+@define-color crust #1d211a;
+@define-color surface0 #191d16;
+@define-color surface1 #282b24;
+@define-color overlay0 #43483e;
+@define-color text #e1e4d9;
+@define-color subtext0 #c4c8bb;
+@define-color blue #abd290;
+@define-color mauve #bdcbaf;
+@define-color red #ffb4ab;
+@define-color green #a0cfcf;
+@define-color yellow #c6eeaa;
+@define-color peach #d9e7ca;
+/* theme-changer: end */
+
+/* theme-changer: begin keyframes */
+@keyframes ws-active {
+    0%   { background-color: #abd290; }
+    50%  { background-color: #bdcbaf; }
+    100% { background-color: #abd290; }
+}
+/* theme-changer: end keyframes */
+
+/* theme-changer: begin modules */
+.modules-left,
+.modules-center,
+.modules-right {
+    background: rgba(17,20,14,0.95);
+    border-radius: 14px;
+    padding: 2px 10px;
+    border: 2px solid #191d16;
+    min-height: 0;
+}
+/* theme-changer: end modules */
+
+.modules-center,
+.modules-left,
+.modules-right {
+    padding: 4px 8px;
+    border-radius: 100px;
+}
+
+.modules-left {
+    padding: 4px;
+}
+
+* {
+    all: unset;
+    padding: 0;
+    margin: 0;
+    min-height: 0;
+    font-family: "SF Pro Display", "JetBrainsMono Nerd Font Propo";
+    font-size: 14px;
+    font-weight: 800;
+    color: @text;
+}
+
+tooltip {
+    border: none;
+    border-radius: 8px;
+    background-color: @text;
+}
+
+tooltip label {
+    font-family: "JetBrainsMono Nerd Font Propo";
+    padding: 4px 8px;
+    color: @base;
+}
+
+#workspaces button {
+    margin: 0 2px;
+    padding: 0 5px;
+    min-width: 20px;
+    border-radius: 100px;
+    transition: all 0.2s ease;
+    background-color: @surface0;
+}
+
+#workspaces button.active {
+    min-width: 40px;
+    animation: ws-active forwards;
+}
+
+#workspaces button.active label {
+    color: @crust;
+}
+
+#workspaces button:first-child {
+    margin-left: 0;
+}
+
+#workspaces button:last-child {
+    margin-right: 0;
+}
+
+menu {
+    padding: 8px;
+    border-radius: 8px;
+    background-color: @text;
+}
+
+menu image,
+menuitem label {
+    color: @base;
+}
+
+menuitem label:hover {
+    color: red;
+}

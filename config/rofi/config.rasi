@@ -24,15 +24,15 @@ configuration {
 
 * {
     /* theme-changer: begin */
-    bg:      rgba(11,11,16,0.8);
-    bg-sel:  #1e1e2e;
-    fg:      #cdd6f4;
-    fg-dim:  #a6adc8;
-    accent:  #94e2d5;
+    bg:      rgba(26,28,32,0.8);
+    bg-sel:  #141421;
+    fg:      #d3dae3;
+    fg-dim:  #666a73;
+    accent:  #de1b1b;
 
     background-color: transparent;
     text-color:       @fg;
-    border-color:     #1e1e2e;
+    border-color:     #1e2024;
     spacing:          0;
     padding:          0;
     margin:           0;
