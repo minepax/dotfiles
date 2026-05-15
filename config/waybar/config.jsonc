@@ -12,7 +12,6 @@
         // "custom/theme-display",
         "clock",
         "custom/weather"
-        // "tray"
     ],
     "modules-right": [
         "pulseaudio",
