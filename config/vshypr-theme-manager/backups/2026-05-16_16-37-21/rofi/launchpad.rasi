@@ -1,35 +1,36 @@
 configuration {
     modi:                "drun";
     show-icons:          true;
-    icon-theme:          "hicolor";
+    icon-theme:          "Slot-Beauty-Dark-Icons";
     drun-display-format: "{name}";
     display-drun:        "";
-    font:                "JetBrainsMono Nerd Font Mono 14";
+    font:                "JetBrains Mono 11";
     terminal:            "kitty";
 }
 
 * {
     bg:      #11140e;
-    bg-sel:  #1d211a;
+    bg-alt:  #1d211a;
     fg:      #e1e4d9;
     fg-dim:  #33362f;
+    sel:     #abd290;
 
     background-color: transparent;
     text-color:       @fg;
-    border-color:     #282b24;
+    border-color:     transparent;
     spacing:          0;
     padding:          0;
     margin:           0;
     /* theme-changer: begin */
-    bg:      rgba(17,20,14,0.8);
-    bg-sel:  #191d16;
-    fg:      #e1e4d9;
-    fg-dim:  #c4c8bb;
-    accent:  #abd290;
+    bg:      rgba(26,28,32,0.8);
+    bg-alt:  #141421;
+    fg:      #d3dae3;
+    fg-dim:  #666a73;
+    sel:     #de1b1b;
 
     background-color: transparent;
     text-color:       @fg;
-    border-color:     #282b24;
+    border-color:     transparent;
     spacing:          0;
     padding:          0;
     margin:           0;
@@ -39,26 +40,24 @@ configuration {
 window {
     background-color: @bg;
     border:           1px;
-    border-radius:    16px;
-    width:            620px;
+    border-color:     #282b24;
+    border-radius:    20px;
+    width:            900px;
     location:         center;
     anchor:           center;
-    y-offset:         -100px;
 }
 
 mainbox {
     background-color: transparent;
     children:         [inputbar, listview];
-    padding:          0;
-    spacing:          0;
+    padding:          24px;
+    spacing:          20px;
 }
 
 inputbar {
-    background-color: transparent;
-    border:           0 0 1px 0;
-    border-color:     #282b24;
-    padding:          16px 18px;
-    spacing:          10px;
+    background-color: @bg-alt;
+    border-radius:    10px;
+    padding:          12px 16px;
     children:         [entry];
 }
 
@@ -68,38 +67,44 @@ entry {
     placeholder:       "Buscar aplicación...";
     placeholder-color: @fg-dim;
     vertical-align:    0.5;
-    font:              "JetBrains Mono 15";
+    font:              "JetBrains Mono 14";
     cursor:            text;
 }
 
 listview {
     background-color: transparent;
-    lines:            7;
-    columns:          1;
-    spacing:          0;
+    columns:          6;
+    lines:            3;
+    spacing:          16px;
     scrollbar:        false;
-    padding:          6px 0;
-    fixed-height:     false;
+    fixed-height:     true;
+    layout:           vertical;
 }
 
 element {
     background-color: transparent;
-    padding:          10px 16px;
-    spacing:          12px;
-    children:         [element-icon, element-text];
+    border-radius:    12px;
+    padding:          0;
+    spacing:          0;
+    orientation:      vertical;
     cursor:           pointer;
 }
 
 element-icon {
-    background-color: transparent;
-    size:             26px;
-    vertical-align:   0.5;
+    background-color: @bg-alt;
+    border-radius:    16px;
+    size:             56px;
+    padding:          18px;
+    cursor:           inherit;
 }
 
 element-text {
     background-color: transparent;
     text-color:       @fg;
+    horizontal-align: 0.5;
     vertical-align:   0.5;
+    padding:          8px 4px 4px 4px;
+    cursor:           inherit;
 }
 
 element.normal.normal    { background-color: transparent; }
@@ -109,12 +114,11 @@ element.alternate.normal { background-color: transparent; }
 element.alternate.active { background-color: transparent; }
 element.alternate.urgent { background-color: transparent; }
 
-element.selected.normal {
-    background-color: @bg-sel;
-    border-radius:    8px;
+element.selected.normal element-icon {
+    background-color: @sel;
 }
 
 element.selected.normal element-text {
-    text-color: @fg;
-    font:       "JetBrains Mono Bold 14";
+    text-color: @sel;
+    font:       "JetBrains Mono Bold 11";
 }

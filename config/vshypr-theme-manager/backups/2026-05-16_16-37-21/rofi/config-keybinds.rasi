@@ -15,15 +15,15 @@
     padding:          0;
     margin:           0;
     /* theme-changer: begin */
-    bg:      rgba(17,20,14,0.8);
-    bg-sel:  #191d16;
-    fg:      #e1e4d9;
-    fg-dim:  #c4c8bb;
-    accent:  #abd290;
+    bg:      rgba(26,28,32,0.8);
+    bg-sel:  #141421;
+    fg:      #d3dae3;
+    fg-dim:  #666a73;
+    accent:  #de1b1b;
 
     background-color: transparent;
     text-color:       @fg;
-    border-color:     #282b24;
+    border-color:     #1e2024;
     spacing:          0;
     padding:          0;
     margin:           0;
