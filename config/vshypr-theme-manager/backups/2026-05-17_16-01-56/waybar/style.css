@@ -1,0 +1,120 @@
+/* theme-changer: begin */
+@define-color base #eff1f5;
+@define-color mantle #bcc0cc;
+@define-color crust #e6e9ed;
+@define-color surface0 #ccd0da;
+@define-color surface1 #bcc0cc;
+@define-color overlay0 #9ca0b0;
+@define-color text #4c4f69;
+@define-color subtext0 #6c6f85;
+@define-color blue #1e66f5;
+@define-color mauve #8839ef;
+@define-color red #d20f39;
+@define-color green #179299;
+@define-color yellow #df8e1d;
+@define-color peach #fe640b;
+/* theme-changer: end */
+
+/* theme-changer: begin keyframes */
+@keyframes ws-active {
+    0%   { background-color: #1e66f5; }
+    50%  { background-color: #8839ef; }
+    100% { background-color: #1e66f5; }
+}
+/* theme-changer: end keyframes */
+
+/* theme-changer: begin modules */
+.modules-left,
+.modules-center,
+.modules-right {
+    background: rgba(239,241,245,0.95);
+    border-radius: 14px;
+    padding: 2px 10px;
+    border: 2px solid #ccd0da;
+    min-height: 0;
+}
+/* theme-changer: end modules */
+
+.modules-center,
+.modules-left,
+.modules-right {
+    padding: 4px 8px;
+    border-radius: 100px;
+    border: none;
+    background-color: @base;
+}
+
+.modules-left {
+    padding: 6px;
+}
+
+* {
+    all: unset;
+    padding: 0;
+    margin: 0;
+    min-height: 0;
+    font-family: "SF Pro Display", "JetBrainsMono Nerd Font Propo";
+    font-size: 14px;
+    font-weight: 700;
+    color: @text;
+}
+
+tooltip {
+    border: none;
+    border-radius: 8px;
+    background-color: @text;
+}
+
+tooltip label {
+    font-family: "JetBrainsMono Nerd Font Propo";
+    padding: 4px 8px;
+    color: @base;
+}
+
+#workspaces button {
+    margin: 0 2px;
+    min-width: 15px;
+    border-radius: 100px;
+    transition: all 0.2s ease;
+    background-color: @surface1;
+}
+
+#workspaces button label {
+    color: transparent;
+}
+
+#workspaces button.active {
+    min-width: 40px;
+    animation: ws-active forwards;
+}
+
+#workspaces button.active label {
+    color: @surface0;
+}
+
+#workspaces button:first-child {
+    margin-left: 0;
+}
+
+#workspaces button:last-child {
+    margin-right: 0;
+}
+
+menu {
+    padding: 8px;
+    border-radius: 8px;
+    background-color: @text;
+}
+
+menu image,
+menuitem label {
+    color: @base;
+    padding: 2px 0;
+}
+
+#tray {
+    padding: 0 8px;
+    border: 1px solid @surface1;
+    border-radius: 100px;
+    color: red;
+}

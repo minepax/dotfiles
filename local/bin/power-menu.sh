@@ -35,7 +35,7 @@ CHOICE=$(echo -e "$OPTIONS" | rofi -dmenu -no-show-icons -theme-str '
 ')
 
 case "$CHOICE" in
-*)
+*󰐥)
     systemctl poweroff
     ;;
 *)
@@ -44,7 +44,7 @@ case "$CHOICE" in
 *)
     systemctl suspend
     ;;
-*)
+*)
     hyprlock
     ;;
 *󰗼)

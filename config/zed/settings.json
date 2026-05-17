@@ -19,7 +19,7 @@
   },
   "agent": {
     "dock": "right",
-    "default_profile": "write",
+    "default_profile": "ask",
     "default_model": {
       "provider": "google",
       "model": "gemini-3-flash-preview",
@@ -98,5 +98,5 @@
   "theme": "One Black",
   "format_on_save": "off",
   "ensure_final_newline_on_save": false,
-  "disable_ai": true
+  "disable_ai": false
 }
