@@ -1,25 +1,25 @@
 /* theme-changer: begin */
-@define-color base #0b0b10;
-@define-color mantle #313244;
-@define-color crust #11111b;
-@define-color surface0 #1e1e2e;
-@define-color surface1 #313244;
-@define-color overlay0 #585b70;
-@define-color text #cdd6f4;
-@define-color subtext0 #a6adc8;
-@define-color blue #94e2d5;
-@define-color mauve #cba6f7;
-@define-color red #f38ba8;
-@define-color green #94e2d5;
-@define-color yellow #f9e2af;
-@define-color peach #fab387;
+@define-color base #11140e;
+@define-color mantle #0c0f09;
+@define-color crust #1d211a;
+@define-color surface0 #191d16;
+@define-color surface1 #282b24;
+@define-color overlay0 #43483e;
+@define-color text #e1e4d9;
+@define-color subtext0 #c4c8bb;
+@define-color blue #abd290;
+@define-color mauve #bdcbaf;
+@define-color red #ffb4ab;
+@define-color green #a0cfcf;
+@define-color yellow #c6eeaa;
+@define-color peach #d9e7ca;
 /* theme-changer: end */
 
 /* theme-changer: begin keyframes */
 @keyframes ws-active {
-    0%   { background-color: #94e2d5; }
-    50%  { background-color: #a6e3a1; }
-    100% { background-color: #94e2d5; }
+    0%   { background-color: #abd290; }
+    50%  { background-color: #bdcbaf; }
+    100% { background-color: #abd290; }
 }
 /* theme-changer: end keyframes */
 
@@ -27,10 +27,10 @@
 .modules-left,
 .modules-center,
 .modules-right {
-    background: rgba(11,11,16,0.95);
+    background: rgba(17,20,14,0.95);
     border-radius: 14px;
     padding: 2px 10px;
-    border: 2px solid #1e1e2e;
+    border: 2px solid #191d16;
     min-height: 0;
 }
 /* theme-changer: end modules */
