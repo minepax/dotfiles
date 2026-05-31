@@ -1,0 +1,72 @@
+@import 'colors.css';
+
+/* theme-changer: begin */
+@define-color theme_bg_color #282a36;
+@define-color theme_base_color #44475a;
+@define-color theme_fg_color #f8f8f2;
+@define-color theme_text_color #f8f8f2;
+@define-color theme_selected_bg_color #bd93f9;
+@define-color theme_selected_fg_color #282a36;
+@define-color theme_unfocused_bg_color #282a36;
+@define-color theme_unfocused_fg_color #abb2bf;
+@define-color insensitive_bg_color #44475a;
+@define-color insensitive_fg_color #abb2bf;
+@define-color insensitive_base_color #44475a;
+@define-color borders #44475a;
+@define-color warning_color #f1fa8c;
+@define-color error_color #ff5555;
+@define-color success_color #50fa7b;
+/* theme-changer: end */
+
+/* Active tab, and the toolbar underneath it */
+window.background.chromium {
+    background-color: @theme_base_color;
+    color: @theme_text_color;
+}
+
+/* Inactive tabs */
+window.background.chromium menubar {
+    background-color: @theme_bg_color;
+    color: @theme_fg_color;
+}
+
+/* The address bar (URL bar) background */
+window.background.chromium textview.view {
+    background-color: @theme_bg_color;
+    color: @theme_fg_color;
+}
+
+/* Explicitly style text in inactive/background tabs */
+window.background.chromium label.chromium {
+    color: alpha(@theme_text_color, 0.5);
+}
+
+/* Context menus and the main menu */
+menu.chromium,
+.menu.chromium,
+.context-menu.chromium {
+    background-color: @theme_bg_color;
+    color: @theme_fg_color;
+    border: 1px solid @theme_border_color;
+}
+
+/* Menu items when you hover over them */
+menu.chromium menuitem:hover,
+.menu.chromium .menuitem:hover,
+.context-menu.chromium:hover {
+    background-color: @theme_selected_bg_color;
+    color: @theme_selected_fg_color;
+}
+
+/* Native-look scrollbars for Chromium */
+window.background.chromium scrollbar.vertical,
+window.background.chromium scrollbar.horizontal {
+    -GtkScrollbar-has-backward-stepper: 0;
+    -GtkScrollbar-has-forward-stepper: 0;
+    background-color: transparent;
+}
+
+window.background.chromium scrollbar slider {
+    background-color: @theme_fg_color;
+    border-radius: 10px;
+}
