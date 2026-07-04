@@ -37,7 +37,7 @@
         "format-connected": " {num_connections}",
         "tooltip-format-connected": "{device_enumerate}",
         "tooltip-format-enumerate-connected": "{device_alias} {device_battery_percentage}%",
-        "on-click": "kitty bluetuith"
+        "on-click": "blueman-manager"
     },
     "backlight": {
         "device": "intel_backlight",
