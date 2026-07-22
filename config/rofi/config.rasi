@@ -1,7 +1,7 @@
 configuration {
     modes: "run,drun,ssh,filebrowser,combi,calc";
     show-icons: true;
-    icon-theme: "Papirus-Dark";
+    icon-theme: "YAMIS";
     markup-rows: true;
     display-combi: "";
     scroll-method: 1;
