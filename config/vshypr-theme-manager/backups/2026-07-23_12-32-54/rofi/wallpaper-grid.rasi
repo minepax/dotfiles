@@ -1,19 +1,16 @@
 configuration {
-    modi:                "drun";
+    modi:                "dmenu";
     show-icons:          true;
-    icon-theme:          "Slot-Beauty-Dark-Icons";
     drun-display-format: "{name}";
-    display-drun:        "";
     font:                "JetBrains Mono 11";
-    terminal:            "kitty";
 }
 
 * {
-    bg:      #11140e;
-    bg-alt:  #1d211a;
-    fg:      #e1e4d9;
-    fg-dim:  #33362f;
-    sel:     #abd290;
+    bg:      #0d1117;
+    bg-alt:  #161b22;
+    fg:      #c9d1d9;
+    fg-dim:  #30363d;
+    sel:     #58a6ff;
 
     background-color: transparent;
     text-color:       @fg;
@@ -22,11 +19,11 @@ configuration {
     padding:          0;
     margin:           0;
     /* theme-changer: begin */
-    bg:      rgba(18,18,20,0.8);
-    bg-alt:  #1c1d20;
-    fg:      #e4e4e7;
-    fg-dim:  #c5c5c8;
-    sel:     #d8d8dc;
+    bg:      rgba(17,19,24,0.8);
+    bg-alt:  #1e1f25;
+    fg:      #e2e2e9;
+    fg-dim:  #c4c6d0;
+    sel:     #adc6ff;
 
     background-color: transparent;
     text-color:       @fg;
@@ -39,10 +36,11 @@ configuration {
 
 window {
     background-color: @bg;
-    border:           1px;
-    border-color:     #282b24;
+    border:           2px;
+    border-color:     #21262d;
     border-radius:    20px;
     width:            900px;
+    height:           600px;
     location:         center;
     anchor:           center;
 }
@@ -58,44 +56,45 @@ inputbar {
     background-color: @bg-alt;
     border-radius:    10px;
     padding:          12px 16px;
-    children:         [entry];
+    children:         [prompt, entry];
+    spacing:          10px;
+}
+
+prompt {
+    text-color: @sel;
 }
 
 entry {
     background-color:  transparent;
     text-color:        @fg;
-    placeholder:       "Buscar aplicación...";
+    placeholder:       "Select Wallpaper...";
     placeholder-color: @fg-dim;
     vertical-align:    0.5;
-    font:              "JetBrains Mono 14";
-    cursor:            text;
 }
 
 listview {
     background-color: transparent;
-    columns:          6;
+    columns:          4;
     lines:            3;
-    spacing:          16px;
-    scrollbar:        false;
-    fixed-height:     true;
+    spacing:          12px;
+    scrollbar:        true;
+    fixed-height:     false;
     layout:           vertical;
 }
 
 element {
     background-color: transparent;
     border-radius:    12px;
-    padding:          0;
-    spacing:          0;
+    padding:          10px;
+    spacing:          8px;
     orientation:      vertical;
     cursor:           pointer;
 }
 
 element-icon {
-    background-color: @bg-alt;
-    border-radius:    16px;
-    size:             56px;
-    padding:          18px;
+    background-color: transparent;
     cursor:           inherit;
+    size:             180px;
 }
 
 element-text {
@@ -103,19 +102,17 @@ element-text {
     text-color:       @fg;
     horizontal-align: 0.5;
     vertical-align:   0.5;
-    padding:          8px 4px 4px 4px;
     cursor:           inherit;
 }
 
-element.normal.normal    { background-color: transparent; }
-element.normal.active    { background-color: transparent; }
-element.normal.urgent    { background-color: transparent; }
-element.alternate.normal { background-color: transparent; }
-element.alternate.active { background-color: transparent; }
-element.alternate.urgent { background-color: transparent; }
+element.selected.normal {
+    background-color: @bg-alt;
+}
 
 element.selected.normal element-icon {
-    background-color: @sel;
+    border: 2px;
+    border-color: @sel;
+    border-radius: 8px;
 }
 
 element.selected.normal element-text {

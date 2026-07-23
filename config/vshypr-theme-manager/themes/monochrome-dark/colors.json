@@ -1,0 +1,34 @@
+{
+    "meta": {
+        "name": "monochrome-dark",
+        "display_name": "Monochrome Dark",
+        "variant": "dark"
+    },
+    "colors": {
+        "bg": "#121214",
+        "bg_alt": "#444548",
+        "surface": "#1c1d20",
+        "surface2": "#26272a",
+        "surface3": "#313236",
+        "overlay": "#313236",
+        "fg": "#e4e4e7",
+        "fg_dim": "#c5c5c8",
+        "accent": "#d8d8dc",
+        "accent_alt": "#b8b8bc",
+        "accent_dim": "#3a3b40",
+        "red": "#e0e0e3",
+        "orange": "#505054",
+        "yellow": "#404145",
+        "green": "#cfcfd3",
+        "teal": "#3a3b40",
+        "teal_dim": "#3a3b40",
+        "blue": "#d8d8dc",
+        "sky": "#b8b8bc",
+        "mauve": "#cfcfd3",
+        "pink": "#2d2d30",
+        "lavender": "#e8e8ec",
+        "border_active": "#d8d8dc",
+        "border_inactive": "#444548",
+        "shadow": "#08080a"
+    }
+}

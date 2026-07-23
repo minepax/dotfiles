@@ -1,0 +1,21 @@
+@import './styles/colors.css';
+
+/* theme-changer: begin */
+:root {
+  --cc-bg:               rgba(17,19,24,0.8);
+  --noti-border-color:   rgba(51,53,58,0.35);
+  --noti-bg:             30, 31, 37;
+  --noti-bg-alpha:       0.80;
+  --noti-bg-darker:      #111318;
+  --noti-bg-hover:       #282a2f;
+  --noti-bg-focus:       rgba(51,53,58,0.3);
+  --noti-close-bg:       #282a2f;
+  --noti-close-bg-hover: #33353a;
+  --text-color:          #e2e2e9;
+  --text-color-disabled: #c4c6d0;
+  --bg-selected:         #adc6ff;
+}
+/* theme-changer: end */
+
+@import './styles/central_control.css';
+@import './styles/notifications.css';
