@@ -24,7 +24,7 @@ configuration {
 
 * {
     /* theme-changer: begin */
-    bg:      rgba(18,18,20,0.8);
+    bg:      rgba(18,18,20,0.5);
     bg-sel:  #1c1d20;
     fg:      #e4e4e7;
     fg-dim:  #c5c5c8;
