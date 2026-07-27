@@ -47,7 +47,7 @@ window {
     y-offset:           0;
 
     enabled:            true;
-    border:             2;
+    border:             1;
     border-radius:      12px;
     background-color:   @bg;
     cursor:             "default";
