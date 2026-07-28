@@ -29,7 +29,7 @@
         "format-connected": " {num_connections}",
         "tooltip-format-connected": "{device_enumerate}",
         "tooltip-format-enumerate-connected": "{device_alias} {device_battery_percentage}%",
-        "on-click": "blueman-manager"
+        "on-click": "adw-bluetooth"
     },
     "backlight": {
         "device": "intel_backlight",
@@ -105,7 +105,7 @@
         "tooltip-format-wifi": "{essid} ({signalStrength}%)",
         "tooltip-format-ethernet": "Ethernet",
         "tooltip-format-disconnected": "No Connections",
-        "on-click": "kitty nmtui"
+        "on-click": "nmrs"
     },
     "battery": {
         "format": "{icon} {capacity}%",

@@ -24,15 +24,14 @@ configuration {
 
 * {
     /* theme-changer: begin */
-    bg:      rgba(18,18,20,0.5);
-    bg-sel:  #1c1d20;
-    fg:      #e4e4e7;
-    fg-dim:  #c5c5c8;
-    accent:  #d8d8dc;
+    bg:      #12121280;
+    fg:      #e4e4e4;
+    fg-dim:  #c5c5c5;
+    accent:  #d8d8d8;
 
     background-color: transparent;
     text-color:       @fg;
-    border-color:     #444548;
+    border-color:     #444444;
     spacing:          0;
     padding:          0;
     margin:           0;
@@ -119,8 +118,9 @@ element {
     spacing:            10px;
     padding:            10px;
     border-radius:      10px;
-    background-color:   @bg-sel;
+    background-color:   transparent;
     cursor:             pointer;
+    text-color:         @fg-dim;
 }
 
 element normal.normal {
@@ -132,7 +132,8 @@ element alternate.normal {
 }
 
 element selected.normal {
-    background-color:   @bg-sel;
+    background-color:   transparent;
+    border:             1px;
 }
 
 element-icon {
