@@ -4,7 +4,7 @@
 
 .floating-notifications.background .notification-row .notification-background {
     margin: 32px;
-    border: 2px solid var(--noti-border-color);
+    border: 1px solid var(--noti-border-color);
     border-radius: 8px;
     background-color: rgba(var(--noti-bg), var(--noti-bg-alpha));
     box-shadow: 4px 4px 8px rgba(var(--noti-bg), var(--noti-bg-alpha));
@@ -54,16 +54,10 @@
     font-size: 0.9rem;
 }
 
+/* Making the close button transparent because its abundant */
 .floating-notifications.background .notification-row .notification-background .close-button {
-    margin: 6px;
-    padding: 2px;
-    border-radius: 6px;
     background-color: transparent;
-    border: 1px solid transparent;
-}
-
-.floating-notifications.background .notification-row .notification-background .close-button:hover {
-    background-color: @bg2;
+    color: transparent;
 }
 
 /* Target the progress bar specifically in notifications */

@@ -1,19 +1,17 @@
-@import './styles/colors.css';
-
 /* theme-changer: begin */
 :root {
-    --cc-bg: rgba(18, 18, 20, 0.5);
-    --noti-border-color: rgba(49, 50, 54, 0.75);
-    --noti-bg: 28, 29, 32;
+    --cc-bg: rgba(18, 18, 18, 0.5);
+    --noti-border-color: #444444;
+    --noti-bg: 18, 18, 18;
     --noti-bg-alpha: 0.50;
-    --noti-bg-darker: #121214;
-    --noti-bg-hover: #26272a;
-    --noti-bg-focus: rgba(49, 50, 54, 0.3);
-    --noti-close-bg: #26272a;
-    --noti-close-bg-hover: #313236;
-    --text-color: #e4e4e7;
-    --text-color-disabled: #c5c5c8;
-    --bg-selected: #d8d8dc;
+    --noti-bg-darker: #121212;
+    --noti-bg-hover: #262626;
+    --noti-bg-focus: #444444;
+    --noti-close-bg: #262626;
+    --noti-close-bg-hover: #313131;
+    --text-color: #e4e4e4;
+    --text-color-disabled: #c5c5c5;
+    --bg-selected: #d8d8d8;
 }
 
 /* theme-changer: end */

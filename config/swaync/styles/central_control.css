@@ -66,8 +66,9 @@
 
 /* Buttons */
 
+/* Making the close button transparent because its abundant */
 .control-center .notification-row .notification-background .close-button {
-    margin: 3px;
+    color: transparent;
 }
 
 /* Notifications expanded-group */
@@ -77,7 +78,7 @@
     padding: 12px;
     border: 1px solid var(--noti-border-color);
     border-radius: 8px;
-    background-color: rgba(var(--noti-bg), 0.3);
+    background-color: rgba(var(--noti-bg), 0.5);
 }
 
 .notification-group-headers {
@@ -112,6 +113,7 @@
     padding: 2px 16px;
     border: 1px solid var(--noti-border-color);
     border-radius: 6px;
+    background: transparent;
 }
 
 .widget-title button:hover {
@@ -130,6 +132,7 @@
     padding: 2px;
     border: 1px solid var(--noti-border-color);
     border-radius: 100px;
+    background: transparent;
 }
 
 .widget-dnd>switch:hover {
