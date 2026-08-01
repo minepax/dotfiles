@@ -1,4 +1,3 @@
-/* theme-changer: begin */
 :root {
     --cc-bg: rgba(18, 18, 18, 0.5);
     --noti-border-color: #444444;
@@ -13,8 +12,6 @@
     --text-color-disabled: #c5c5c5;
     --bg-selected: #d8d8d8;
 }
-
-/* theme-changer: end */
 
 @import './styles/central_control.css';
 @import './styles/notifications.css';

@@ -25,6 +25,7 @@ configuration {
 * {
     /* theme-changer: begin */
     bg:      #12121280;
+    bg-sel:  #1c1c1c;
     fg:      #e4e4e4;
     fg-dim:  #c5c5c5;
     accent:  #d8d8d8;

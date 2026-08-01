@@ -55,9 +55,7 @@ hl.window_rule({
 -- Hyprland-run windowrule
 hl.window_rule({
 	name = "move-hyprland-run",
-	match = {
-		class = "hyprland-run",
-	},
+	match = { class = "hyprland-run" },
 	move = "20 monitor_h-120",
 	float = true,
 })
@@ -65,48 +63,39 @@ hl.window_rule({
 -- Float - Gnome Calculator
 hl.window_rule({
 	name = "gnome-calculator-float",
-	match = {
-		class = "^(org.gnome.Calculator)$",
-	},
+	match = { class = "^(org.gnome.Calculator)$" },
 	float = true,
 })
 
 -- Inhibiting idle in Zen for fullscreen youtube videos
 hl.window_rule({
 	name = "zen-fullscreen-inhibit-idle",
-	match = {
-		class = "^(zen)$",
-	},
+	match = { class = "^(zen)$" },
 	idle_inhibit = "fullscreen",
 })
 
--- Layer rules for Waybar
--- layerrule = blur on, match:namespace waybar
--- layerrule = ignore_alpha 0.1, match:namespace waybar
--- layerrule = animation popin 75%, match:namespace waybar
-
 -- Layer rules for Rofi
 hl.layer_rule({
-	match = { namespace = "match:namespace rofi" },
-	-- TODO: manual review — unmapped layer rule: "blur on"
+	match = { namespace = "rofi" },
+	blur = true,
 	ignore_alpha = 0.4,
 	animation = "popin 75%",
-	-- TODO: manual review — unmapped layer rule: "dim_around true"
+	dim_around = true,
 })
 
 -- Layer rules for Swaync Control Center
 hl.layer_rule({
-	match = { namespace = "match:namespace swaync-control-center" },
-	-- TODO: manual review — unmapped layer rule: "blur on"
+	match = { namespace = "swaync-control-center" },
+	blur = true,
 	ignore_alpha = 0.4,
 	animation = "slide right",
-	-- TODO: manual review — unmapped layer rule: "dim_around true"
+	dim_around = true,
 })
 
 -- Layer rules for Swaync notif window
 hl.layer_rule({
-	match = { namespace = "match:namespace swaync-notification-window" },
-	-- TODO: manual review — unmapped layer rule: "blur on"
+	match = { namespace = "swaync-notification-window" },
+	blur = true,
 	ignore_alpha = 0.4,
 	animation = "slide right",
 })

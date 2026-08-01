@@ -10,7 +10,6 @@ fileSearch =
 terminal = "kitty"
 fileManager = "nautilus"
 browser = "zen-browser"
-yazi = "kitty -e zsh -c 'source ~/.zshrc && y; exec zsh;"
 calculator =
 	"pkill rofi || rofi -show calc -modi calc -no-show-match -no-history -theme-str 'window {width:500px;} mainbox {children:[inputbar,message];}'"
 powerMenu = "~/.local/bin/power-menu.sh"
