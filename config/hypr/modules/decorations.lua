@@ -17,7 +17,7 @@ hl.config({
 		layout = "dwindle",
 	},
 	decoration = {
-		rounding = 8,
+		rounding = 12,
 		rounding_power = 4,
 		active_opacity = 1.0,
 		inactive_opacity = 1.0,
@@ -29,7 +29,7 @@ hl.config({
 		},
 		blur = {
 			enabled = true,
-			size = 12,
+			size = 8,
 			passes = 3,
 			new_optimizations = true,
 			ignore_opacity = true,
