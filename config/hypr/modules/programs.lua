@@ -9,7 +9,7 @@ fileSearch =
 	"pkill rofi || rofi -show combi -combi-modi 'files:~/.local/bin/rofi-file-search.sh' -modi combi -threads 2 -mem-cache-size 32"
 terminal = "kitty"
 fileManager = "nautilus"
-browser = "zen-browser"
+browser = "helium-browser"
 calculator =
 	"pkill rofi || rofi -show calc -modi calc -no-show-match -no-history -theme-str 'window {width:500px;} mainbox {children:[inputbar,message];}'"
 powerMenu = "~/.local/bin/power-menu.sh"
