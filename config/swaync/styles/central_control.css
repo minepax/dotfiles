@@ -18,7 +18,7 @@
 
 .control-center {
     margin: 32px;
-    padding: 0px 24px;
+    padding: 24px;
     color: var(--text-color);
     border: 1px solid var(--noti-border-color);
     border-radius: 12px;
@@ -64,8 +64,6 @@
     background-color: var(--bg-selected);
 }
 
-/* Buttons */
-
 /* Making the close button transparent because its abundant */
 .control-center .notification-row .notification-background .close-button {
     color: transparent;
@@ -107,6 +105,7 @@
 .widget-title {
     font-weight: 700;
     font-size: 1.5rem;
+    margin-top: 12px;
 }
 
 .widget-title button {
@@ -120,7 +119,9 @@
     background: var(--noti-bg-focus);
 }
 
+
 /* Do not disturb */
+
 .widget-dnd {
     font-weight: 700;
     font-size: 1.1rem;
@@ -150,6 +151,7 @@
 
 
 /* Buttons menu */
+
 .widget-buttons-grid {
     font-size: x-large;
     margin: 6px;
@@ -170,33 +172,56 @@
 }
 
 
-/* Music player */
+/* Mpris player */
+
 .widget-mpris {
-    margin: 20px 0px;
     background: transparent;
 }
 
-.widget-mpris-player {
-    padding: 12px;
+.widget-mpris .widget-mpris-player {
     border: 1px solid var(--noti-border-color);
     border-radius: 8px;
     background-color: var(--noti-bg-darker);
 }
 
-.widget-mpris-album-art {
-    border-radius: 12px;
+.widget-mpris .widget-mpris-player picture.mpris-background {
+    filter: blur(12px) brightness(25%);
 }
 
-.widget-mpris-title {
+.widget-mpris .widget-mpris-player .widget-mpris-album-art {
+    border-radius: 8px;
+    margin: 12px 0 0 12px;
+}
+
+.widget-mpris .widget-mpris-player .widget-mpris-title {
     font-weight: 700;
-    font-size: 1rem;
+    font-size: 1.5rem;
+    margin: 12px 12px 0 0;
 }
 
-.widget-mpris-subtitle {
-    font-weight: 500;
-    font-size: 0.8rem;
+.widget-mpris .widget-mpris-player .widget-mpris-subtitle {
+    font-weight: 400;
+    font-size: 0.9rem;
+    margin-right: 12px;
+    color: var(--text-color-disabled);
 }
 
-picture.mpris-background {
-    opacity: 0;
+.widget-mpris .widget-mpris-player button {
+    all: unset;
+    margin: 12px;
+    min-width: 2.5rem;
+    min-height: 2.5rem;
+    color: var(--text-color);
+    border-radius: 50%;
+    background-color: transparent;
+    transition: color 250ms ease, background-color 250ms ease;
+}
+
+.widget-mpris .widget-mpris-player button:hover {
+    background-color: var(--noti-bg-focus);
+    color: var(--text-color);
+}
+
+.widget-mpris .widget-mpris-player button:disabled {
+    color: var(--text-color-disabled);
 }

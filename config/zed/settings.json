@@ -21,9 +21,10 @@
     "dock": "right",
     "default_profile": "ask",
     "default_model": {
+      "effort": "high",
       "provider": "google",
       "model": "gemini-3-flash-preview",
-      "enable_thinking": false
+      "enable_thinking": true
     },
     "favorite_models": [],
     "model_parameters": []
@@ -95,7 +96,7 @@
   "soft_wrap": "editor_width",
   "ui_font_size": 15.0,
   "buffer_font_size": 12.0,
-  "theme": "One Black",
+  "theme": "Carbonfox - blurred",
   "format_on_save": "off",
   "ensure_final_newline_on_save": false,
   "disable_ai": false
