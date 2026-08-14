@@ -58,15 +58,25 @@
     font-weight: 600;
 }
 
-.sidebar-pane row:selected {
-    color: @accent_fg_color;
-    background: @accent_bg_color;
+toolbarview,
+header tabs,
+header tabs tab,
+stack,
+stack box,
+stack box scrolledwindow,
+stack box scrolledwindow box,
+popover contents modelbutton {
+    background: transparent;
 }
 
 .sidebar-pane {
-    /* background: alpha(@view_bg_color, 0.6); */
     background: transparent;
     box-shadow: none;
+}
+
+.sidebar-pane row:selected {
+    color: @accent_fg_color;
+    background: @accent_bg_color;
 }
 
 window {
@@ -82,16 +92,6 @@ listview row:selected {
 header {
     color: @headerbar_fg_color;
     background: alpha(@headerbar_bg_color, 0);
-}
-
-header tabs,
-header tabs tab,
-stack,
-stack box,
-stack box scrolledwindow,
-stack box scrolledwindow box,
-popover contents modelbutton {
-    background: transparent;
 }
 
 button {
@@ -122,4 +122,8 @@ trough {
 trough highlight {
     border: none;
     background: @accent_color;
+}
+
+list row {
+    border: none;
 }
