@@ -28,7 +28,8 @@
 #custom-brightness,
 #bluetooth,
 #battery,
-#network {
+#network,
+#mpris {
     padding: 6px 12px;
     border-radius: 100px;
 

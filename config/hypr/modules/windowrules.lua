@@ -36,6 +36,8 @@ hl.window_rule({
 		pin = false,
 	},
 	no_focus = true,
+	opaque = true,
+	no_blur = true,
 })
 
 -- Hyprland-run windowrule
@@ -84,4 +86,25 @@ hl.layer_rule({
 	blur = true,
 	ignore_alpha = 0.4,
 	animation = "slide right",
+})
+
+-- Fix transparent/blurred Java popup for SKLauncher
+hl.window_rule({
+	match = { class = "^(SKLauncher)$" },
+	opaque = true,
+	no_blur = true,
+})
+
+-- Fallback check for alternative sklauncher string patterns
+hl.window_rule({
+	match = { class = "^(sklauncher|-)$" },
+	opaque = true,
+	no_blur = true,
+})
+
+-- Fix transparent/blurred Tauri popup for Asyar
+hl.window_rule({
+	match = { class = "^(asyar)$" },
+	opaque = true,
+	no_blur = true,
 })
