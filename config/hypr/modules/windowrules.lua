@@ -53,14 +53,23 @@ hl.window_rule({
 	name = "gnome-calculator-float",
 	match = { class = "^(org.gnome.Calculator)$" },
 	float = true,
+	center = true,
+})
+
+-- Float - Btop
+hl.window_rule({
+	name = "btop-float",
+	match = { class = "^(btop_floating)$" },
+	float = true,
+	center = true,
 })
 
 -- Inhibiting idle in Zen for fullscreen youtube videos
-hl.window_rule({
-	name = "zen-fullscreen-inhibit-idle",
-	match = { class = "^(zen)$" },
-	idle_inhibit = "fullscreen",
-})
+-- hl.window_rule({
+-- 	name = "zen-fullscreen-inhibit-idle",
+-- 	match = { class = "^(zen)$" },
+-- 	idle_inhibit = "fullscreen",
+-- })
 
 -- Layer rules for Rofi
 hl.layer_rule({

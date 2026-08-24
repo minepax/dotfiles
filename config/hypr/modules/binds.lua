@@ -20,7 +20,7 @@ hl.bind(mainMod .. " + Z", hl.dsp.exec_cmd("zeditor"))
 hl.bind(mainMod .. " + L", hl.dsp.exec_cmd("hyprlock"))
 hl.bind(mainMod .. " + A", hl.dsp.exec_cmd("swaync-client -t"))
 hl.bind(mainMod .. " + W", hl.dsp.exec_cmd("~/.local/bin/waybar-refresh.sh"))
-hl.bind(mainMod .. " + grave", hl.dsp.exec_cmd("[float; size 60% 60%; center] kitty btop"))
+hl.bind(mainMod .. " + grave", hl.dsp.exec_cmd("kitty --class btop_floating -e btop"))
 
 -- Float or Fullscreen
 hl.bind(mainMod .. " + SHIFT + F", hl.dsp.window.float({ action = "toggle" }))
