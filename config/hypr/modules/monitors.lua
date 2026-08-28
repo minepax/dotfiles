@@ -11,12 +11,11 @@ hl.monitor({
 	scale = "1",
 })
 
--- Comment and uncomment the disabled line accordingly
-
 hl.monitor({
 	output = "eDP-1",
 	mode = "1600x900@60",
 	position = "auto",
 	scale = "1",
+	-- Comment and uncomment the below line accordingly
 	disabled = true,
 })
