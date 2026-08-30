@@ -31,3 +31,6 @@ hl.env("ELECTRON_OZONE_PLATFORM_HINT", "auto")
 
 --Screenshots
 hl.env("XDG_SCREENSHOTS_DIR", "$HOME/Pictures/Screenshots")
+
+--MangoHUD
+hl.env("MANGOHUD_DLYSM", "1")
