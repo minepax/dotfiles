@@ -48,7 +48,7 @@ case "$CHOICE" in
     hyprlock
     ;;
 *󰗼)
-    hyprctl dispatch exit
+    loginctl terminate-user $USER
     ;;
 *)
     exit 0

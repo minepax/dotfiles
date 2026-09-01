@@ -47,4 +47,4 @@ fi
 # -h int:value:$val -> Creates the slider
 # -h string:x-canonical-private-synchronous:vol_notif -> Updates the same bubble
 # -u low -> Prevents it from cluttering the notification history
-notify-send -h int:value:"$val" -h string:x-canonical-private-synchronous:vol_notif -u low -i "$icon" -t 1500 "$msg"
+notify-send -h int:value:"$val" -h string:x-canonical-private-synchronous:vol_notif -h boolean:transient:true -u low -r 9999 -i "$icon" -t 750 "$msg"

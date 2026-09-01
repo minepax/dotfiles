@@ -76,7 +76,7 @@ hl.layer_rule({
 	match = { namespace = "rofi" },
 	blur = true,
 	ignore_alpha = 0.4,
-	animation = "popin 75%",
+	animation = "popin 90%",
 	dim_around = true,
 })
 
@@ -95,6 +95,13 @@ hl.layer_rule({
 	blur = true,
 	ignore_alpha = 0.4,
 	animation = "slide right",
+})
+
+hl.layer_rule({
+	match = { namespace = "swayosd" },
+	blur = true,
+	ignore_alpha = 0.4,
+	animation = "fade",
 })
 
 -- Fix transparent/blurred Java popup for SKLauncher

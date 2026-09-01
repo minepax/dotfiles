@@ -38,10 +38,6 @@
     background: black;
 }
 
-.control-center .notification-row .notification-background .notification.critical {
-    color: red;
-}
-
 .control-center .notification-row .notification-background .notification .notification-content {
     padding: 12px;
 }
@@ -51,7 +47,6 @@
 }
 
 .control-center .notification-row .notification-background .notification>*:last-child>* .notification-action {
-    background: red;
     border-radius: 6px;
     margin: 6px;
 }

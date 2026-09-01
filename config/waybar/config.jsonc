@@ -15,7 +15,7 @@
     "modules-right": [
         "pulseaudio",
         "backlight",
-        "custom/brightness",
+        // "custom/brightness",
         "bluetooth",
         // "battery",
         "network"
