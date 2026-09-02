@@ -19,7 +19,13 @@ hl.bind(mainMod .. " + M", hl.dsp.exec_cmd(powerMenu))
 hl.bind(mainMod .. " + Z", hl.dsp.exec_cmd("zeditor"))
 hl.bind(mainMod .. " + L", hl.dsp.exec_cmd("hyprlock"))
 hl.bind(mainMod .. " + A", hl.dsp.exec_cmd("swaync-client -t"))
-hl.bind(mainMod .. " + W", hl.dsp.exec_cmd("~/.local/bin/waybar-refresh.sh"))
+hl.bind(mainMod .. " + W", hl.dsp.exec_cmd("~/.local/bin/refresh-waybar.sh"))
+hl.bind(
+	mainMod .. " + X",
+	hl.dsp.exec_cmd(
+		"find ~/.local/bin -maxdepth 1 -type f -executable -printf '%f\n' | rofi -dmenu -no-show-icons -theme-str 'window { width: 26ch; } mainbox { children: [ 'listview' ]; }' | xargs -r -I % bash -c '~/.local/bin/'%''"
+	)
+)
 hl.bind(mainMod .. " + grave", hl.dsp.exec_cmd("kitty --class btop_floating -e btop"))
 
 -- Float or Fullscreen

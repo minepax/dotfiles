@@ -4,7 +4,7 @@ STATE_FILE="$HOME/.current_location"
 CACHE_FILE="/tmp/waybar_weather_cache.json"
 OPTIONS="Sharjah\nDubai\nCoonoor\nCoimbatore\nCustom..."
 
-CHOICE=$(echo -e "$OPTIONS" | rofi -dmenu -no-show-icons -p "Location:" -theme-str 'window { width: 20ch; } mainbox { children: [ "listview" ]; }')
+CHOICE=$(echo -e "$OPTIONS" | rofi -dmenu -no-show-icons -theme-str 'window { width: 20ch; } mainbox { children: [ "listview" ]; }')
 
 if [ -z "$CHOICE" ]; then
     exit 0

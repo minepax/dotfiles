@@ -83,6 +83,7 @@ inputbar {
 
 prompt {
     enabled:            true;
+    text-color:         @fg;
     background-color:   transparent;
 }
 

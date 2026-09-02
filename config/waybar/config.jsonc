@@ -48,7 +48,7 @@
         "tooltip-format": "{calendar}",
         "locale": "en_US.UTF-8",
         "calendar": {
-            "mode": "months",
+            "mode": "month",
             "mode-mon-col": 3,
             "on-scroll": 1,
             "format": {
