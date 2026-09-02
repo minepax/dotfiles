@@ -64,13 +64,6 @@ hl.window_rule({
 	center = true,
 })
 
--- Inhibiting idle in Zen for fullscreen youtube videos
--- hl.window_rule({
--- 	name = "zen-fullscreen-inhibit-idle",
--- 	match = { class = "^(zen)$" },
--- 	idle_inhibit = "fullscreen",
--- })
-
 -- Layer rules for Rofi
 hl.layer_rule({
 	match = { namespace = "rofi" },
@@ -97,6 +90,7 @@ hl.layer_rule({
 	animation = "slide right",
 })
 
+-- Layer rules for SwayOSD
 hl.layer_rule({
 	match = { namespace = "swayosd" },
 	blur = true,

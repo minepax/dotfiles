@@ -9,23 +9,18 @@ local mainMod = "SUPER"
 -- General
 hl.bind("ALT + Tab", hl.dsp.window.cycle_next({ next = true }))
 hl.bind(mainMod .. " + Q", hl.dsp.window.close())
-hl.bind(mainMod .. " + SUPER_L", hl.dsp.exec_cmd(menu))
-hl.bind(mainMod .. " + S", hl.dsp.exec_cmd(fileSearch))
 hl.bind(mainMod .. " + Return", hl.dsp.exec_cmd(terminal))
 hl.bind(mainMod .. " + E", hl.dsp.exec_cmd(fileManager))
 hl.bind(mainMod .. " + B", hl.dsp.exec_cmd(browser))
+hl.bind(mainMod .. " + SUPER_L", hl.dsp.exec_cmd(appMenu))
+hl.bind(mainMod .. " + S", hl.dsp.exec_cmd(fileSearch))
 hl.bind(mainMod .. " + C", hl.dsp.exec_cmd(calculator))
+hl.bind(mainMod .. " + X", hl.dsp.exec_cmd(execScripts))
 hl.bind(mainMod .. " + M", hl.dsp.exec_cmd(powerMenu))
 hl.bind(mainMod .. " + Z", hl.dsp.exec_cmd("zeditor"))
 hl.bind(mainMod .. " + L", hl.dsp.exec_cmd("hyprlock"))
 hl.bind(mainMod .. " + A", hl.dsp.exec_cmd("swaync-client -t"))
 hl.bind(mainMod .. " + W", hl.dsp.exec_cmd("~/.local/bin/refresh-waybar.sh"))
-hl.bind(
-	mainMod .. " + X",
-	hl.dsp.exec_cmd(
-		"find ~/.local/bin -maxdepth 1 -type f -executable -printf '%f\n' | rofi -dmenu -no-show-icons -theme-str 'window { width: 26ch; } mainbox { children: [ 'listview' ]; }' | xargs -r -I % bash -c '~/.local/bin/'%''"
-	)
-)
 hl.bind(mainMod .. " + grave", hl.dsp.exec_cmd("kitty --class btop_floating -e btop"))
 
 -- Float or Fullscreen
@@ -103,6 +98,6 @@ hl.bind(mainMod .. " + Print", hl.dsp.exec_cmd("grimblast --notify copysave scre
 hl.bind(
 	mainMod .. " + V",
 	hl.dsp.exec_cmd(
-		"pkill rofi || rofi -modi clipboard:~/.local/bin/cliphist-rofi-img.sh -show clipboard -show-icons -theme-str 'element {orientation: horizontal; padding: 10px;} element-text {vertical-align: 0.5;}'"
+		"pkill rofi || rofi -modi clipboard:~/.local/bin/rofi-cliphist-img.sh -show clipboard -show-icons -theme-str 'element {orientation: horizontal; padding: 10px;} element-text {vertical-align: 0.5;}'"
 	)
 )

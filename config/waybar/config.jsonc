@@ -19,6 +19,7 @@
         "bluetooth",
         // "battery",
         "network"
+        // "tray"
     ],
     "tray": {
         "spacing": 10

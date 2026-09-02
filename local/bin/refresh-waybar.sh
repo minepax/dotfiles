@@ -1,4 +1,2 @@
-if pgrep -x "waybar" >/dev/null; then
-    killall "waybar"
-fi
+pkill "waybar"
 waybar &
