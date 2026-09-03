@@ -44,7 +44,7 @@ hl.animation({
 	enabled = true,
 	speed = 3,
 	bezier = "md3_decel",
-	style = "slide",
+	style = "slidefade 10%",
 })
 hl.animation({
 	leaf = "specialWorkspace",

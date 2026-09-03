@@ -69,7 +69,7 @@ hl.layer_rule({
 	match = { namespace = "rofi" },
 	blur = true,
 	ignore_alpha = 0.4,
-	animation = "popin 90%",
+	animation = "popin 75%",
 	dim_around = true,
 })
 
@@ -87,7 +87,7 @@ hl.layer_rule({
 	match = { namespace = "swaync-notification-window" },
 	blur = true,
 	ignore_alpha = 0.4,
-	animation = "slide right",
+	animation = "fade",
 })
 
 -- Layer rules for SwayOSD
@@ -95,7 +95,7 @@ hl.layer_rule({
 	match = { namespace = "swayosd" },
 	blur = true,
 	ignore_alpha = 0.4,
-	animation = "fade",
+	animation = "popin 75%",
 })
 
 -- Fix transparent/blurred Java popup for SKLauncher

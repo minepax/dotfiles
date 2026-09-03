@@ -14,4 +14,4 @@ calculator =
 	"pkill rofi || rofi -show calc -modi calc -no-show-match -no-history -theme-str 'window {width:500px;} mainbox {children:[inputbar,message];}'"
 execScripts =
 	"find ~/.local/bin -maxdepth 1 -type f -executable -printf '%f\n' | rofi -dmenu -no-show-icons -theme-str 'window { width: 26ch; } mainbox { children: [ 'listview' ]; }' | xargs -r -I % bash -c '~/.local/bin/'%''"
-powerMenu = "~/.local/bin/power-menu.sh"
+powerMenu = "~/.local/bin/rofi-power-menu.sh"
