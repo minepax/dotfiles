@@ -91,9 +91,9 @@ hl.bind("XF86AudioPause", hl.dsp.exec_cmd("swayosd-client --playerctl play-pause
 hl.bind("XF86AudioPlay", hl.dsp.exec_cmd("swayosd-client --playerctl play-pause"), { locked = true })
 hl.bind("XF86AudioPrev", hl.dsp.exec_cmd("swayosd-client --playerctl previous"), { locked = true })
 
--- Screenshots for selection, window and screen respectively
+-- Screenshots for selection and screen respectively
 hl.bind(mainMod .. " + SHIFT + S", hl.dsp.exec_cmd("grimblast --freeze save area - | swappy -f -"))
-hl.bind(mainMod .. " + Print", hl.dsp.exec_cmd("grimblast --notify copysave screen"))
+hl.bind(mainMod .. " + Print", hl.dsp.exec_cmd("grimblast --notify copy screen"))
 
 hl.bind(
 	mainMod .. " + V",
