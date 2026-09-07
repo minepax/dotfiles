@@ -6,6 +6,7 @@ fd . "$SEARCH_DIR" \
     "$HOME/.config" \
     "$HOME/.local/bin" \
     --type f \
+    --exclude dotfiles \
     --exclude .git \
     --exclude .cache \
     --exclude node_modules \
