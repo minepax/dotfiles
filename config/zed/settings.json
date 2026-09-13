@@ -18,10 +18,15 @@
     "dock": "left"
   },
   "agent": {
+    "inline_assistant_model": {
+      "provider": "google",
+      "model": "gemini-3-flash-preview",
+      "enable_thinking": false
+    },
     "dock": "right",
     "default_profile": "ask",
     "default_model": {
-      "effort": "high",
+      "effort": "medium",
       "provider": "google",
       "model": "gemini-3-flash-preview",
       "enable_thinking": true
