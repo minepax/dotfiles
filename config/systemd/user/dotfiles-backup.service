@@ -1,0 +1,9 @@
+[Unit]
+Description=Daily backup of dotfiles to GitHub
+
+[Service]
+Type=oneshot
+ExecStart=/home/%u/.local/bin/dots-backup.sh
+
+[Install]
+WantedBy=default.target

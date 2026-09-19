@@ -1,0 +1,4 @@
+[Plugins]
+kdeconnect_notificationsEnabled=true
+kdeconnect_sendnotificationsEnabled=false
+kdeconnect_shareinputdevicesEnabled=true

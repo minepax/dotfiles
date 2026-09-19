@@ -1,0 +1,11 @@
+[Unit]
+Description=Update Rofi File Search Cache
+
+[Service]
+Type=oneshot
+ExecStart=%h/.local/bin/rofi-update-cache.sh
+CPUSchedulingPolicy=idle
+IOSchedulingClass=idle
+
+[Install]
+WantedBy=default.target

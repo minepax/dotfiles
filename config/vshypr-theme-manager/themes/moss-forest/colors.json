@@ -1,0 +1,32 @@
+{
+  "meta": {
+    "name": "moss-forest",
+    "display_name": "Moss Forest",
+    "variant": "dark"
+  },
+  "colors": {
+    "bg": "#11140e",
+    "bg_alt": "#1d211a",
+    "surface": "#191d16",
+    "surface2": "#282b24",
+    "surface3": "#0c0f09",
+    "overlay": "#43483e",
+    "fg": "#e1e4d9",
+    "fg_dim": "#c4c8bb",
+    "accent": "#abd290",
+    "accent_alt": "#bdcbaf",
+    "accent_dim": "#abd290",
+    "red": "#ffb4ab",
+    "orange": "#d9e7ca",
+    "yellow": "#c6eeaa",
+    "green": "#a0cfcf",
+    "teal": "#a0cfcf",
+    "teal_dim": "#a0cfcf",
+    "blue": "#abd290",
+    "mauve": "#bdcbaf",
+    "pink": "#bdcbaf",
+    "border_active": "#abd290",
+    "border_inactive": "#282b24",
+    "shadow": "#0c0f09"
+  }
+}

@@ -1,0 +1,11 @@
+[Unit]
+Description=Run Rofi Cache Update every 15 minutes
+
+[Timer]
+# Run 1 minute after boot
+OnBootSec=1min
+# Then run every 15 minutes
+OnUnitActiveSec=15min
+
+[Install]
+WantedBy=timers.target

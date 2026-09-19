@@ -1,0 +1,34 @@
+{
+  "meta": {
+    "name": "dynamic-dark",
+    "display_name": "Dynamic Dark",
+    "variant": "dark"
+  },
+  "colors": {
+    "bg": "#0f1417",
+    "bg_alt": "#40484c",
+    "surface": "#1b2023",
+    "surface2": "#262b2d",
+    "surface3": "#303538",
+    "overlay": "#303538",
+    "fg": "#dfe3e6",
+    "fg_dim": "#c0c8cd",
+    "accent": "#8ad0ef",
+    "accent_alt": "#b4cad5",
+    "accent_dim": "#004d63",
+    "red": "#ffb4ab",
+    "orange": "#454364",
+    "yellow": "#354a53",
+    "green": "#c5c2ea",
+    "teal": "#004d63",
+    "teal_dim": "#004d63",
+    "blue": "#8ad0ef",
+    "sky": "#b4cad5",
+    "mauve": "#c5c2ea",
+    "pink": "#93000a",
+    "lavender": "#d0e6f2",
+    "border_active": "#8ad0ef",
+    "border_inactive": "#40484c",
+    "shadow": "#000000"
+  }
+}

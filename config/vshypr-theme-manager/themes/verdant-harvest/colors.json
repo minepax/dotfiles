@@ -1,0 +1,35 @@
+{
+  "meta": {
+    "name": "verdant-harvest",
+    "display_name": "Verdant Harvest",
+    "variant": "light"
+  },
+  "colors": {
+    "bg": "#FFFDF6",
+    "bg_alt": "#FFF6C0",
+    "surface": "#F3EED9",
+    "surface2": "#E6E1C8",
+    "surface3": "#D6D1B8",
+    "overlay": "#8A8F80",
+    "fg": "#1F2A23",
+    "fg_dim": "#5F6B63",
+
+    "accent": "#2F6B3F",
+    "accent_alt": "#7FB77E",
+    "accent_dim": "#285C36",
+
+    "red": "#C94C4C",
+    "orange": "#F7A531",
+    "yellow": "#F7C85C",
+    "green": "#3E8F52",
+    "teal": "#4FAF9F",
+    "teal_dim": "#3A8F82",
+    "blue": "#4A7FA7",
+    "mauve": "#7A7F87",
+    "pink": "#D97B8A",
+
+    "border_active": "#2F6B3F",
+    "border_inactive": "#E6E1C8",
+    "shadow": "#C9C3A5"
+  }
+}

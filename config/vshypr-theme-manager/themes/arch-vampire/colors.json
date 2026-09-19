@@ -1,0 +1,32 @@
+{
+  "meta": {
+    "name": "arch-vampire",
+    "display_name": "Arch Vampire",
+    "variant": "dark"
+  },
+  "colors": {
+    "bg": "#1a1c20",
+    "bg_alt": "#1e2024",
+    "surface": "#141421",
+    "surface2": "#353945",
+    "surface3": "#353945",
+    "overlay": "#1e2024",
+    "fg": "#d3dae3",
+    "fg_dim": "#666a73",
+    "accent": "#de1b1b",
+    "accent_alt": "#ff6a00",
+    "accent_dim": "#de1b1b",
+    "red": "#6d45ff",
+    "orange": "#ff6a00",
+    "yellow": "#fdbc4b",
+    "green": "#71f79f",
+    "teal": "#00c1e4",
+    "teal_dim": "#00c1e4",
+    "blue": "#2187fc",
+    "mauve": "#5c626c",
+    "pink": "#6d45ff",
+    "border_active": "#de1b1b",
+    "border_inactive": "#1e2024",
+    "shadow": "#0f1014"
+  }
+}

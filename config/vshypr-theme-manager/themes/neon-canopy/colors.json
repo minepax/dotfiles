@@ -1,0 +1,35 @@
+{
+  "meta": {
+    "name": "neon-canopy",
+    "display_name": "Neon Canopy",
+    "variant": "dark"
+  },
+  "colors": {
+    "bg": "#0F1722",
+    "bg_alt": "#1A2433",
+    "surface": "#1E2A3D",
+    "surface2": "#25324A",
+    "surface3": "#2C3A57",
+    "overlay": "#7F8CA3",
+    "fg": "#E6EDF7",
+    "fg_dim": "#AAB4C3",
+
+    "accent": "#4C8CE4",
+    "accent_alt": "#91D06C",
+    "accent_dim": "#406093",
+
+    "red": "#FF6B6B",
+    "orange": "#FFB347",
+    "yellow": "#FFF799",
+    "green": "#91D06C",
+    "teal": "#4FD1C5",
+    "teal_dim": "#3AAFA5",
+    "blue": "#4C8CE4",
+    "mauve": "#9AA3B2",
+    "pink": "#F78FB3",
+
+    "border_active": "#4C8CE4",
+    "border_inactive": "#25324A",
+    "shadow": "#000000"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "meta": {
+    "name": "very-darkest",
+    "display_name": "Very Darkest",
+    "variant": "dark"
+  },
+  "colors": {
+    "bg": "#000000",
+    "bg_alt": "#0a0a0a",
+    "surface": "#101010",
+    "surface2": "#272a34",
+    "surface3": "#272a34",
+    "overlay": "#272a34",
+    "fg": "#ffffff",
+    "fg_dim": "#5c626c",
+    "accent": "#2777ff",
+    "accent_alt": "#4aaee6",
+    "accent_dim": "#2777ff",
+    "red": "#d31818",
+    "orange": "#fd7c00",
+    "yellow": "#ffd86e",
+    "green": "#3ddc84",
+    "teal": "#4aaee6",
+    "teal_dim": "#4aaee6",
+    "blue": "#2777ff",
+    "mauve": "#5c626c",
+    "pink": "#d31818",
+    "border_active": "#2777ff",
+    "border_inactive": "#0a0a0a",
+    "shadow": "#000000"
+  }
+}

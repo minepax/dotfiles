@@ -1,0 +1,2 @@
+[General]
+commands="@ByteArray({\"6219e5e3_56c5_4897_a36f_f1a781bd7586\":{\"command\":\"vivaldi\",\"name\":\"Open vivaldi\"},\"e05fdf5a_6313_40e5_b0a5_d12894fb8e41\":{\"command\":\"loginctl lock-session\",\"name\":\"Lock Screen\"}})"

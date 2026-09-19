@@ -1,0 +1,34 @@
+{
+  "meta": {
+    "name": "nord-darker",
+    "display_name": "Nord Darker",
+    "variant": "dark"
+  },
+  "colors": {
+    "bg":              "#191d27",
+    "bg_alt":          "#1e2330",
+    "surface":         "#242b38",
+    "surface2":        "#2a3040",
+    "surface3":        "#2e3440",
+    "overlay":         "#3b4252",
+    "fg":              "#eceff4",
+    "fg_dim":          "#d8dee9",
+    "accent":          "#88c0d0",
+    "accent_alt":      "#81a1c1",
+    "accent_dim":      "#5e81ac",
+    "red":             "#bf616a",
+    "orange":          "#d08770",
+    "yellow":          "#ebcb8b",
+    "green":           "#a3be8c",
+    "teal":            "#8fbcbb",
+    "teal_dim":        "#5e81ac",
+    "blue":            "#5e81ac",
+    "sky":             "#88c0d0",
+    "mauve":           "#b48ead",
+    "pink":            "#bf616a",
+    "lavender":        "#81a1c1",
+    "border_active":   "#88c0d0",
+    "border_inactive": "#2e3440",
+    "shadow":          "#0d1017"
+  }
+}

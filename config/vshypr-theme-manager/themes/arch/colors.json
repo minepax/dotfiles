@@ -1,0 +1,32 @@
+{
+  "meta": {
+    "name": "arch",
+    "display_name": "Arch",
+    "variant": "light"
+  },
+  "colors": {
+    "bg": "#ffffff",
+    "bg_alt": "#f8f8f8",
+    "surface": "#eaeef4",
+    "surface2": "#dde3ed",
+    "surface3": "#dde3ed",
+    "overlay": "#8f9399",
+    "fg": "#313133",
+    "fg_dim": "#666a73",
+    "accent": "#420ed2",
+    "accent_alt": "#2187fc",
+    "accent_dim": "#420ed2",
+    "red": "#ed254e",
+    "orange": "#ff6a00",
+    "yellow": "#fdbc4b",
+    "green": "#27ae60",
+    "teal": "#00c1e4",
+    "teal_dim": "#00c1e4",
+    "blue": "#2980b9",
+    "mauve": "#5c626c",
+    "pink": "#ed254e",
+    "border_active": "#420ed2",
+    "border_inactive": "#dde3ed",
+    "shadow": "#b0b4bc"
+  }
+}

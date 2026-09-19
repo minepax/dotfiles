@@ -1,0 +1,34 @@
+{
+  "meta": {
+    "name": "nord-light",
+    "display_name": "Nord Light",
+    "variant": "light"
+  },
+  "colors": {
+    "bg":              "#eceff4",
+    "bg_alt":          "#e5e9f0",
+    "surface":         "#e5e9f0",
+    "surface2":        "#d8dee9",
+    "surface3":        "#c8d3e0",
+    "overlay":         "#4c566a",
+    "fg":              "#2e3440",
+    "fg_dim":          "#4c566a",
+    "accent":          "#5e81ac",
+    "accent_alt":      "#81a1c1",
+    "accent_dim":      "#88c0d0",
+    "red":             "#bf616a",
+    "orange":          "#c0704a",
+    "yellow":          "#b08030",
+    "green":           "#5a8a50",
+    "teal":            "#4d8a8a",
+    "teal_dim":        "#3d6e7a",
+    "blue":            "#4a6e9a",
+    "sky":             "#5a90a8",
+    "mauve":           "#7a5a78",
+    "pink":            "#a04a52",
+    "lavender":        "#6070a0",
+    "border_active":   "#5e81ac",
+    "border_inactive": "#d8dee9",
+    "shadow":          "#b0bac8"
+  }
+}

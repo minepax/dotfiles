@@ -1,0 +1,32 @@
+{
+  "meta": {
+    "name": "austral-azure",
+    "display_name": "Austral Azure",
+    "variant": "light"
+  },
+  "colors": {
+    "bg": "#ecf4fc",
+    "bg_alt": "#e4eef8",
+    "surface": "#dce8f5",
+    "surface2": "#c1dbf2",
+    "surface3": "#c1dbf2",
+    "overlay": "#8f9399",
+    "fg": "#313133",
+    "fg_dim": "#6b767d",
+    "accent": "#2287d4",
+    "accent_alt": "#6098ff",
+    "accent_dim": "#2287d4",
+    "red": "#f16050",
+    "orange": "#f67400",
+    "yellow": "#ffa953",
+    "green": "#27ae60",
+    "teal": "#2287d4",
+    "teal_dim": "#2287d4",
+    "blue": "#6098ff",
+    "mauve": "#8490c8",
+    "pink": "#f16050",
+    "border_active": "#2287d4",
+    "border_inactive": "#c1dbf2",
+    "shadow": "#a0a8b0"
+  }
+}

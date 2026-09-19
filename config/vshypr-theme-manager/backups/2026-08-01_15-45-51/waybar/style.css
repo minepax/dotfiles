@@ -1,0 +1,191 @@
+/* theme-changer: begin */
+@define-color base #121212;
+@define-color surface0 #1c1c1c;
+@define-color surface1 #262626;
+@define-color text #e4e4e4;
+
+* {
+    all: unset;
+    padding: 0;
+    margin: 0;
+    min-height: 0;
+    font-family: "SF Pro Display", "JetBrainsMono Nerd Font Propo";
+    font-size: 14px;
+    font-weight: 700;
+    color: @text;
+}
+
+.modules-left,
+.modules-center,
+.modules-right {
+    background-color: transparent;
+}
+
+#workspaces,
+#clock,
+#custom-weather,
+#pulseaudio,
+#backlight,
+#custom-brightness,
+#bluetooth,
+#battery,
+#network {
+    padding: 6px 12px;
+    border-radius: 100px;
+
+    /* Original Clear Liquid Glass Fill */
+    background: linear-gradient(180deg,
+            rgba(255, 255, 255, 0.12) 0%,
+            rgba(255, 255, 255, 0.03) 40%,
+            rgba(18, 18, 18, 0.25) 100%);
+
+    /* Rim Lighting: Subtle physical glass edge catching light */
+    border: 1px solid rgba(255, 255, 255, 0.18);
+
+    /* Refraction & Depth Effect */
+    box-shadow:
+        inset 0 1px 1px 0 rgba(255, 255, 255, 0.40),
+        /* Specular top light glare */
+        inset 0 -1px 1px 0 rgba(18, 18, 18, 0.40),
+        /* Bottom bevel shadow */
+        0 8px 24px -2px rgba(18, 18, 18, 0.35);
+    /* Ambient drop shadow */
+
+    transition: all 150ms ease-in-out;
+}
+
+/* Balanced Hover Sheen */
+#clock:hover,
+#custom-weather:hover,
+#pulseaudio:hover,
+#backlight:hover,
+#custom-brightness:hover,
+#bluetooth:hover,
+#battery:hover,
+#network:hover {
+    background: linear-gradient(180deg,
+            rgba(255, 255, 255, 0.25) 0%,
+            rgba(255, 255, 255, 0.08) 45%,
+            rgba(18, 18, 18, 0.30) 100%);
+    border-color: rgba(255, 255, 255, 0.32);
+    box-shadow:
+        inset 0 1px 1px 0 rgba(255, 255, 255, 0.50),
+        inset 0 -1px 1px 0 rgba(18, 18, 18, 0.40),
+        0 8px 24px -2px rgba(18, 18, 18, 0.40);
+}
+
+tooltip {
+    border-radius: 12px;
+
+    /* 1. Pure Monochrome Dark Obsidian Fill */
+    background: linear-gradient(180deg,
+            rgba(24, 24, 24, 0.98) 0%,
+            rgba(12, 12, 12, 0.98) 100%);
+
+    /* 2. Neutral Glass Rim Border */
+    border: 1px solid rgba(255, 255, 255, 0.16);
+
+    /* 3. Pure White Specular Glare & Deep Shadow */
+    box-shadow:
+        inset 0 1px 1px 0 rgba(255, 255, 255, 0.35),
+        /* Pure white specular rim glare */
+        inset 0 -1px 1px 0 rgba(0, 0, 0, 0.60),
+        /* Deep black inner bottom shadow */
+        0 12px 28px -4px rgba(0, 0, 0, 0.80);
+    /* Pitch-black floating drop shadow */
+}
+
+tooltip label {
+    font-family: "JetBrainsMono Nerd Font Propo";
+    padding: 6px 10px;
+    color: #ffffff;
+    /* Pure white text */
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.8);
+}
+
+#workspaces {
+    padding: 6px;
+}
+
+#workspaces button {
+    margin: 0 2px;
+    min-width: 15px;
+    border-radius: 100px;
+    transition: all 0.2s ease;
+}
+
+#workspaces button label {
+    font-size: 14px;
+}
+
+#workspaces button.active {
+    min-width: 42px;
+    background-color: @text;
+}
+
+#workspaces button.active label {
+    color: @surface0;
+}
+
+#workspaces button:first-child {
+    margin-left: 0;
+}
+
+#workspaces button:last-child {
+    margin-right: 0;
+}
+
+menu {
+    padding: 8px;
+    border-radius: 8px;
+    background-color: @text;
+}
+
+menu image,
+menuitem label {
+    color: @base;
+    padding: 2px 0;
+}
+
+#tray {
+    padding: 0 8px;
+    border: 1px solid @surface1;
+    border-radius: 100px;
+}
+
+/* theme-changer: begin */
+/* @define-color base #121212; */
+/* @define-color mantle #313131; */
+/* @define-color crust #444444; */
+/* @define-color surface0 #1c1c1c; */
+/* @define-color surface1 #262626; */
+/* @define-color overlay0 #313131; */
+/* @define-color text #e4e4e4; */
+/* @define-color subtext0 #c5c5c5; */
+/* @define-color blue #d8d8d8; */
+/* @define-color mauve #cfcfcf; */
+/* @define-color red #e0e0e0; */
+/* @define-color green #3a3a3a; */
+/* @define-color yellow #404040; */
+/* @define-color peach #505050; */
+/* theme-changer: end */
+
+/* theme-changer: begin modules */
+/* .modules-left, */
+/* .modules-center, */
+/* .modules-right { */
+/*     background: rgba(18,18,18,0.95); */
+/*     border-radius: 14px; */
+/*     padding: 2px 10px; */
+/*     border: 2px solid #1c1c1c; */
+/*     min-height: 0; */
+/* } */
+/* theme-changer: end modules */
+
+/* theme-changer: begin keyframes */
+/* @keyframes ws-active { */
+/*     0%   { background-color: #d8d8d8; } */
+/*     50%  { background-color: #b8b8b8; } */
+/*     100% { background-color: #d8d8d8; } */
+/* } */
+/* theme-changer: end keyframes */
