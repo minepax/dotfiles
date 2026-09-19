@@ -35,6 +35,7 @@ rsync -av --delete "$CONF_DIR/vlc" "$DOTS_DIR/config/"
 rsync -av --delete "$CONF_DIR/vshypr-theme-manager" "$DOTS_DIR/config/"
 rsync -av --delete "$CONF_DIR/waybar" "$DOTS_DIR/config/"
 rsync -av --delete "$CONF_DIR/xdg-desktop-portal" "$DOTS_DIR/config/"
+rsync -av --delete "$CONF_DIR/yazi" "$DOTS_DIR/config/"
 rsync -av --delete "$CONF_DIR/zed" "$DOTS_DIR/config/"
 
 rsync -av --delete "$BIN_DIR/" "$DOTS_DIR/local/bin/"

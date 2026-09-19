@@ -1,0 +1,29 @@
+[manager]
+cwd = { fg = "#cccccc" }
+hovered = { bg = "#cccccc", fg = "#0d0d0d" }
+preview_hovered = { bg = "#cccccc", fg = "#0d0d0d" }
+
+[status]
+primary = { bg = "#cccccc", fg = "#0d0d0d" }
+secondary = { bg = "#cccccc", fg = "#0d0d0d" }
+
+# [filetype]
+# rules = [
+#     { name = "*", fg = "#cccccc" }
+# ]
+
+[icon]
+# "dirs" rules for folder icons
+dirs = [
+	{ name = "*", text = "  ", fg = "#cccccc" }
+]
+
+# "files" rules for general file icons
+files = [
+	{ name = "*", text = "  ", fg = "#cccccc" }
+]
+
+# "exts" rules for file extensions (ensures no specific ext overrides the color)
+exts = [
+	{ name = "*", text = "  ", fg = "#cccccc" }
+]

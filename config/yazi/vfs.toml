@@ -1,0 +1,6 @@
+[sftp.acer-1]
+host = "acer-1.local"
+user = "rathakrishnan"
+port = 22
+key_file = "~/.ssh/id_ed25519"
+
